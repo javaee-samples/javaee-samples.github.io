@@ -6,7 +6,7 @@ profiles:
   development:
     deploy: nil # force development as the default
   production:
-    base_url: 
+    base_url: ''
     fingerprint_assets: true
     minify: true
     deploy:
