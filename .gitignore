@@ -1,0 +1,16 @@
+_deploy/
+_site/
+_tmp/
+.sass-cache
+*.swp
+.project
+*.bak
+.rvmrc
+.ruby-version
+.ruby-gemset
+TODO
+.awestruct
+Guardfile
+Gemfile.lock
+.*-auth
+*~

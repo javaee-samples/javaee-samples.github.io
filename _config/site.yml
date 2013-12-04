@@ -1,0 +1,15 @@
+name: JavaEE Samples
+title: Navigate your way trough EE via Tests
+org: JavaEE Samples
+base_url: ''
+profiles:
+  development:
+    deploy: nil # force development as the default
+  production:
+    base_url: 
+    fingerprint_assets: true
+    minify: true
+    deploy:
+      host: github_pages
+      branch: master
+      repository: upstream
