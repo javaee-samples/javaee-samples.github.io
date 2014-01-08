@@ -1,0 +1,50 @@
+---
+layout: default
+title: Contributors
+---
+header
+  .row
+    .large-8.columns
+      h1 ="#{page.title} <small>#{site.identities.contributors().size}</small>"
+
+.row
+  .large-12.columns
+    ul.contributors.row
+      - site.identities.contributors().sort_by{|c| c.commits * Order::DESC}.each do |contributor|
+        li.large-4.columns
+          div.reveal-modal.hide id="#{contributor.github_id}" data-reveal=""
+            .modal-header
+              a.close-reveal-modal
+                i.fi-remove
+              h3
+                =contributor.name
+                small =contributor.location
+            .modal-body.clearfix
+              img.thumbnail src="#{contributor.avatar_url(60)}" alt="#{contributor.name}" style='float: left; margin: 2px 10px 3px 0;'
+              - if !contributor.bio.nil?
+                markdown:
+                  #{contributor.bio}
+              - else
+                | No bio available.
+          .photo
+            img src="#{contributor.avatar_url(140)}" alt="#{contributor.name}" data-reveal-id="#{contributor.github_id}"
+            ul
+              li
+                - if contributor.blog
+                  a href="#{contributor.blog}" Blog
+                - else
+                  span Blog
+              li
+                - if !contributor.twitter.nil?
+                  a href="#{contributor.twitter.url}" Twitter
+                - else
+                  span Twitter
+              li
+                a href="#{contributor.github.profile_url}" GitHub
+          h5=contributor.name
+          strong= contributor.company
+          em= contributor.location
+    
+    p.clearfix.row
+      strong Is your information incomplete? Is your profile picture missing?
+      | This page mirrors information from your public github and gravatar profiles. To update your information, fill in your name, location and bio in your <a href="http://github.com">github account</a>. To get a photo or avatar to display, upload an image to the <a href="http://gravatar.com">gravatar account</a> that's linked to your github account. If you don't want your information on this page, please let us know and we'll honor your request.

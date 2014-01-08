@@ -1,0 +1,325 @@
+require 'rubygems'
+require 'git'
+require 'ostruct'
+require 'rexml/document'
+
+require_relative 'javadoc'
+require_relative 'javaeesamples'
+
+require File.join File.dirname(__FILE__), 'tweakruby'
+
+# Monkey-Pacth the JavaDoc DocletAPI to Expose the underlying parsed Java Source
+ProgramElementDocImpl = com.sun.tools.javadoc.ProgramElementDocImpl
+class ProgramElementDocImpl
+    field_accessor :tree
+end
+
+class SampleExtension
+
+    def execute(site)
+        site.showcases = []
+        site.showcases.extend(Locators)
+
+        site.modules["sample"].each do |val|
+            next if val.name =~ /.*(parent|aggregator).*/i
+
+            page = site.engine.load_site_page('sample/_sample.html.slim')
+            page.output_path = "/sample/#{val.module_name}.html"
+            page.title = val.name.nil? ? val.module_name : val.name
+            puts "Created Showcase #{val.module_path} #{val.name}"
+            page.showcase = val
+
+            site.showcases << page
+        end
+
+        site.pages.concat(site.showcases)
+    end
+
+    module Locators
+
+        def usage_by_category_id(id)
+            self.select{ |v|
+                !v.showcase.api_usage.nil? and !v.showcase.api_usage[id].nil?
+            }.sort { |v|
+                v.showcase.api_usage[id]
+            }
+        end
+        def by_category_id(id)
+            self.select{ |v|
+                !v.showcase.category.nil? and v.showcase.category.id.eql? id
+            }
+        end
+    end
+end
+
+
+
+module SampleComponent
+    include Awestruct::Extensions::Repository::Visitors::Base
+
+    JAVA_SRC_DIR = "src/main/java"
+    JAVA_TEST_DIR = "src/test/java"
+
+    def handles(repository)
+      repository.path.eql? "javaee7-samples"
+    end
+
+    def visit(repository, site)
+        
+        rc = repository.client
+        c = site.components[repository.path]
+        c.type = "sample"
+        c.type_name = c.type.humanize.titleize
+        if site.modules[c.type].nil?
+            site.modules[c.type] = []
+        end
+
+        showcase_mods = {}
+
+
+        rev = "HEAD:"
+        Awestruct::Extensions::Repository::Visitors::MavenHelpers.traverse_modules(rev, repository) {
+            |path, pom|
+
+            next if path.eql? rev
+            next if is_module_pom(pom)
+
+            module_path = path.gsub(/.*:/, '')
+            module_name = module_path.gsub("/", "-").chop # chop of last / converted to -
+
+            showcase_mods[module_name] = OpenStruct.new if showcase_mods[module_name].nil?
+            mod = showcase_mods[module_name]
+            mod.repository = repository
+            puts "#{module_name} => #{module_path}"
+            mod.module_name = module_name
+            mod.module_path = module_path if mod.module_path.nil?
+            mod.category = locate_category(site.categories, module_path)
+
+            mod.readme_path = path if path =~ /.*README.*/
+
+            parse_pom(mod, pom) 
+            mod.name = generate_name(module_path) if mod.name.nil?
+
+            mod.tests ||= []
+            
+            src_dir = "#{repository.clone_dir}/#{module_path}/#{JAVA_SRC_DIR}"
+            test_dir = "#{repository.clone_dir}/#{module_path}/#{JAVA_TEST_DIR}"
+
+            Java::Doc.parse src_dir do |root| 
+                root.classes.each do |c|
+                    if c.position.file.path =~ Regexp.new(".*" + Regexp.escape("#{repository.path}") + "/(.*)")
+                        file_content = rc.cat_file("#{rev}#{$1}")
+                        parse_imports(site.categories, mod, file_content)
+                    end
+                end
+            end
+
+            Java::Doc.parse test_dir do |root| 
+                root.classes.each do |c|
+                    next unless c.name =~ /(TestCase|Test)$/
+                    
+                    test = OpenStruct.new
+                    test.name = c.name
+                    test.description = c.commentText.strip
+
+                    test.deployments ||= []
+                    test.scenarios ||= []
+
+                    if c.position.file.path =~ Regexp.new(".*" + Regexp.escape("#{repository.path}") + "/(.*)")
+                        test.path = $1
+                    end
+                    file_content = rc.cat_file("#{rev}#{test.path}")
+                    parse_imports(site.categories, mod, file_content)
+
+                    c.methods.each do |m|
+
+                        is_deployment = !m.annotations.find{
+                                |x| 
+                                x.annotationType.qualifiedTypeName.eql? 'Deployment'
+                            }.nil?
+
+                        is_test = !m.annotations.find{
+                                |x| 
+                                x.annotationType.qualifiedTypeName.eql? 'Test'
+                            }.nil?
+
+                        
+                        method = OpenStruct.new
+                        method.name = m.name
+                        method.description = m.commentText.strip
+                        #puts method.name
+                        if is_deployment or is_test
+                            method.start_pos = m.tree.start_position
+                            method.end_pos = calculate_block_end_pos(method.start_pos, method.name, file_content)
+                            method.content = reposition_content(file_content[method.start_pos, method.end_pos - method.start_pos])
+
+                            #puts method.content
+                        end
+                        
+                        test.deployments << method if is_deployment
+                        test.scenarios << method if is_test
+                    end
+                
+                    mod.tests << test
+
+                end
+            end
+
+        }
+
+        c.modules << showcase_mods.values
+        site.modules[c.type].concat showcase_mods.values
+    end
+
+    def calculate_block_end_pos(start, method_name, file_content)
+        #puts "Start: #{file_content[start, 10]}"
+        scanner = StringScanner.new file_content
+        scanner.pos = start
+        scanner.scan_until Regexp.new(Regexp.escape(method_name))
+
+        block_pos = scanner.pos
+        inside = false
+        level = 0
+        curr = 0
+        while true
+            curr += 1
+            curr_char = file_content[block_pos + curr, 1]
+            inside = true if curr_char.eql? "{"
+            level += 1 if curr_char.eql? "{"
+            level -= 1 if curr_char.eql? "}"
+            #puts "#{level} #{curr} #{curr_char}"
+            break if level == 0 and inside
+            #raise "Out of level, level #{level} - curr #{curr} - char #{curr_char}\n #{file_content[start, block_pos+curr]}" if level < 0
+            break if level < 0
+        end
+
+        block_pos+curr+1
+    end
+
+    # Remove white space in beginning of line to align all lines
+    # 1. line is already at 0
+    def reposition_content(content)
+        padding = 0
+        content.lines.collect.with_index{
+            |line, i|
+                x = line
+                padding = line.index(/[a-z]/) if i == 1
+                x = x[padding..-1] if i > 0
+                #puts "#{i} #{padding} #{x}"
+                x
+            }.join()
+    end
+
+    def is_module_pom(pom)
+        modules = pom.elements["/project/modules/module"]
+        !modules.nil? and !modules.has_elements?
+    end
+
+    def locate_category(categories, module_path)
+        cat_id = $1 if module_path =~ /([a-z]+)\/.*/
+        categories.find{|v| v.id.downcase.eql? cat_id}
+    end
+
+    def generate_name(module_path)
+        name = module_path
+        name = $2 if name =~ /([a-z]+)\/(.*)/
+
+        name.gsub(/\/|\-/, ' ').capitalize.strip
+    end
+    
+    def parse_pom(mod, pom)
+        mod.name = pom.root.text('name')
+        mod.name = nil if mod.name =~ /^\$/ 
+        mod.name.gsub!(/Arquillian Showcase.\s?/, "") unless mod.name.nil?
+        mod.name.gsub!(":", " -") unless mod.name.nil?
+        mod.description = pom.root.text('description')
+
+        pom.root.each_element("profiles/profile/id") { |id|
+            mod.profiles = [] if mod.profiles.nil?
+            mod.profiles << id.text
+        }
+        mod.profiles.sort if !mod.profiles.nil?
+    end
+
+    def parse_imports(categories, mod, content)
+        mod.api_usage = Hash.new if mod.api_usage.nil?
+        
+        content.scan(/^import (static )?(.+?);/) do |match|
+            stmt = match[1]
+            categories.each do |category| 
+                category.packages.each do |package|
+                    if stmt =~ Regexp.new("^" + Regexp.quote(package))
+                        mod.api_usage[category.id] ||= 0
+                        mod.api_usage[category.id] += 1
+                        break
+                    end
+
+                end
+            end
+            #puts stmt unless known_apis.include? stmt
+        end
+    end
+
+    def parse_testcase(mod, path, content)
+        mod.tests = [] if mod.tests.nil?
+
+        test = OpenStruct.new
+        test.path = path
+        test.name = path.match(/.*\/([A-Z][A-Za-z]+)\.java/)[1]
+        test.content = content.match(/.*(package .*)/m)[1]
+        test.content = content.gsub(/\/\*(?!\*).*Licensed.+?\*\//m, '') #remove /* xxx */ license headers
+        if test.content =~/\/\*(.+?)\*\//m
+            test.description = $1
+            test.description.gsub!(/.?\*.?/, '')
+        end
+        test.content.gsub!(/\/\*.+?\*\//m, '') #remove /* comments */ license headers
+        
+        mod.tests << test
+    end
+
+    def initialize()
+        @apis = {
+            'Arquillian JUnit' => /^org.jboss.arquillian.junit/,
+            'Arquillian TestNG' => /^org.jboss.arquillian.testng/,
+            #'Arquillian Test' => /^org.jboss.arquillian.test/,
+            #'Arquillian Container Test' => /^org.jboss.arquillian.container.test/,
+            #'Arquillian Core' => /^org.jboss.arquillian.core/,
+            #'Arquillian Config' => /^org.jboss.arquillian.config/,
+            'Arquillian Ajocado' => /^org.jboss.arquillian.ajocado/,
+            'Arquillian Graphene' => /^org.jboss.arquillian.graphene/,
+            'Arquillian Drone' => /^org.jboss.arquillian.drone/,
+            'Arquillian Persistence' => /^org.jboss.arquillian.persistence/,
+            'Arquillian Spring' => /^org.jboss.arquillian.spring/,
+            'Arquillian Extension' => /^org.jboss.arquillian.*(spi)/,
+            'ShrinkWrap' => /^org.jboss.shrinkwrap.api/,
+            'ShrinkWrap Resovler' => /^org.jboss.shrinkwrap.resolver/,
+            'ShrinkWrap Descriptor' => /^org.jboss.shrinkwrap.descriptor/,
+            'JSFUnit' => /^org.jboss.jsfunit/,
+            'Infinispan' => /^org.infinispan/,
+            'RestEasy' => /^org.jboss.resteasy/,
+            'JUnit' => /^org.junit/,
+            'TestNG' => /^org.testng/,
+            'Fest' => /^org.fest/,
+            'Selenium' => /^org.openqa.selenium/,
+            'Spring JDBC' => /^org.springframework.jdbc/,
+            'Spring JMS' => /^org.springframework.jms/,
+            'Spring' => /^org.springframework.beans/,
+
+            # Specs
+            'AtInject' => /^javax.inject/,
+            'CDI' => /^javax.enterprise/,
+            'Servlet' => /^javax.servlet/,
+            'Persistence' => /^javax.persistence/,
+            'JSF' => /^javax.faces/,
+            'OSGi' => /^org.osgi/,
+            'EJB' => /^javax.ejb/,
+            'JMS' => /^javax.jms/,
+            'WebService' => /^javax.jws/,
+            'Jsr250' => /^javax.annotation/,
+            'JaxRS' => /^javax.ws.rs/,
+            'Transaction' => /^javax.transaction/,
+            'Validation' => /^javax.validation/,
+            'Security' => /^java.security/
+        }
+    end
+end

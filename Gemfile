@@ -27,25 +27,29 @@
 #
 # bundle exec awestruct -s
 
-source 'https://rubygems.org'
+source "https://rubygems.org"
+
+ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.9'
 
 gem "awestruct", "0.5.3"
-gem 'asciidoctor'
-gem "puma"
-gem "rest-client", "1.6.7"
-gem "hpricot"
-gem "RedCloth"
-gem "redcarpet"
-gem "coffee-script"
-gem "haml"
+
+gem "slim"
+gem "kramdown"
+gem "asciidoctor"
 gem "uglifier"
 gem "htmlcompressor"
-gem "listen", "1.3.1"
-gem "git", "1.2.5"
-gem "ri_cal", "0.8.8"
-gem "tzinfo", "0.3.33"
-gem "therubyracer", "0.10.1"
-gem "jruby-openssl", "0.7.7", :platforms => :jruby
+gem "coffee-script"
+
+gem "rest-client"
+gem "hpricot"
+gem "git"
+
+gem "bouncy-castle-java", :platforms => :jruby
+gem "therubyrhino", :platforms => :jruby
+gem "therubyracer", "0.10.1", :platforms => :ruby
+gem "jruby-openssl", :platforms => :jruby
 gem "rb-inotify", :platforms => [:ruby, :jruby]
 
-gem 'rspec', '>= 2.9'
+gem "puma"
+gem "listen", "1.3.1"
+gem "rspec", ">= 2.9"

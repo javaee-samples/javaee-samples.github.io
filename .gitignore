@@ -14,3 +14,4 @@ Guardfile
 Gemfile.lock
 .*-auth
 *~
+.bundle

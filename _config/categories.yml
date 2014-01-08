@@ -1,0 +1,130 @@
+- id: CDI
+  name: Context and Dependency Injection
+  jsrs: 
+    - JSR-299
+    - JSR-346
+  packages:
+    - javax.inject
+    - javax.enterprise
+
+- id: Batch
+  name: Batch Processing for Java Platform
+  jsrs: 
+    - JSR-352
+  packages:
+    - javax.batch
+
+- id: WebSocket
+  name: Java API for WebSocket
+  jsrs:
+    - JSR-356
+  packages:
+    - javax.websocket
+
+- id: JAXRS
+  name: The Java API for RESTful Web Services
+  jsrs:
+    - JSR-311
+    - JSR-339
+  packages:
+    - javax.ws.rs
+
+- id: Concurrency
+  name: Concurrency Utilities
+  jsrs:
+    - JSR-166
+  packages:
+    - javax.enterprise.concurrent
+
+- id: EJB
+  name: Enterprise JavaBeans
+  jsrs:
+    - JSR-220
+    - JSR-318
+  packages:
+    - javax.ejb
+
+- id: EL
+  name: Expression Language
+  jsrs:
+    - JSR-341
+  packages:
+    - javax.el
+
+- id: JASPIC
+  name: Java Authentication Service Provider Interface for Containers
+  jsrs:
+    - JSR-196
+  packages:
+    - javax.security.auth
+
+- id: JavaMail
+  name: JavaMail
+  jsrs:
+    - JSR-919
+  packages:
+    - javax.mail
+
+- id: JCA
+  name: Java EE Connector Architecture
+  jsrs:
+    - JSR-322
+  packages:
+    - javax.resource
+
+- id: JMS
+  name: Java Message Service API
+  jsrs:
+    - JSR-914
+  packages:
+    - javax.jms
+
+- id: JPA
+  name: Java Persistence API
+  jsrs:
+    - JSR-317
+  packages:
+    - javax.persistence
+
+- id: JSF
+  name: JavaServer Faces
+  jsrs:
+    - JSR-344
+    - JSR-314
+    - JSR-127
+  packages:
+    - javax.faces
+
+- id: JSON
+  name: Java API for JSON Processing
+  jsrs:
+    - JSR-353
+  packages:
+    - javax.json
+
+- id: JTA
+  name: Java Transaction API
+  jsrs:
+    - JSR-907
+  packages:
+    - javax.transaction
+
+- id: Servlet
+  name: Java Servlet
+  jsrs:
+    - JSR-315
+    - JSR-340
+    - JSR-154
+  packages:
+    - javax.servlet
+
+- id: validation
+  name: Bean Validation
+  jsrs:
+    - JSR-349
+    - JSR-303
+  packages: 
+    - javax.validation
+
+- id: extra
+  name: External Integrations

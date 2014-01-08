@@ -1,0 +1,58 @@
+doctype 5
+/# To understand why the html tag is setup this way,
+/# see http://paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither
+
+/[if IE 8] html class="no-js lt-ie9" lang="en"
+/[if gt IE 8] html class="no-js" lang="en"
+head
+  meta charset='utf-8'
+  meta name='viewport' content='width=device-width, initial-scale=1.0'
+  title =site.title
+  link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"
+  link rel='stylesheet' href="#{site.base_url}/stylesheets/foundation-icons.css"
+  link rel='stylesheet' href="#{site.base_url}/stylesheets/app.css"
+  script src="#{site.base_url}/javascripts/vendor/custom.modernizr.js"
+  script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"
+  link rel='author' type='text/plain' href="#{site.base_url}/humans.txt"
+
+body.antialiased
+  nav.top-bar
+    ul.title-area
+      li.name
+        h1
+           a href="#{site.base_url}/" =site.name
+      li.toggle-topbar
+        a href='#' 
+          i.fi-home
+    section.top-bar-section
+      ul.right
+        li.divider
+          li
+            a href="#{site.base_url}/contributors" Contributors
+  =content
+
+
+  footer.row style='max-width: 100%'
+    .large-6.columns style='margin-bottom: .75em; margin-top: .75em'
+      ul.unstyled
+        li &#169; Copyright 2013-#{DateTime.now.year} JavaEE Samples.
+        li 
+          i.fi-like 
+          |&nbsp;Mixed with <a href="http://twitter.github.com/bootstrap">Bootstrap</a>. Baked by <a href="|http://awestruct.org">Awestruct</a>.
+        li
+          i.fi-share 
+          |&nbsp;Website and docs licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+        li Code released under <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, v2.0</a>.
+
+  script src="#{site.base_url}/javascripts/foundation/foundation.js"
+  
+  -# select foundation components from this array and add them to the one on the line below it
+  -# [:orbit, :cookie, :clearing, :magellan, :section, :alerts, :topbar, :joyride, :forms, :tooltips, :dropdown, :placeholder, :reveal]
+  - [:topbar, :reveal].each do |component|
+    script src="#{site.base_url}/javascripts/foundation/foundation.#{component}.js"
+  script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"
+  javascript:
+    $(document).foundation()
+  - if site.google_analytics
+    =google_analytics_async
+

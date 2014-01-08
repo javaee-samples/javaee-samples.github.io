@@ -1,0 +1,23 @@
+---
+layout: default
+title: Showcase
+---
+- techs = Set.new
+- for sc in site.showcases
+  - if !sc.showcase.technologies.nil?
+    - techs.merge sc.showcase.technologies
+-techs=techs.to_a.sort
+
+#content
+  - for tech in techs
+    .row style='margin-bottom:10px'
+      .span12
+        a name="#{tech.gsub(/\W/, '')}"
+          h3=tech
+        - for sc in site.showcases
+          - if !sc.showcase.technologies.nil?
+            - if sc.showcase.technologies.include? tech
+              .span3 style='margin-bottom:10px'
+                h4
+                  a href="#{sc.output_path}"=sc.showcase.module_name
+                =sc.showcase.description

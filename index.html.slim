@@ -1,0 +1,47 @@
+---
+layout: default
+---
+header
+  .row
+    .large-12.columns
+      h1 Learn how to use Java EE
+
+  .sub
+    .row
+      .large-4.columns
+        h3 About 
+        p JavaEE Samples are small snippets showing how to use JavaEE.
+
+      .large-4.columns
+        h3 Goal
+        p The goal of the JavaEE Samples is to be a reference for how to use the different specifictions within the JavaEE umbrella specification. 
+
+      .large-4.columns
+        h3 Concept
+        p Learn JavaEE via Tests.
+
+.row.categories
+  - for category in site.categories
+    - samples = site.showcases.by_category_id(category.id)
+    .large-4.columns.category
+      .panel
+        h5
+          a id="#{category.id}" =category.name
+          small =" (#{samples.length})"
+        .samples
+          - for sample in samples
+            dl.sample
+              dt
+                a href="#{sample.output_path}" =sample.showcase.name
+              dd  =sample.showcase.description
+  javascript:
+    var toggleSample = function(element) {
+      var elemt = $(element)
+      var categories = elemt.parents('.categories')
+      var category = elemt.parents('.category')
+
+      var small = 'large-3'
+      category.toggleClass(small);
+      category.find('.samples').toggleClass('hide');
+      
+    }
