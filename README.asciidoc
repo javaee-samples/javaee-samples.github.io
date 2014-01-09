@@ -1,0 +1,115 @@
+== JavaEE Samples Website
+
+=== How to setup the environment
+
+The website rely on Awestruct to generate the dynamic content, and Awestruct is written in Ruby. So the first step is to install Ruby. We *highly* recommend using http://rvm.io/[RVM] to control your Ruby environment as it makes the whole thing a lot easier. 
+
+For Linux users all you need to do to install RVM is to run the following command in your terminal:
+
+[source,console]
+----
+curl -sSL https://get.rvm.io | bash
+----
+
+NOTE: For Mac or Windows users, please see the http://rvm.io/rvm/install[RVM Install Guide]
+
+The website rely on running some Java code, e.g. JavaDoc, so we need to use JRuby. Next is to install JRuby in your RVM environment. In your terminal execute the following command:
+
+[source,console]
+----
+rvm install jruby-1.7.9
+----
+
+NOTE: If the install aborts with messages regarding permission errors, try re executing with root permissions; "sudo rvm.."
+
+NOTE: If the rvm command can't be found, try to restart the terminal.
+
+
+That should be it on the ruby environment side for now. Next we need to get the website repository by cloning the Git repository:
+
+[source,console]
+----
+git clone git@github.com:javaee-samples/javaee-samples.github.io.git
+----
+
+Next we need to link the repository to a RVM configuration.
+
+Create two new files under the repository root, but first remember to go into the root folder:
+
+[source,console]
+----
+cd javaee-samples.github.io
+----
+
+NOTE: On first entry you will be presented with a message from RVM telling you it read the environment from the Gemfile. Doing the next steps will remove this.
+
+Create file *.ruby-gemset* in your favorite editor and add this as content:
+[source,content]
+----
+javaee-samples
+----
+
+Create file *.ruby-version* in your favorite editor and add this as content:
+[source,ruby]
+----
+jruby-1.7.9
+----
+
+At this point you can allow RVM to pickup the new environment settings by leaving the folder and re-entering.
+
+[source,console]
+----
+cd .. & cd javaee-samples.github.io
+----
+
+Run the next command to verify that the environment is picked up correctly:
+
+[source,console]
+----
+rvm info
+----
+
+The first line should tell you something like *jruby-1.7.9@javaee-samples*.
+
+Then on to the Awestruct bits!
+
+First we need to pull in all the dependencies. Execute the following in the terminal:
+
+[source,console]
+----
+bundle install
+----
+
+NOTE: If you get a telling you bundle could not be found, execute *gem install bundler* and reexecute the previous step
+
+The site rely on fetching data from Github so we need to give it a *Personal Access Tokens* to use.
+Create a file called *.github-auth* in the javaee-samples.github.io folder and add the Access token generated from the https://github.com/settings/applications[Gihub settings page].
+
+That's it!
+
+=== How to generate the site
+
+The website not only requires Java, but it also requires the JDK. More specifically tools.jar on classpath to call JavaDoc.
+
+You can either set JAVA_HOME to point to your JDK installation as a global environment variable if it's not already set, or include it on the command line:
+
+[source,console]
+----
+JAVA_HOME=/usr/lib/jvm/java-1.7.0/ bundle exec awestruct --force -d -P production
+----
+
+You can now point your browser to http://localhost:4242 to see the result.
+
+
+=== How to deploy to production
+
+When deploying to production you execute a similar command as when generating:
+
+[source,console]
+----
+JAVA_HOME=/usr/lib/jvm/java-1.7.0/ bundle exec awestruct --deploy -P production
+----
+
+WARNING: --deploy will only deploy what is currently in the _site folder. Remember to generate it first!
+
+WARNING: Remember to have no uncommitted changes when you execute this command, or else it will complain. 
