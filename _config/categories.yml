@@ -1,5 +1,48 @@
+- id: WebSocket
+  name: Java API for WebSocket 1.0
+  jsrs:
+    - JSR-356
+  packages:
+    - javax.websocket
+
+- id: Batch
+  name: Batch Processing for Java Platform 1.0
+  jsrs:
+    - JSR-352
+  packages:
+    - javax.batch
+
+- id: Concurrency
+  name: Concurrency Utilities for Java EE 1.0
+  jsrs:
+    - JSR-166
+  packages:
+    - javax.enterprise.concurrent
+
+- id: JSON
+  name: Java API for JSON Processing 1.0
+  jsrs:
+    - JSR-353
+  packages:
+    - javax.json
+
+- id: JAXRS
+  name: Java API for RESTful Web Services 2.0
+  jsrs:
+    - JSR-311
+    - JSR-339
+  packages:
+    - javax.ws.rs
+
+- id: JMS
+  name: Java Message Service API 2.0
+  jsrs:
+    - JSR-914
+  packages:
+    - javax.jms
+
 - id: CDI
-  name: Context and Dependency Injection
+  name: Context and Dependency Injection 1.1
   jsrs: 
     - JSR-299
     - JSR-346
@@ -7,87 +50,52 @@
     - javax.inject
     - javax.enterprise
 
-- id: Batch
-  name: Batch Processing for Java Platform
-  jsrs: 
-    - JSR-352
-  packages:
-    - javax.batch
-
-- id: WebSocket
-  name: Java API for WebSocket
-  jsrs:
-    - JSR-356
-  packages:
-    - javax.websocket
-
-- id: JAXRS
-  name: The Java API for RESTful Web Services
-  jsrs:
-    - JSR-311
-    - JSR-339
-  packages:
-    - javax.ws.rs
-
-- id: Concurrency
-  name: Concurrency Utilities
-  jsrs:
-    - JSR-166
-  packages:
-    - javax.enterprise.concurrent
-
 - id: EJB
-  name: Enterprise JavaBeans
+  name: Enterprise JavaBeans 3.2
   jsrs:
     - JSR-220
     - JSR-318
+    - JSR-345
   packages:
     - javax.ejb
 
 - id: EL
-  name: Expression Language
+  name: Expression Language 3.0
   jsrs:
     - JSR-341
   packages:
     - javax.el
 
 - id: JASPIC
-  name: Java Authentication Service Provider Interface for Containers
+  name: Java Authentication Service Provider Interface for Containers 1.1 MR2
   jsrs:
     - JSR-196
   packages:
     - javax.security.auth
 
 - id: JavaMail
-  name: JavaMail
+  name: JavaMail 1.5
   jsrs:
     - JSR-919
   packages:
     - javax.mail
 
 - id: JCA
-  name: Java EE Connector Architecture
+  name: Java EE Connector Architecture 1.6
   jsrs:
     - JSR-322
   packages:
     - javax.resource
 
-- id: JMS
-  name: Java Message Service API
-  jsrs:
-    - JSR-914
-  packages:
-    - javax.jms
-
 - id: JPA
-  name: Java Persistence API
+  name: Java Persistence API 2.1
   jsrs:
     - JSR-317
   packages:
     - javax.persistence
 
 - id: JSF
-  name: JavaServer Faces
+  name: JavaServer Faces 2.2
   jsrs:
     - JSR-344
     - JSR-314
@@ -95,31 +103,24 @@
   packages:
     - javax.faces
 
-- id: JSON
-  name: Java API for JSON Processing
-  jsrs:
-    - JSR-353
-  packages:
-    - javax.json
-
 - id: JTA
-  name: Java Transaction API
+  name: Java Transaction API 1.2
   jsrs:
     - JSR-907
   packages:
     - javax.transaction
 
 - id: Servlet
-  name: Java Servlet
+  name: Java Servlet 3.1
   jsrs:
-    - JSR-315
     - JSR-340
+    - JSR-315
     - JSR-154
   packages:
     - javax.servlet
 
 - id: validation
-  name: Bean Validation
+  name: Bean Validation 1.1
   jsrs:
     - JSR-349
     - JSR-303
