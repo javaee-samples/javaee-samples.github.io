@@ -9,6 +9,7 @@ profiles:
     base_url: ''
     fingerprint_assets: true
     minify: true
+    google_analytics: UA-18727998-5
     deploy:
       host: github_pages
       branch: master

@@ -41,4 +41,6 @@ Awestruct::Extensions::Pipeline.new do
 
   # Transformers
   transformer Awestruct::Extensions::Minify.new([:js])
+
+  helper Awestruct::Extensions::GoogleAnalytics
 end
