@@ -1,72 +1,4 @@
-<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Navigate your way trough EE via Tests</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="/stylesheets/foundation-icons.css"><link rel="stylesheet" href="/stylesheets/app.css"><script src="/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="/humans.txt"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="/contributors">Contributors</a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-8 columns"><h2>Object reader<small></small></h2></div><div class="large-2 columns"><div class="howto right"><a class="button radius round" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/json/object-reader/">javaee7-samples</a><i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="prettyprint"><code class="prettyprint">git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/json/object-reader/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="prettyprint"><code class="prettyprint">mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="prettyprint"><code class="prettyprint">mvn test -Dtest=JsonReaderFromReaderTestmvn test -Dtest=JsonReaderFromStreamTest</code></pre></hr></div></div></div></div><div class="sub"><div class="row"><div class="large-12 columns"><ul class="inline-list right"><li>Specifications in use</li><li><ul class="inline-list"></ul><li><a href="/#JSON">JSON</a></li></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div id="test"><h4>JsonReaderFromReaderTest</h4><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Deployment
-public static Archive<?> deploy() {
-    File[] requiredLibraries = Maven.resolver().loadPomFromFile("pom.xml")
-            .resolve("org.json:json", "org.skyscreamer:jsonassert")
-            .withTransitivity().asFile();
-    return ShrinkWrap.create(WebArchive.class)
-            .addAsLibraries(requiredLibraries);
-}</code></pre><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Test
-public void testEmptyObject() throws JSONException {
-    JsonReader jsonReader = Json.createReader(new StringReader("{}"));
-    JsonObject json = jsonReader.readObject();
-    
-    assertNotNull(json);
-    assertTrue(json.isEmpty());
-}</code></pre><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Test
-public void testSimpleObjectWithTwoElements() throws JSONException {
-    JsonReader jsonReader = Json.createReader(new StringReader("{"
-            + "  \"apple\":\"red\","
-            + "  \"banana\":\"yellow\""
-            + "}"));
-    JsonObject json = jsonReader.readObject();
-    
-    assertNotNull(json);
-    assertFalse(json.isEmpty());
-    assertTrue(json.containsKey("apple"));
-    assertEquals("red", json.getString("apple"));
-    assertTrue(json.containsKey("banana"));
-    assertEquals("yellow", json.getString("banana"));
-}</code></pre><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Test
-public void testArray() throws JSONException {
-    JsonReader jsonReader = Json.createReader(new StringReader("["
-            + "  { \"apple\":\"red\" },"
-            + "  { \"banana\":\"yellow\" }"
-            + "]"));
-    JsonArray jsonArr = jsonReader.readArray();
-    assertNotNull(jsonArr);
-    assertEquals(2, jsonArr.size());
-    
-    JSONAssert.assertEquals("{\"apple\":\"red\"}", jsonArr.get(0).toString(), JSONCompareMode.STRICT);
-    JSONAssert.assertEquals("{\"banana\":\"yellow\"}", jsonArr.get(1).toString(), JSONCompareMode.STRICT);
-}</code></pre><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Test
-public void testNestedStructure() throws JSONException {
-    JsonReader jsonReader = Json.createReader(new StringReader("{"
-            + "  \"title\":\"The Matrix\","
-            + "  \"year\":1999,"
-            + "  \"cast\":["
-            + "    \"Keanu Reaves\","
-            + "    \"Laurence Fishburne\","
-            + "    \"Carrie-Anne Moss\""
-            + "  ]"
-            + "}"));
-    JsonObject json = jsonReader.readObject();
-    assertNotNull(json);
-    assertFalse(json.isEmpty());
-    assertTrue(json.containsKey("title"));
-    assertEquals("The Matrix", json.getString("title"));
-    assertTrue(json.containsKey("year"));
-    assertEquals(1999, json.getInt("year"));
-    assertTrue(json.containsKey("cast"));
-    JsonArray jsonArr = json.getJsonArray("cast");
-    assertNotNull(jsonArr);
-    assertEquals(3, jsonArr.size());
-    
-    JSONAssert.assertEquals("["
-            + "    \"Keanu Reaves\","
-            + "    \"Laurence Fishburne\","
-            + "    \"Carrie-Anne Moss\""
-            + "  ]", jsonArr.toString(), JSONCompareMode.STRICT);
-}</code></pre></div><div id="test"><h4>JsonReaderFromStreamTest</h4><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Deployment
+<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Navigate your way trough EE via Tests</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="/stylesheets/foundation-icons.css"><link rel="stylesheet" href="/stylesheets/app.css"><script src="/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="/humans.txt"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="/contributors">Contributors</a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-8 columns"><h2>Object reader<small></small></h2></div><div class="large-2 columns"><div class="howto right"><a class="button radius round" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/json/object-reader/">javaee7-samples</a><i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="prettyprint"><code class="prettyprint">git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/json/object-reader/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="prettyprint"><code class="prettyprint">mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="prettyprint"><code class="prettyprint">mvn test -Dtest=JsonReaderFromStreamTestmvn test -Dtest=JsonReaderFromReaderTest</code></pre></hr></div></div></div></div><div class="sub"><div class="row"><div class="large-12 columns"><ul class="inline-list right"><li>Specifications in use</li><li><ul class="inline-list"></ul><li><a href="/#JSON">JSON</a></li></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div id="test"><h4>JsonReaderFromStreamTest</h4><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Deployment
 public static Archive<?> deploy() {
     File[] requiredLibraries = Maven.resolver().loadPomFromFile("pom.xml")
             .resolve("org.json:json", "org.skyscreamer:jsonassert")
@@ -119,6 +51,74 @@ public void testNestedStructure() throws JSONException {
             .currentThread()
             .getContextClassLoader()
             .getResourceAsStream("/4.json"));
+    JsonObject json = jsonReader.readObject();
+    assertNotNull(json);
+    assertFalse(json.isEmpty());
+    assertTrue(json.containsKey("title"));
+    assertEquals("The Matrix", json.getString("title"));
+    assertTrue(json.containsKey("year"));
+    assertEquals(1999, json.getInt("year"));
+    assertTrue(json.containsKey("cast"));
+    JsonArray jsonArr = json.getJsonArray("cast");
+    assertNotNull(jsonArr);
+    assertEquals(3, jsonArr.size());
+    
+    JSONAssert.assertEquals("["
+            + "    \"Keanu Reaves\","
+            + "    \"Laurence Fishburne\","
+            + "    \"Carrie-Anne Moss\""
+            + "  ]", jsonArr.toString(), JSONCompareMode.STRICT);
+}</code></pre></div><div id="test"><h4>JsonReaderFromReaderTest</h4><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Deployment
+public static Archive<?> deploy() {
+    File[] requiredLibraries = Maven.resolver().loadPomFromFile("pom.xml")
+            .resolve("org.json:json", "org.skyscreamer:jsonassert")
+            .withTransitivity().asFile();
+    return ShrinkWrap.create(WebArchive.class)
+            .addAsLibraries(requiredLibraries);
+}</code></pre><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Test
+public void testEmptyObject() throws JSONException {
+    JsonReader jsonReader = Json.createReader(new StringReader("{}"));
+    JsonObject json = jsonReader.readObject();
+    
+    assertNotNull(json);
+    assertTrue(json.isEmpty());
+}</code></pre><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Test
+public void testSimpleObjectWithTwoElements() throws JSONException {
+    JsonReader jsonReader = Json.createReader(new StringReader("{"
+            + "  \"apple\":\"red\","
+            + "  \"banana\":\"yellow\""
+            + "}"));
+    JsonObject json = jsonReader.readObject();
+    
+    assertNotNull(json);
+    assertFalse(json.isEmpty());
+    assertTrue(json.containsKey("apple"));
+    assertEquals("red", json.getString("apple"));
+    assertTrue(json.containsKey("banana"));
+    assertEquals("yellow", json.getString("banana"));
+}</code></pre><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Test
+public void testArray() throws JSONException {
+    JsonReader jsonReader = Json.createReader(new StringReader("["
+            + "  { \"apple\":\"red\" },"
+            + "  { \"banana\":\"yellow\" }"
+            + "]"));
+    JsonArray jsonArr = jsonReader.readArray();
+    assertNotNull(jsonArr);
+    assertEquals(2, jsonArr.size());
+    
+    JSONAssert.assertEquals("{\"apple\":\"red\"}", jsonArr.get(0).toString(), JSONCompareMode.STRICT);
+    JSONAssert.assertEquals("{\"banana\":\"yellow\"}", jsonArr.get(1).toString(), JSONCompareMode.STRICT);
+}</code></pre><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><pre class="prettyprint"><code class="prettyprint">@Test
+public void testNestedStructure() throws JSONException {
+    JsonReader jsonReader = Json.createReader(new StringReader("{"
+            + "  \"title\":\"The Matrix\","
+            + "  \"year\":1999,"
+            + "  \"cast\":["
+            + "    \"Keanu Reaves\","
+            + "    \"Laurence Fishburne\","
+            + "    \"Carrie-Anne Moss\""
+            + "  ]"
+            + "}"));
     JsonObject json = jsonReader.readObject();
     assertNotNull(json);
     assertFalse(json.isEmpty());
