@@ -7,7 +7,7 @@ doctype 5
 head
   meta charset='utf-8'
   meta name='viewport' content='width=device-width, initial-scale=1.0'
-  title =site.title
+  title =page.title.nil? ? site.title : page.title
   link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"
   link rel='stylesheet' href="#{site.base_url}/stylesheets/foundation-icons.css"
   link rel='stylesheet' href="#{site.base_url}/stylesheets/app.css"
@@ -32,16 +32,17 @@ body.antialiased
   =content
 
 
-  footer.row style='max-width: 100%'
-    .large-6.columns style='margin-bottom: .75em; margin-top: .75em'
-      ul.unstyled
-        li &#169; Copyright 2013-#{DateTime.now.year} JavaEE Samples.
-        li 
-          i.fi-like 
-          |&nbsp;Mixed with <a href="http://foundation.zurb.com/">Foundation</a>. Baked by <a href="|http://awestruct.org">Awestruct</a>.
-        li
-          i.fi-share 
-          |&nbsp;Website and docs licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
+  footer style='max-width: 100%'
+    .row
+      .large-6.columns style='margin-bottom: .75em; margin-top: .75em'
+        ul.unstyled
+          li &#169; Copyright 2013-#{DateTime.now.year} JavaEE Samples.
+          li
+            i.fi-like
+            |&nbsp;Mixed with <a href="http://foundation.zurb.com/">Foundation</a>. Baked by <a href="|http://awestruct.org">Awestruct</a>.
+          li
+            i.fi-share
+            |&nbsp;Website and docs licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.
 
   script src="#{site.base_url}/javascripts/foundation/foundation.js"
   
@@ -49,7 +50,9 @@ body.antialiased
   -# [:orbit, :cookie, :clearing, :magellan, :section, :alerts, :topbar, :joyride, :forms, :tooltips, :dropdown, :placeholder, :reveal]
   - [:topbar, :reveal].each do |component|
     script src="#{site.base_url}/javascripts/foundation/foundation.#{component}.js"
-  script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.js"
+  script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/highlight.min.js"
+  link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/styles/pojoaque.css"
+
   javascript:
     $(document).foundation()
   - if site.google_analytics
