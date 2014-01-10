@@ -26,8 +26,8 @@ header
     .large-4.columns.category
       .panel
         h5
-          a id="#{category.id}" =category.name
-          small =" (#{samples.length})"
+          a id="#{category.id}" =>category.name
+          small ="(#{samples.length})"
         .samples
           - for sample in samples
             dl.sample
