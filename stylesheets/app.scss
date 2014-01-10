@@ -94,13 +94,16 @@ footer {
   border-top: 3px solid #7AA8BF;
   background-color: #071720;
   color: #C3CFDB;
+  margin-top: 2em;
 }
 
-pre.prettyprint {
+pre.highlight {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+pre.highlight code {
   padding: 15px;
-  background-color: #C3CFDB;
 }
 
 .howto .button {
@@ -201,4 +204,15 @@ ul.contributors {
       display: block;
     }
   }
+}
+
+
+// AsciiDoc Rendering styles
+
+.colist {
+  margin-left: 2em;
+}
+
+.colist p {
+  margin-bottom:0em;
 }

@@ -7,6 +7,7 @@ require './_ext/repository.rb'
 require './_ext/javaeesamples.rb'
 require './_ext/jenkins.rb'
 require './_ext/samples.rb'
+require './_ext/asciidocify.rb'
 
 Awestruct::Extensions::Pipeline.new do
 
@@ -43,4 +44,5 @@ Awestruct::Extensions::Pipeline.new do
   transformer Awestruct::Extensions::Minify.new([:js])
 
   helper Awestruct::Extensions::GoogleAnalytics
+  helper AsciiDoc
 end

@@ -1,13 +1,11 @@
 ---
 layout: default
 ---
-- page.title = "Sample: #{page.showcase.name}"
+- page.title = "JavaEE Sample::#{page.showcase.category.nil? ? "" : page.showcase.category.id}::#{page.showcase.name}"
 header
   .row
-    .large-8.columns
-      h2
-        |#{page.showcase.name}
-        small =page.showcase.description
+    .large-10.columns
+      h2=page.showcase.name
 
     .large-2.columns
       .howto.right
@@ -23,24 +21,27 @@ header
             a href=="#{page.showcase.repository.html_url}/tree/master/#{page.showcase.module_path}"=page.showcase.repository.path
             i.fi-social-github
             | GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:
-            pre.prettyprint
-              code.prettyprint="git clone #{page.showcase.repository.clone_url}<br/>cd #{page.showcase.repository.path}/#{page.showcase.module_path}"
+            pre.highlight
+              code="git clone #{page.showcase.repository.clone_url}<br/>cd #{page.showcase.repository.path}/#{page.showcase.module_path}"
 
             - if !page.showcase.tests.nil?
               | Now we are ready to start testing. You can run all the tests in this sample by executing:
-              pre.prettyprint
-                code.prettyprint mvn test
+              pre.highlight
+                code mvn test
               |Or you can run individual tests by executing one of the following:
-              pre.prettyprint
-                code.prettyprint
+              pre.highlight
+                code
                   - for test in page.showcase.tests                  
                     |mvn test -Dtest=#{test.name}
 
             - if !page.showcase.profiles.nil? and !page.showcase.tests.nil?
               |This sample support multiple different containers. You choose which container to use by activating one of the  Maven profiles defined. Adding -P "profile-name" to one of the command lines above will do the trick, e.g.:
-              pre.prettyprint
-                code.prettyprint "mvn test -Dtest=#{page.showcase.tests.first.name} -P #{page.showcase.profiles.first}"
+              pre.highlight
+                code "mvn test -Dtest=#{page.showcase.tests.first.name} -P #{page.showcase.profiles.first}"
               |The available profiles are: #{page.showcase.profiles.join(', ')}
+  .row
+    .large-10.columns
+      h3=page.showcase.description
 
   .sub
     .row
@@ -70,31 +71,27 @@ header
             |Missing a description for the story. Add some javadoc to the TestClass. 
             a.right data-reveal-id="improve" Show me how!
 
-        =test.description
-        - for deployment in test.deployments
+        =asciidocify(test.description, page.showcase)
+        - for deployment in test.children.select{|x| x.is_deployment}
           - if deployment.description.nil? or deployment.description.empty?
             .improve
               |Missing a description for the deployment. Add some javadoc to the @Deployment method. 
               a.right data-reveal-id="improve" Show me how!
           
-          =deployment.description
-          pre.prettyprint
-            code.prettyprint
-              =deployment.content
-        - for scenario in test.scenarios
+          =asciidocify(deployment.description, page.showcase)
+          =sourcify(deployment.content)
+        - for scenario in test.children.select{|x| x.is_test}
           - if scenario.description.nil? or scenario.description.empty?
             .improve
               |Missing a description for the test scenario. Add some javadoc to the @Test method. 
               a.right data-reveal-id="improve" Show me how!
           
-          =scenario.description
-          pre.prettyprint
-            code.prettyprint
-              =scenario.content
+          =asciidocify(scenario.description, page.showcase)
+          =sourcify(scenario.content)
 
     javascript:
       $(function() {
-        prettyPrint();
+        hljs.initHighlightingOnLoad();
       })
 
 #improve.hide.reveal-modal data-reveal=""
@@ -106,8 +103,8 @@ header
     a href=="#{page.showcase.repository.html_url}/tree/master/#{page.showcase.module_path}"=page.showcase.repository.path
     i.fi-social-github
     | GitHub repository. The first thing you need to do is to get the source by downloading the repository and then go into the samples folder:
-    pre.prettyprint
-      code.prettyprint="git clone #{page.showcase.repository.clone_url}<br/>cd #{page.showcase.repository.path}/#{page.showcase.module_path}"
+    pre.highlight
+      code="git clone #{page.showcase.repository.clone_url}<br/>cd #{page.showcase.repository.path}/#{page.showcase.module_path}"
 
     p Do the changes as you see fit and send a pull request!
     p Good Luck!

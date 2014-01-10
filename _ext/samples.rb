@@ -101,16 +101,36 @@ module SampleComponent
             mod.name = generate_name(module_path) if mod.name.nil?
 
             mod.tests ||= []
+            mod.sources ||= []
             
             src_dir = "#{repository.clone_dir}/#{module_path}/#{JAVA_SRC_DIR}"
             test_dir = "#{repository.clone_dir}/#{module_path}/#{JAVA_TEST_DIR}"
 
             Java::Doc.parse src_dir do |root| 
                 root.classes.each do |c|
+
+                    source = OpenStruct.new
+                    source.name = c.name
+                    source.description = c.commentText.lines.collect{|x|x.lstrip}.join()
+
+                    # TODO: this will reformat the code.
+                    # Look for better option to strip down to pure code
+                    source.content = c.tree.to_s
+
+                    source.children ||= []
+
                     if c.position.file.path =~ Regexp.new(".*" + Regexp.escape("#{repository.path}") + "/(.*)")
-                        file_content = rc.cat_file("#{rev}#{$1}")
-                        parse_imports(site.categories, mod, file_content)
+                        source.path = $1
                     end
+                    #file_content = rc.cat_file("#{rev}#{source.path}")
+                    file_content = File.read("#{c.position.file.path}")
+                    parse_imports(site.categories, mod, file_content)
+
+                    c.methods.each do |m|
+                        source.children << extract_method(m, file_content, true)
+                    end
+
+                    mod.sources << source
                 end
             end
 
@@ -120,15 +140,16 @@ module SampleComponent
                     
                     test = OpenStruct.new
                     test.name = c.name
-                    test.description = c.commentText.strip
+                    test.description = c.commentText.lines.collect{|x|x.lstrip}.join()
 
-                    test.deployments ||= []
-                    test.scenarios ||= []
+                    test.children ||= []
 
                     if c.position.file.path =~ Regexp.new(".*" + Regexp.escape("#{repository.path}") + "/(.*)")
                         test.path = $1
                     end
-                    file_content = rc.cat_file("#{rev}#{test.path}")
+                    #file_content = rc.cat_file("#{rev}#{test.path}")
+                    file_content = File.read("#{c.position.file.path}")
+                    c.position.file.path
                     parse_imports(site.categories, mod, file_content)
 
                     c.methods.each do |m|
@@ -143,21 +164,11 @@ module SampleComponent
                                 x.annotationType.qualifiedTypeName.eql? 'Test'
                             }.nil?
 
+                        method = extract_method(m, file_content, true)
+                        method.is_deployment = is_deployment
+                        method.is_test = is_test
                         
-                        method = OpenStruct.new
-                        method.name = m.name
-                        method.description = m.commentText.strip
-                        #puts method.name
-                        if is_deployment or is_test
-                            method.start_pos = m.tree.start_position
-                            method.end_pos = calculate_block_end_pos(method.start_pos, method.name, file_content)
-                            method.content = reposition_content(file_content[method.start_pos, method.end_pos - method.start_pos])
-
-                            #puts method.content
-                        end
-                        
-                        test.deployments << method if is_deployment
-                        test.scenarios << method if is_test
+                        test.children << method
                     end
                 
                     mod.tests << test
@@ -171,8 +182,23 @@ module SampleComponent
         site.modules[c.type].concat showcase_mods.values
     end
 
+    def extract_method(m, file_content, with_content = false)
+        method = OpenStruct.new
+        method.name = m.name
+        method.description = m.commentText.lines.collect{|x|x.lstrip}.join()
+        if with_content
+            method.start_pos = m.tree.start_position
+            method.end_pos = calculate_block_end_pos(method.start_pos, method.name, file_content)
+            method.content = reposition_content(file_content[method.start_pos, method.end_pos - method.start_pos])
+        end
+        return method
+    end
+
     def calculate_block_end_pos(start, method_name, file_content)
-        #puts "Start: #{file_content[start, 10]}"
+        #puts "Start #{start} #{method_name} #{file_content.size}: #{file_content[start, 2]}"
+        if start >= file_content.size
+            return start # JavaDoc running wild,  bad formatting.. abort
+        end
         scanner = StringScanner.new file_content
         scanner.pos = start
         scanner.scan_until Regexp.new(Regexp.escape(method_name))
@@ -199,12 +225,18 @@ module SampleComponent
     # Remove white space in beginning of line to align all lines
     # 1. line is already at 0
     def reposition_content(content)
+        return "" if content.nil?
         padding = 0
         content.lines.collect.with_index{
             |line, i|
                 x = line
                 padding = line.index(/\S/) if i == 1
-                x = x[padding..-1] if i > 0
+                padding = 0 if padding.nil?
+                if i > 0
+                    # only remove the padding if it's empty. Code formatting issues
+                    padd = x[0..padding-1].strip
+                    x = x[padding..-1] if padd.empty?
+                end
                 #puts "#{i} #{padding} #{x}"
                 x
             }.join()
