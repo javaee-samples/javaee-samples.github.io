@@ -203,7 +203,7 @@ module SampleComponent
         content.lines.collect.with_index{
             |line, i|
                 x = line
-                padding = line.index(/[a-z]/) if i == 1
+                padding = line.index(/\S/) if i == 1
                 x = x[padding..-1] if i > 0
                 #puts "#{i} #{padding} #{x}"
                 x
