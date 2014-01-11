@@ -60,6 +60,27 @@ module Awestruct::Extensions::Identities
         identity
       end
 
+      def lookup_by_emails(email)
+        identity = lookup_by_email(email)
+        identity = lookup_by_contributor_email(email) if identity.nil?
+        identity
+      end
+
+      # contributors[].email, return unique Identity
+      def unique_by_emails(contributors)
+        contributors.map{|a| lookup_by_emails(a.email)}.uniq {|a| a.github_id }
+      end
+
+
+      def lookup_by_contributor_email(email)
+        identity = self.find {|e| e.contributor and e.contributor.emails and e.contributor.emails.include? email }
+        if identity.nil?
+          # Indication that we have a mismatched account
+          puts "Could not find contributor with e-mail " + contributor.email
+        end
+        identity
+      end
+
       def lookup_by_contributor(contributor)
         identity = self.find {|e| e.contributor and e.contributor.emails and e.contributor.emails.include? contributor.email }
         if identity.nil?

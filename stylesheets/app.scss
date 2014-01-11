@@ -62,8 +62,8 @@
   height: $topbar-height + 3px;
 }
 
-.top-bar-section, .top-bar-section ul {
-  background-color: #071720;
+.top-bar-section, .top-bar-section ul, .top-bar-section li a {
+  background-color: #071720 !important;
 }
 
 .container > header {
@@ -77,6 +77,9 @@
   width: 100%;
 }
 
+.sub {
+  padding-top:5px;
+}
 .sub ul {
   margin-top: 5px;
 }  
@@ -85,6 +88,21 @@
   color: #071720;
   font-weight: bold;
 }  
+
+.sub .specifications {
+  ul {
+    margin-right: .5em;
+  }
+}
+
+.sub .contributors ul {
+  margin-right: .5em;
+  float: right;
+}
+
+.sub .contributors li {
+  margin-left: .5em;
+}
 
 .container > header h1, .container > header h2 {
   color: #C3CFDB;

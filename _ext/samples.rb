@@ -95,7 +95,16 @@ module SampleComponent
             mod.module_path = module_path if mod.module_path.nil?
             mod.category = locate_category(site.categories, module_path)
 
-            mod.readme_path = path if path =~ /.*README.*/
+            mod.contributors = []
+
+            # TMP Hack to resolve sub path
+            orig_path = repository.relative_path
+            repository.relative_path = "#{repository.relative_path}#{mod.module_path}"
+            Awestruct::Extensions::Repository::Visitors::RepositoryHelpers.resolve_contributors_between(site, repository, nil, rc.revparse('HEAD')).each do |contributor|
+                mod.contributors << contributor
+            end
+
+            repository.relative_path = orig_path
 
             parse_pom(mod, pom) 
             mod.name = generate_name(module_path) if mod.name.nil?

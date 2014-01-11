@@ -18,7 +18,7 @@ header
             i.fi-x
           hr.clear
             |The source code for this sample can be found in the 
-            a href=="#{page.showcase.repository.html_url}/tree/master/#{page.showcase.module_path}"=page.showcase.repository.path
+            a href=="#{page.showcase.repository.html_url}/tree/master/#{page.showcase.module_path}"=>page.showcase.repository.path
             i.fi-social-github
             | GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:
             pre.highlight
@@ -45,15 +45,22 @@ header
 
   .sub
     .row
-      .large-12.columns
-        - if !page.showcase.api_usage.nil? 
-          ul.inline-list.right
-            li Specifications in use
+      .large-10.columns.specifications
+        - unless page.showcase.api_usage.nil?
+          ul.inline-list
+            li Specifications in use:
             li
               ul.inline-list
               - for tech in page.showcase.api_usage.each_key.sort
                 li 
                   a href="#{site.base_url}/##{tech}" =tech
+
+      .large-2.columns.contributors
+        - unless page.showcase.contributors.nil?
+          ul.inline-list
+            -for c in site.identities.unique_by_emails(page.showcase.contributors)
+              li
+                img.photo title="#{c.name}" src="#{c.avatar_url(25)}"
 
   javascript:
     //$(function() { activateGuideMenuControl() })
@@ -100,7 +107,7 @@ header
     i.fi-x
   hr.clear
     |The source code for this sample can be found in the 
-    a href=="#{page.showcase.repository.html_url}/tree/master/#{page.showcase.module_path}"=page.showcase.repository.path
+    a href=="#{page.showcase.repository.html_url}/tree/master/#{page.showcase.module_path}"=>page.showcase.repository.path
     i.fi-social-github
     | GitHub repository. The first thing you need to do is to get the source by downloading the repository and then go into the samples folder:
     pre.highlight
