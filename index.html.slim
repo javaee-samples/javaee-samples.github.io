@@ -30,18 +30,7 @@ header
           small ="(#{samples.length})"
         .samples
           - for sample in samples
-            dl.sample
-              dt
+            .sample
+              h6
                 a href="#{sample.output_path}" =sample.showcase.name
-              dd  =sample.showcase.description
-  javascript:
-    var toggleSample = function(element) {
-      var elemt = $(element)
-      var categories = elemt.parents('.categories')
-      var category = elemt.parents('.category')
-
-      var small = 'large-3'
-      category.toggleClass(small);
-      category.find('.samples').toggleClass('hide');
-      
-    }
+              .desc=sample.showcase.description
