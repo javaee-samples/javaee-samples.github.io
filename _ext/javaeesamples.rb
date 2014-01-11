@@ -54,7 +54,7 @@ module Awestruct::Extensions::Repository::Visitors
   module RepositoryHelpers
     # Retrieves the contributors between the two commits, filtering
     # by the relative path, if present
-    def self.resolve_contributors_between(site, repository, sha1, sha2)
+    def self.resolve_contributors_between(site, repository, sha1, sha2, update_index = true)
       range_author_index = {}
       RepositoryHelpers.resolve_commits_between(repository, sha1, sha2).map {|c|
         # we'll use email as the key to finding their identity; the sha we just need temporarily
@@ -70,7 +70,7 @@ module Awestruct::Extensions::Repository::Visitors
 
       range_author_index.values.each {|e|
         # this loop registers author in global index if not present
-        if repository.host.eql? 'github.com'
+        if repository.host.eql? 'github.com' and update_index
           site.git_author_index[e.email] ||= OpenStruct.new({
             :email => e.email,
             :name => e.name,

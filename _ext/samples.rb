@@ -100,9 +100,12 @@ module SampleComponent
             # TMP Hack to resolve sub path
             orig_path = repository.relative_path
             repository.relative_path = "#{repository.relative_path}#{mod.module_path}"
-            Awestruct::Extensions::Repository::Visitors::RepositoryHelpers.resolve_contributors_between(site, repository, nil, rc.revparse('HEAD')).each do |contributor|
-                mod.contributors << contributor
-            end
+            # Keep in mind we don't ant to recount these commits
+            Awestruct::Extensions::Repository::Visitors::RepositoryHelpers.resolve_contributors_between(
+                site, repository, nil, rc.revparse('HEAD'), false).each {
+                |contributor|
+                    mod.contributors << contributor
+            }
 
             repository.relative_path = orig_path
 
