@@ -100,7 +100,7 @@ module SampleComponent
             # TMP Hack to resolve sub path
             orig_path = repository.relative_path
             repository.relative_path = "#{repository.relative_path}#{mod.module_path}"
-            # Keep in mind we don't ant to recount these commits
+            # Keep in mind we don't want to recount these commits
             Awestruct::Extensions::Repository::Visitors::RepositoryHelpers.resolve_contributors_between(
                 site, repository, nil, rc.revparse('HEAD'), false).each {
                 |contributor|
@@ -123,7 +123,7 @@ module SampleComponent
 
                     source = OpenStruct.new
                     source.name = c.name
-                    source.description = c.commentText.lines.collect{|x|x.lstrip}.join()
+                    source.description = c.commentText.split("\n").collect{|x|x.lstrip}.join("\n")
 
                     # TODO: this will reformat the code.
                     # Look for better option to strip down to pure code
@@ -152,7 +152,7 @@ module SampleComponent
                     
                     test = OpenStruct.new
                     test.name = c.name
-                    test.description = c.commentText.lines.collect{|x|x.lstrip}.join()
+                    test.description = c.commentText.split("\n").collect{|x|x.lstrip}.join("\n")
 
                     test.children ||= []
 
@@ -161,7 +161,6 @@ module SampleComponent
                     end
                     #file_content = rc.cat_file("#{rev}#{test.path}")
                     file_content = File.read("#{c.position.file.path}")
-                    c.position.file.path
                     parse_imports(site.categories, mod, file_content)
 
                     c.methods.each do |m|
@@ -179,7 +178,7 @@ module SampleComponent
                         method = extract_method(m, file_content, true)
                         method.is_deployment = is_deployment
                         method.is_test = is_test
-                        
+
                         test.children << method
                     end
                 
@@ -197,7 +196,8 @@ module SampleComponent
     def extract_method(m, file_content, with_content = false)
         method = OpenStruct.new
         method.name = m.name
-        method.description = m.commentText.lines.collect{|x|x.lstrip}.join()
+        method.description = m.commentText.split("\n").collect{|x|x.lstrip}.join("\n")
+
         if with_content
             method.start_pos = m.tree.start_position
             method.end_pos = calculate_block_end_pos(method.start_pos, method.name, file_content)
