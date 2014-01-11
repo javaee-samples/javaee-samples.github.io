@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaEE Sample::JASPIC::Basic authentication</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="/stylesheets/foundation-icons.css"><link rel="stylesheet" href="/stylesheets/app.css"><script src="/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="/humans.txt"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="/contributors">Contributors</a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-10 columns"><h2>Basic authentication</h2></div><div class="large-2 columns"><div class="howto right"><a class="button radius round" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jaspic/basic-authentication/">javaee7-samples</a><i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jaspic/basic-authentication/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="highlight"><code>mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="highlight"><code>mvn test -Dtest=BasicAuthenticationStatelessTestmvn test -Dtest=BasicAuthenticationPublicTestmvn test -Dtest=BasicAuthenticationProtectedTest</code></pre></hr></div></div></div></div><div class="row"><div class="large-10 columns"><h3></h3></div></div><div class="sub"><div class="row"><div class="large-12 columns"><ul class="inline-list right"><li>Specifications in use</li><li><ul class="inline-list"></ul><li><a href="/#JASPIC">JASPIC</a></li><li><a href="/#Servlet">Servlet</a></li></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div id="test"><h4>BasicAuthenticationStatelessTest</h4><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaEE Sample::JASPIC::Basic authentication</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="/stylesheets/foundation-icons.css"><link rel="stylesheet" href="/stylesheets/app.css"><script src="/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="/humans.txt"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="/contributors">Contributors</a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-10 columns"><h2>Basic authentication</h2></div><div class="large-2 columns"><div class="howto right"><a class="button radius round" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jaspic/basic-authentication/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jaspic/basic-authentication/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="highlight"><code>mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="highlight"><code>mvn test -Dtest=BasicAuthenticationStatelessTestmvn test -Dtest=BasicAuthenticationPublicTestmvn test -Dtest=BasicAuthenticationProtectedTest</code></pre></hr></div></div></div></div><div class="row"><div class="large-10 columns"><h3></h3></div></div><div class="sub"><div class="row"><div class="large-10 columns specifications"><ul class="inline-list"><li>Specifications in use:</li><li><ul class="inline-list"></ul><li><a href="/#JASPIC">JASPIC</a></li><li><a href="/#Servlet">Servlet</a></li></li></ul></div><div class="large-2 columns contributors"><ul class="inline-list"><li><img class="photo" title="Stefan Guilhen" src="http://gravatar.com/avatar/4ce28e3d3f99e984c21b880dbac66d7d?s=25"></li><li><img class="photo" title="Arjan Tijms" src="http://gravatar.com/avatar/d383928ce35a8dab6f4cf8f4e5e269b9?s=25"></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div id="test"><h4>BasicAuthenticationStatelessTest</h4><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Deployment(testable = false)
 public static WebArchive createDeployment() {
@@ -12,12 +12,14 @@ request.</p>
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testProtectedAccessIsStateless() throws IOException, SAXException {
-    WebConversation conversion = new WebConversation();
+
     // -------------------- Request 1 ---------------------------
     // Accessing protected page without login
-    WebResponse response = conversion.getResponse(new GetMethodWebRequest(base + "protected/servlet"));
+    String response = getFromServerPath("protected/servlet");
+
     // Not logged-in thus should not be accessible.
-    assertFalse(response.getText().contains("This is a protected servlet"));
+    assertFalse(response.contains("This is a protected servlet"));
+
     // -------------------- Request 2 ---------------------------
     // JASPIC is stateless and login (re-authenticate) has to happen for every request
     //
@@ -25,21 +27,22 @@ public void testProtectedAccessIsStateless() throws IOException, SAXException {
     // the container has probably remembered the "unauthenticated identity", e.g. it has remembered that
     // we're not authenticated and it will deny further attempts to authenticate. This may happen when
     // the container does not correctly recognize the JASPIC protocol for "do nothing".
-    response = conversion.getResponse(new GetMethodWebRequest(base + "protected/servlet?doLogin"));
+    response = getFromServerPath("protected/servlet?doLogin");
     // Now has to be logged-in so page is accessible
     assertTrue("Could not access protected page, but should be able to. "
             + "Did the container remember the previously set 'unauthenticated identity'?",
-            response.getText().contains("This is a protected servlet"));
+            response.contains("This is a protected servlet"));
+
     // -------------------- Request 3 ---------------------------
     // JASPIC is stateless and login (re-authenticate) has to happen for every request
     //
     // In the following method we do a call without logging in after one where we did login.
     // The container should not remember this login and has to deny access.
-    response = conversion.getResponse(new GetMethodWebRequest(base + "protected/servlet"));
+    response = getFromServerPath("protected/servlet");
     // Not logged-in thus should not be accessible.
     assertFalse("Could access protected page, but should not be able to. "
-            + "Did the container remember the authenticated identity that was set in previous request?", response.getText()
-            .contains("This is a protected servlet"));
+            + "Did the container remember the authenticated identity that was set in previous request?",
+            response.contains("This is a protected servlet"));
 }</code></pre>
 </div>
 </div><div class="paragraph">
@@ -49,21 +52,21 @@ request, but use a different request order than the previous test.</p>
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testProtectedAccessIsStateless2() throws IOException, SAXException {
-    WebConversation conversion = new WebConversation();
     // -------------------- Request 1 ---------------------------
     // Start with doing a login
-    WebResponse response = conversion.getResponse(new GetMethodWebRequest(base + "protected/servlet?doLogin"));
+    String response = getFromServerPath("protected/servlet?doLogin");
+
     // -------------------- Request 2 ---------------------------
     // JASPIC is stateless and login (re-authenticate) has to happen for every request
     //
     // In the following method we do a call without logging in after one where we did login.
     // The container should not remember this login and has to deny access.
     // Accessing protected page without login
-    response = conversion.getResponse(new GetMethodWebRequest(base + "protected/servlet"));
+    response = getFromServerPath("protected/servlet");
     // Not logged-in thus should not be accessible.
     assertFalse("Could access protected page, but should not be able to. "
-            + "Did the container remember the authenticated identity that was set in previous request?", response.getText()
-            .contains("This is page A."));
+            + "Did the container remember the authenticated identity that was set in previous request?",
+            response.contains("This is a protected servlet"));
 }</code></pre>
 </div>
 </div><div class="paragraph">
@@ -73,22 +76,23 @@ authenticated identity are remembered</p>
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testUserIdentityIsStateless() throws IOException, SAXException {
-    WebConversation conversion = new WebConversation();
+
     // -------------------- Request 1 ---------------------------
     // Accessing protected page with login
-    WebResponse response = conversion.getResponse(new GetMethodWebRequest(base + "protected/servlet?doLogin"));
+    String response = getFromServerPath("protected/servlet?doLogin");
+
     // -------------------- Request 2 ---------------------------
     // Accessing public page without login
-    response = conversion.getResponse(new GetMethodWebRequest(base + "public/servlet"));
+    response = getFromServerPath("public/servlet");
     // No details should linger around
     assertFalse("User principal was 'test', but it should be null here. "
             + "The container seemed to have remembered it from the previous request.",
-            response.getText().contains("web username: test"));
+            response.contains("web username: test"));
     assertTrue("User principal was not null, but it should be null here. ",
-            response.getText().contains("web username: null"));
+            response.contains("web username: null"));
     assertTrue("The unauthenticated user has the role 'architect', which should not be the case. "
             + "The container seemed to have remembered it from the previous request.",
-            response.getText().contains("web user has role \"architect\": false"));
+            response.contains("web user has role \"architect\": false"));
 }</code></pre>
 </div>
 </div></div><div id="test"><h4>BasicAuthenticationPublicTest</h4><div class="paragraph">
@@ -104,10 +108,11 @@ public static WebArchive createDeployment() {
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testPublicPageNotLoggedin() throws IOException, SAXException {
-    WebResponse response = new WebConversation().getResponse(new GetMethodWebRequest(base + "public/servlet"));
+
+    String response = getFromServerPath("public/servlet");
     // Not logged-in
-    assertTrue(response.getText().contains("web username: null"));
-    assertTrue(response.getText().contains("web user has role \"architect\": false"));
+    assertTrue(response.contains("web username: null"));
+    assertTrue(response.contains("web user has role \"architect\": false"));
 }</code></pre>
 </div>
 </div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
@@ -115,33 +120,34 @@ public void testPublicPageNotLoggedin() throws IOException, SAXException {
 <pre class="highlight"><code class="java language-java">@Test
 public void testPublicPageLoggedin() throws IOException, SAXException {
     // JASPIC has to be able to authenticate a user when accessing a public (non-protected) resource.
-    WebResponse response = new WebConversation().getResponse(new GetMethodWebRequest(base + "public/servlet?doLogin"));
+
+    String response = getFromServerPath("public/servlet?doLogin");
     // Now has to be logged-in
-    assertTrue(response.getText().contains("web username: test"));
-    assertTrue(response.getText().contains("web user has role \"architect\": true"));
+    assertTrue(response.contains("web username: test"));
+    assertTrue(response.contains("web user has role \"architect\": true"));
 }</code></pre>
 </div>
 </div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testPublicPageNotRememberLogin() throws IOException, SAXException {
-    WebConversation conversion = new WebConversation();
     // -------------------- Request 1 ---------------------------
-    WebResponse response = conversion.getResponse(new GetMethodWebRequest(base + "public/servlet"));
+
+    String response = getFromServerPath("public/servlet");
     // Not logged-in
-    assertTrue(response.getText().contains("web username: null"));
-    assertTrue(response.getText().contains("web user has role \"architect\": false"));
-    System.out.println(response.getHeaderField("cookie"));
+    assertTrue(response.contains("web username: null"));
+    assertTrue(response.contains("web user has role \"architect\": false"));
     // -------------------- Request 2 ---------------------------
-    response = new WebConversation().getResponse(new GetMethodWebRequest(base + "public/servlet?doLogin"));
+    response = getFromServerPath("public/servlet?doLogin");
     // Now has to be logged-in
-    assertTrue(response.getText().contains("web username: test"));
-    assertTrue(response.getText().contains("web user has role \"architect\": true"));
+    assertTrue(response.contains("web username: test"));
+    assertTrue(response.contains("web user has role \"architect\": true"));
+
     // -------------------- Request 3 ---------------------------
-    response = conversion.getResponse(new GetMethodWebRequest(base + "public/servlet"));
+    response = getFromServerPath("public/servlet");
     // Not logged-in
-    assertTrue(response.getText().contains("web username: null"));
-    assertTrue(response.getText().contains("web user has role \"architect\": false"));
+    assertTrue(response.contains("web username: null"));
+    assertTrue(response.contains("web user has role \"architect\": false"));
 }</code></pre>
 </div>
 </div></div><div id="test"><h4>BasicAuthenticationProtectedTest</h4><div class="paragraph">
@@ -158,24 +164,25 @@ public static WebArchive createDeployment() {
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testProtectedPageNotLoggedin() throws IOException, SAXException {
-    WebResponse getResponse = new WebConversation().getResponse(new GetMethodWebRequest(base + "protected/servlet"));
+
+    String response = getFromServerPath("protected/servlet");
     // Not logged-in thus should not be accessible.
-    assertFalse(getResponse.getText().contains("This is a protected servlet"));
+    assertFalse(response.contains("This is a protected servlet"));
 }</code></pre>
 </div>
 </div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testProtectedPageLoggedin() throws IOException, SAXException {
-    WebResponse getResponse = new WebConversation().getResponse(new GetMethodWebRequest(base
-            + "protected/servlet?doLogin=true"));
+
+    String response = getFromServerPath("protected/servlet?doLogin=true");
     // Now has to be logged-in so page is accessible
-    assertTrue(getResponse.getText().contains("This is a protected servlet"));
+    assertTrue(response.contains("This is a protected servlet"));
 }</code></pre>
 </div>
 </div></div><script type="text/javascript">$(function() {
   hljs.initHighlightingOnLoad();
-})</script></div></div><div id="improve" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to help improve this sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jaspic/basic-authentication/">javaee7-samples</a><i class="fi-social-github"></i>GitHub repository. The first thing you need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jaspic/basic-authentication/</code></pre><p>Do the changes as you see fit and send a pull request!</p><p>Good Luck!</p></hr></div></div><footer style="max-width: 100%"><div class="row"><div class="large-6 columns" style="margin-bottom: .75em; margin-top: .75em"><ul class="unstyled"><li>&#169; Copyright 2013-2014 JavaEE Samples.</li><li><i class="fi-like"></i>&nbsp;Mixed with <a href="http://foundation.zurb.com/">Foundation</a>. Baked by <a href="|http://awestruct.org">Awestruct</a>.</li><li><i class="fi-share"></i>&nbsp;Website and docs licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</li></ul></div></div></footer><script src="/javascripts/foundation/foundation.js"></script><script src="/javascripts/foundation/foundation.topbar.js"></script><script src="/javascripts/foundation/foundation.reveal.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/highlight.min.js"></script><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/styles/pojoaque.css"><script type="text/javascript">$(document).foundation()</script><script type="text/javascript">
+})</script></div></div><div id="improve" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to help improve this sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jaspic/basic-authentication/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing you need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jaspic/basic-authentication/</code></pre><p>Do the changes as you see fit and send a pull request!</p><p>Good Luck!</p></hr></div></div><footer style="max-width: 100%"><div class="row"><div class="large-6 columns" style="margin-bottom: .75em; margin-top: .75em"><ul class="unstyled"><li>&#169; Copyright 2013-2014 JavaEE Samples.</li><li><i class="fi-like"></i>&nbsp;Mixed with <a href="http://foundation.zurb.com/">Foundation</a>. Baked by <a href="|http://awestruct.org">Awestruct</a>.</li><li><i class="fi-share"></i>&nbsp;Website and docs licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</li></ul></div></div></footer><script src="/javascripts/foundation/foundation.js"></script><script src="/javascripts/foundation/foundation.topbar.js"></script><script src="/javascripts/foundation/foundation.reveal.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/highlight.min.js"></script><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/styles/pojoaque.css"><script type="text/javascript">$(document).foundation()</script><script type="text/javascript">
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount','UA-18727998-5']);
 _gaq.push(['_trackPageview']);

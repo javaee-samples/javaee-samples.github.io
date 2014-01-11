@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaEE Sample::JASPIC::Register session</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="/stylesheets/foundation-icons.css"><link rel="stylesheet" href="/stylesheets/app.css"><script src="/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="/humans.txt"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="/contributors">Contributors</a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-10 columns"><h2>Register session</h2></div><div class="large-2 columns"><div class="howto right"><a class="button radius round" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jaspic/register-session/">javaee7-samples</a><i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jaspic/register-session/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="highlight"><code>mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="highlight"><code>mvn test -Dtest=RegisterSessionTest</code></pre></hr></div></div></div></div><div class="row"><div class="large-10 columns"><h3></h3></div></div><div class="sub"><div class="row"><div class="large-12 columns"><ul class="inline-list right"><li>Specifications in use</li><li><ul class="inline-list"></ul><li><a href="/#JASPIC">JASPIC</a></li><li><a href="/#Servlet">Servlet</a></li></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div id="test"><h4>RegisterSessionTest</h4><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaEE Sample::JASPIC::Register session</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="/stylesheets/foundation-icons.css"><link rel="stylesheet" href="/stylesheets/app.css"><script src="/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="/humans.txt"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="/contributors">Contributors</a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-10 columns"><h2>Register session</h2></div><div class="large-2 columns"><div class="howto right"><a class="button radius round" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jaspic/register-session/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jaspic/register-session/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="highlight"><code>mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="highlight"><code>mvn test -Dtest=RegisterSessionTest</code></pre></hr></div></div></div></div><div class="row"><div class="large-10 columns"><h3></h3></div></div><div class="sub"><div class="row"><div class="large-10 columns specifications"><ul class="inline-list"><li>Specifications in use:</li><li><ul class="inline-list"></ul><li><a href="/#JASPIC">JASPIC</a></li><li><a href="/#Servlet">Servlet</a></li></li></ul></div><div class="large-2 columns contributors"><ul class="inline-list"><li><img class="photo" title="Stefan Guilhen" src="http://gravatar.com/avatar/4ce28e3d3f99e984c21b880dbac66d7d?s=25"></li><li><img class="photo" title="Arjan Tijms" src="http://gravatar.com/avatar/d383928ce35a8dab6f4cf8f4e5e269b9?s=25"></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div id="test"><h4>RegisterSessionTest</h4><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Deployment(testable = false)
 public static WebArchive createDeployment() {
@@ -13,51 +13,50 @@ public void testRemembersSession() throws IOException, SAXException {
     // -------------------- Request 1 ---------------------------
 
     // Accessing protected page without login
-    TextPage page = webClient.getPage(base + "protected/servlet");
+    String response = getFromServerPath("protected/servlet");
 
     // Not logged-in thus should not be accessible.
-    assertFalse(page.getContent().contains("This is a protected servlet"));
+    assertFalse(response.contains("This is a protected servlet"));
 
     // -------------------- Request 2 ---------------------------
     // We access the protected page again and now login
-    //
 
-    page = webClient.getPage(base + "protected/servlet?doLogin");
+    response = getFromServerPath("protected/servlet?doLogin");
     // Now has to be logged-in so page is accessible
     assertTrue("Could not access protected page, but should be able to. "
             + "Did the container remember the previously set 'unauthenticated identity'?",
-            page.getContent().contains("This is a protected servlet"));
+            response.contains("This is a protected servlet"));
     // -------------------- Request 3 ---------------------------
     // JASPIC is normally stateless, but for this test the SAM uses the register session feature so now
     // we should be logged-in when doing a call without explicitly logging in again.
 
-    page = webClient.getPage(base + "protected/servlet?continueSession");
+    response = getFromServerPath("protected/servlet?continueSession");
 
     // Logged-in thus should be accessible.
     assertTrue("Could not access protected page, but should be able to. "
             + "Did the container not remember the authenticated identity via 'javax.servlet.http.registerSession'?",
-            page.getContent().contains("This is a protected servlet"));
+            response.contains("This is a protected servlet"));
     // Both the user name and roles/groups have to be restored
     // *** NOTE ***: The JASPIC 1.1 spec is NOT clear about remembering roles, but spec lead Ron Monzillo clarified that
     // this should indeed be the case. The next JASPIC revision of the spec will have to mention this explicitly.
     // Intuitively it should make sense though that the authenticated identity is fully restored and not partially,
     // but again the spec should make this clear to avoid ambiguity.
-    assertTrue(page.getContent().contains("web username: test"));
-    assertTrue(page.getContent().contains("web user has role \"architect\": true"));
+    assertTrue(response.contains("web username: test"));
+    assertTrue(response.contains("web user has role \"architect\": true"));
 
 
     // -------------------- Request 4 ---------------------------
 
     // The session should also be remembered for other resources, including public ones
 
-    page = webClient.getPage(base + "public/servlet?continueSession");
+    response = getFromServerPath("public/servlet?continueSession");
 
     // This test almost can't fail, but include for clarity
-    assertTrue(page.getContent().contains("This is a public servlet"));
+    assertTrue(response.contains("This is a public servlet"));
     // When accessing the public page, the username and roles should be restored and be available
     // just as on protected pages
-    assertTrue(page.getContent().contains("web username: test"));
-    assertTrue(page.getContent().contains("web user has role \"architect\": true"));
+    assertTrue(response.contains("web username: test"));
+    assertTrue(response.contains("web user has role \"architect\": true"));
 }</code></pre>
 </div>
 </div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
@@ -68,28 +67,28 @@ public void testJoinSessionIsOptional() throws IOException, SAXException {
     // We access a protected page and login
     //
 
-    TextPage page = webClient.getPage(base + "protected/servlet?doLogin");
+    String response = getFromServerPath("protected/servlet?doLogin");
     // Now has to be logged-in so page is accessible
     assertTrue("Could not access protected page, but should be able to. "
             + "Did the container remember the previously set 'unauthenticated identity'?",
-            page.getContent().contains("This is a protected servlet"));
+            response.contains("This is a protected servlet"));
     // -------------------- Request 2 ---------------------------
     // JASPIC is normally stateless, but for this test the SAM uses the register session feature so now
     // we should be logged-in when doing a call without explicitly logging in again.
 
-    page = webClient.getPage(base + "protected/servlet?continueSession");
+    response = getFromServerPath("protected/servlet?continueSession");
 
     // Logged-in thus should be accessible.
     assertTrue("Could not access protected page, but should be able to. "
             + "Did the container not remember the authenticated identity via 'javax.servlet.http.registerSession'?",
-            page.getContent().contains("This is a protected servlet"));
+            response.contains("This is a protected servlet"));
     // Both the user name and roles/groups have to be restored
     // *** NOTE ***: The JASPIC 1.1 spec is NOT clear about remembering roles, but spec lead Ron Monzillo clarified that
     // this should indeed be the case. The next JASPIC revision of the spec will have to mention this explicitly.
     // Intuitively it should make sense though that the authenticated identity is fully restored and not partially,
     // but again the spec should make this clear to avoid ambiguity.
-    assertTrue(page.getContent().contains("web username: test"));
-    assertTrue(page.getContent().contains("web user has role \"architect\": true"));
+    assertTrue(response.contains("web username: test"));
+    assertTrue(response.contains("web user has role \"architect\": true"));
 
 
     // -------------------- Request 3 ---------------------------
@@ -98,8 +97,8 @@ public void testJoinSessionIsOptional() throws IOException, SAXException {
     // If the SAM instead "does nothing", we should not have access to the protected resource anymore
     // even within the same HTTP session.
 
-    page = webClient.getPage(base + "protected/servlet");
-    assertFalse(page.getContent().contains("This is a protected servlet"));
+    response = getFromServerPath("protected/servlet");
+    assertFalse(response.contains("This is a protected servlet"));
 
 
     // -------------------- Request 4 ---------------------------
@@ -107,19 +106,18 @@ public void testJoinSessionIsOptional() throws IOException, SAXException {
     // Access to a public page is unaffected by joining or not joining the session, but if we do not join the
     // session we shouldn't see the user's name and roles.
 
-    // THIS NOW FAILS ON GLASSFISH 4.0. DOUBLE CHECK WITH RON MONZILLO THAT THIS IS INDEED AN ERROR.
+    // THIS NOW FAILS ON GLASSFISH 4.0. CHECKED WITH RON MONZILLO THAT THIS IS INDEED AN ERROR AND FILED A BUG
 
-    page = webClient.getPage(base + "public/servlet");
+    response = getFromServerPath("public/servlet");
 
-    assertTrue(page.getContent().contains("This is a public servlet"));
-    assertFalse(page.getContent().contains("web username: test"));
-    assertFalse(page.getContent().contains("web user has role \"architect\": true"));
-
+    assertTrue(response.contains("This is a public servlet"));
+    assertFalse(response.contains("web username: test"));
+    assertFalse(response.contains("web user has role \"architect\": true"));
 }</code></pre>
 </div>
 </div></div><script type="text/javascript">$(function() {
   hljs.initHighlightingOnLoad();
-})</script></div></div><div id="improve" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to help improve this sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jaspic/register-session/">javaee7-samples</a><i class="fi-social-github"></i>GitHub repository. The first thing you need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jaspic/register-session/</code></pre><p>Do the changes as you see fit and send a pull request!</p><p>Good Luck!</p></hr></div></div><footer style="max-width: 100%"><div class="row"><div class="large-6 columns" style="margin-bottom: .75em; margin-top: .75em"><ul class="unstyled"><li>&#169; Copyright 2013-2014 JavaEE Samples.</li><li><i class="fi-like"></i>&nbsp;Mixed with <a href="http://foundation.zurb.com/">Foundation</a>. Baked by <a href="|http://awestruct.org">Awestruct</a>.</li><li><i class="fi-share"></i>&nbsp;Website and docs licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</li></ul></div></div></footer><script src="/javascripts/foundation/foundation.js"></script><script src="/javascripts/foundation/foundation.topbar.js"></script><script src="/javascripts/foundation/foundation.reveal.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/highlight.min.js"></script><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/styles/pojoaque.css"><script type="text/javascript">$(document).foundation()</script><script type="text/javascript">
+})</script></div></div><div id="improve" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to help improve this sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jaspic/register-session/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing you need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jaspic/register-session/</code></pre><p>Do the changes as you see fit and send a pull request!</p><p>Good Luck!</p></hr></div></div><footer style="max-width: 100%"><div class="row"><div class="large-6 columns" style="margin-bottom: .75em; margin-top: .75em"><ul class="unstyled"><li>&#169; Copyright 2013-2014 JavaEE Samples.</li><li><i class="fi-like"></i>&nbsp;Mixed with <a href="http://foundation.zurb.com/">Foundation</a>. Baked by <a href="|http://awestruct.org">Awestruct</a>.</li><li><i class="fi-share"></i>&nbsp;Website and docs licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</li></ul></div></div></footer><script src="/javascripts/foundation/foundation.js"></script><script src="/javascripts/foundation/foundation.topbar.js"></script><script src="/javascripts/foundation/foundation.reveal.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/highlight.min.js"></script><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/styles/pojoaque.css"><script type="text/javascript">$(document).foundation()</script><script type="text/javascript">
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount','UA-18727998-5']);
 _gaq.push(['_trackPageview']);
