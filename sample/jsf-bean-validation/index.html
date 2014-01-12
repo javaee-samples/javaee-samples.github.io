@@ -1,4 +1,4 @@
-<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaEE Sample::JSF::Bean validation</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="/stylesheets/foundation-icons.css"><link rel="stylesheet" href="/stylesheets/app.css"><script src="/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="/humans.txt"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="/contributors">Contributors</a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-10 columns"><h2>Bean validation</h2></div><div class="large-2 columns"><div class="howto right"><a class="button radius round" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jsf/bean-validation/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jsf/bean-validation/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="highlight"><code>mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="highlight"><code>mvn test -Dtest=MyBeanTest</code></pre></hr></div></div></div></div><div class="row"><div class="large-10 columns"><h3></h3></div></div><div class="sub"><div class="row"><div class="large-10 columns specifications"><ul class="inline-list"><li>Specifications in use:</li><li><ul class="inline-list"></ul><li><a href="/#CDI">CDI</a></li><li><a href="/#validation">validation</a></li></li></ul></div><div class="large-2 columns contributors"><ul class="inline-list"><li><img class="photo" title="Arun Gupta" src="http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div id="test"><h4>MyBeanTest</h4><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaEE Sample::JSF::Bean validation</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="/stylesheets/foundation-icons.css"><link rel="stylesheet" href="/stylesheets/app.css"><script src="/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="/humans.txt"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="/contributors">Contributors <i class="fi-torsos-male-female"></i></a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-10 columns"><h2>Bean validation</h2></div><div class="large-2 columns"><div class="action right"><a class="button radius round success" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jsf/bean-validation/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jsf/bean-validation/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="highlight"><code>mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="highlight"><code>mvn test -Dtest=MyBeanTest</code></pre></hr></div></div></div></div><div class="row"><div class="large-10 columns"><h3></h3></div></div><div class="sub"><div class="row"><div class="large-10 columns specifications"><ul class="inline-list"><li>Specifications in use:</li><li><ul class="inline-list"></ul><li><a href="/#CDI">CDI</a></li><li><a href="/#validation">validation</a></li></li></ul></div><div class="large-2 columns contributors"><ul class="inline-list"><li><img class="photo" title="Arun Gupta" src="http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div id="test"><h4><span>MyBeanTest</span><a class="right" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java"><i class="fi-page-edit"></i></a></h4><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Deployment(testable = false)
 public static WebArchive createDeployment() {
@@ -8,7 +8,7 @@ public static WebArchive createDeployment() {
             .addAsWebInfResource(new File(WEBAPP_SRC + "/WEB-INF", "web.xml"));
 }</code></pre>
 </div>
-</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testNameLessCharacters() throws IOException {
@@ -20,7 +20,7 @@ public void testNameLessCharacters() throws IOException {
     assertEquals("At least 3 characters", span.asText());
 }</code></pre>
 </div>
-</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testNameBoundary() throws IOException {
@@ -32,7 +32,7 @@ public void testNameBoundary() throws IOException {
     assertEquals("", span.asText());
 }</code></pre>
 </div>
-</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testAgeLessThan() throws IOException {
@@ -44,7 +44,7 @@ public void testAgeLessThan() throws IOException {
     assertEquals("must be greater than or equal to 18", span.asText());
 }</code></pre>
 </div>
-</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testAgeLowBoundary() throws IOException {
@@ -56,7 +56,7 @@ public void testAgeLowBoundary() throws IOException {
     assertEquals("", span.asText());
 }</code></pre>
 </div>
-</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testAgeHighBoundary() throws IOException {
@@ -68,7 +68,7 @@ public void testAgeHighBoundary() throws IOException {
     assertEquals("", span.asText());
 }</code></pre>
 </div>
-</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testAgeGreaterThan() throws IOException {
@@ -80,7 +80,7 @@ public void testAgeGreaterThan() throws IOException {
     assertEquals("must be less than or equal to 25", span.asText());
 }</code></pre>
 </div>
-</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testZipAlphabets() throws IOException {
@@ -92,7 +92,7 @@ public void testZipAlphabets() throws IOException {
     assertEquals("must match \"[0-9]{5}\"", span.asText());
 }</code></pre>
 </div>
-</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testZipLessNumbers() throws IOException {
@@ -104,7 +104,7 @@ public void testZipLessNumbers() throws IOException {
     assertEquals("must match \"[0-9]{5}\"", span.asText());
 }</code></pre>
 </div>
-</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testZipMoreNumbers() throws IOException {
@@ -116,7 +116,7 @@ public void testZipMoreNumbers() throws IOException {
     assertEquals("must match \"[0-9]{5}\"", span.asText());
 }</code></pre>
 </div>
-</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right" data-reveal-id="improve">Show me how!</a></div><div class="listingblock">
+</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jsf/bean-validation/src/test/java/org/javaee7/jsf/bean/validation/MyBeanTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testZipBoundary() throws IOException {
