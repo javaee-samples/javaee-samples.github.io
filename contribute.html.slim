@@ -1,0 +1,85 @@
+---
+layout: default
+---
+header
+  .row
+    .large-12.columns
+      h1 How to contribute
+
+- showcases = site.showcases.select {|x| !x.showcase.category.nil? }
+- for showcase_page in showcases
+  - showcase = showcase_page.showcase
+  - stats = OpenStruct.new
+  - showcase.stats = stats
+  - stats.total_tests = 0.0
+  - stats.total_test_methods = 0.0
+  - stats.total_tests_m = 0.0
+  - stats.total_test_methods_m = 0.0
+
+  - for test in showcase.tests
+    - stats.total_tests += 1
+    - stats.total_tests_m += 1 if test.description.nil? or test.description.empty?
+
+    - for method in test.children
+      - next unless method.is_test or method.is_deployment
+      - stats.total_test_methods += 1
+      - stats.total_test_methods_m += 1 if method.description.nil? or method.description.empty?
+
+  - stats.total = stats.total_tests + stats.total_test_methods
+  - stats.missing = stats.total_tests_m + stats.total_test_methods_m
+  - stats.procent = 0
+  - stats.procent = ((stats.total-stats.missing)/stats.total)*100 if stats.total > 0
+  - stats.procent = stats.procent.to_i
+  - #puts "#{stats.total}->#{stats.missing} = #{stats.procent}" 
+  - stats.progress = "secondary"
+  - stats.progress = "alert" if stats.procent < 50
+  - stats.progress = "" if stats.procent >= 50
+  - stats.progress = "success" if stats.procent == 100
+-showcases = showcases.sort_by{|c| c.showcase.stats.procent * Order::ASC}
+.row
+    .large-12.columns
+      .row
+        .large-6.columns style="max-width:50%"
+          h3 Author?
+          - for showcase_page in showcases
+            - showcase = showcase_page.showcase
+            - stats = showcase.stats
+            - next if stats.total_tests == 0
+            .sample
+              h5 
+                a href="#{showcase_page.output_path}"=>showcase.name
+                small =>showcase.category.id 
+              .large-3.columns #{stats.procent}%
+              .large-9.columns
+                .progress.round class="#{stats.progress}"
+                  .meter style="width: #{stats.procent}%"
+
+              .missing
+                - for test in showcase.tests
+                  - missing = test.children.select {|x| (x.is_test or x.is_deployment) and (x.description.nil? or x.description.empty?)}
+                  - if missing.length > 0
+                    .test
+                      | Describe the method(s) #{missing.map{|x|x.name}.join(", ")} in test 
+                      a href="#{showcase.repository.html_url}/edit/master/#{showcase.module_path}src/test/java/#{test.qualified_name.gsub('.', '/')}.java" =test.name
+                      |. 
+
+        .large-6-columns style="max-width:50%"
+          h3 Coder?
+          - for showcase_page in showcases
+            - showcase = showcase_page.showcase
+            - stats = showcase.stats
+            - next if stats.total_tests > 0
+            .sample
+              h5 
+                a href="#{showcase_page.output_path}"=>showcase.name
+                small =>showcase.category.id 
+              .large-3.columns #{stats.procent}%
+              .large-9.columns
+                .progress.round class="#{stats.progress}"
+                  .meter style="width: #{stats.procent}%"
+
+              .missing
+                |Study the 
+                a href="#{showcase.repository.html_url}/tree/master/#{showcase.module_path}src/main/java" sample code 
+                |and create a test for it
+

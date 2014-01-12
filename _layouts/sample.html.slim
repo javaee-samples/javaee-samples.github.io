@@ -8,8 +8,8 @@ header
       h2=page.showcase.name
 
     .large-2.columns
-      .howto.right
-        a.button.radius.round data-reveal-id="run"
+      .action.right
+        a.button.radius.round.success data-reveal-id="run"
           |Run 
           i.fi-play
         #run.hide.reveal-modal data-reveal=""
@@ -69,21 +69,31 @@ header
     - if page.showcase.tests.empty?
       .improve
         |Missing a story. Add a test case.
-        a.right data-reveal-id="improve" Show me how!
+        a.right.button.round data-reveal-id="improve"
+          |Show me how! 
+          i.fi-page-edit
     - for test in page.showcase.tests
       #test
-        h4 =test.name
+        h4 
+          <span>#{test.name}</span>
+          a.right href="#{page.showcase.repository.html_url}/edit/master/#{page.showcase.module_path}src/test/java/#{test.qualified_name.gsub('.', '/')}.java" 
+            i.fi-page-edit
+
         - if test.description.nil? or test.description.empty?
           .improve
             |Missing a description for the story. Add some javadoc to the TestClass. 
-            a.right data-reveal-id="improve" Show me how!
+            a.right.button.tiny.round href="#{page.showcase.repository.html_url}/edit/master/#{page.showcase.module_path}src/test/java/#{test.qualified_name.gsub('.', '/')}.java"
+              |Show me how! 
+              i.fi-page-edit
 
         =asciidocify(test.description, page.showcase)
         - for deployment in test.children.select{|x| x.is_deployment}
           - if deployment.description.nil? or deployment.description.empty?
             .improve
               |Missing a description for the deployment. Add some javadoc to the @Deployment method. 
-              a.right data-reveal-id="improve" Show me how!
+              a.right.button.tiny.round href="#{page.showcase.repository.html_url}/edit/master/#{page.showcase.module_path}src/test/java/#{test.qualified_name.gsub('.', '/')}.java"
+                |Show me how! 
+                i.fi-page-edit
           
           =asciidocify(deployment.description, page.showcase)
           =sourcify(deployment.content)
@@ -91,7 +101,9 @@ header
           - if scenario.description.nil? or scenario.description.empty?
             .improve
               |Missing a description for the test scenario. Add some javadoc to the @Test method. 
-              a.right data-reveal-id="improve" Show me how!
+              a.right.button.tiny.round href="#{page.showcase.repository.html_url}/edit/master/#{page.showcase.module_path}src/test/java/#{test.qualified_name.gsub('.', '/')}.java"
+                |Show me how! 
+                i.fi-page-edit
           
           =asciidocify(scenario.description, page.showcase)
           =sourcify(scenario.content)

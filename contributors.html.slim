@@ -4,8 +4,14 @@ title: Contributors
 ---
 header
   .row
-    .large-8.columns
+    .large-9.columns
       h1 ="#{page.title} <small>#{site.identities.contributors().size}</small>"
+
+    .large-3.columns
+      .action.right
+        a.button.radius.round.success href="#{site.base_url}/contribute"
+          |Contribute? 
+          i.fi-wrench
 
 .row
   .large-12.columns

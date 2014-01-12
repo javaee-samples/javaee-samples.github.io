@@ -121,8 +121,10 @@ module SampleComponent
             Java::Doc.parse src_dir do |root| 
                 root.classes.each do |c|
 
+                    next if c.is_abstract?
                     source = OpenStruct.new
                     source.name = c.name
+                    source.qualified_name = c.qualifiedTypeName
                     source.description = c.commentText.split("\n").collect{|x|x.lstrip}.join("\n")
 
                     # TODO: this will reformat the code.
@@ -152,6 +154,7 @@ module SampleComponent
                     
                     test = OpenStruct.new
                     test.name = c.name
+                    test.qualified_name = c.qualifiedTypeName
                     test.description = c.commentText.split("\n").collect{|x|x.lstrip}.join("\n")
 
                     test.children ||= []
