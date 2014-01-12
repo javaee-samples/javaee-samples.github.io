@@ -53,7 +53,7 @@ header
               ul.inline-list
               - for tech in page.showcase.api_usage.each_key.sort
                 li 
-                  a href="#{site.base_url}/##{tech}" =tech
+                  a href="#{site.base_url}/##{tech}" title="#{site.categories.find{|x|x.id.eql? tech}.name}" =tech
 
       .large-2.columns.contributors
         - unless page.showcase.contributors.nil?
@@ -74,10 +74,25 @@ header
           i.fi-page-edit
     - for test in page.showcase.tests
       #test
-        h4 
-          <span>#{test.name}</span>
-          a.right href="#{page.showcase.repository.html_url}/edit/master/#{page.showcase.module_path}src/test/java/#{test.qualified_name.gsub('.', '/')}.java" 
-            i.fi-page-edit
+
+        .row
+          .large-7.columns
+            h4=test.name
+
+          .large-3.columns
+            - results = site.results.summary_by_testclass(test.qualified_name, test)
+            - unless results.empty?
+              ul.inline-list style="margin-left:0em;"
+                - for name, status in results.each
+                  - icon = status ? 'fi-like' : 'fi-dislike'
+                  - color = status ? 'green' : 'red'
+                  - title = status ? "All tests pass on #{name}" : "Not all tests pass on #{name}"
+                  li style="margin-left: 0.3em"
+                    i class="#{icon}" title="#{title}" style="color: #{color}"
+
+          .large-2.columns
+              a.right href="#{page.showcase.repository.html_url}/edit/master/#{page.showcase.module_path}src/test/java/#{test.qualified_name.gsub('.', '/')}.java" 
+                i.fi-page-edit
 
         - if test.description.nil? or test.description.empty?
           .improve

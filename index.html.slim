@@ -29,14 +29,29 @@ header
 .row.categories
   - for category in site.categories
     - samples = site.showcases.by_category_id(category.id)
-    .large-4.columns.category
+    .large-6.columns.category
       .panel
         h5
           a id="#{category.id}" =>category.name
           small ="(#{samples.length})"
+        hr
         .samples
           - for sample in samples
             .sample
-              h6
-                a href="#{sample.output_path}" =sample.showcase.name
-              .desc=sample.showcase.description
+              .row
+                .large-8.columns
+                  h6
+                    a href="#{sample.output_path}" =sample.showcase.name
+                .status
+                  - results = site.results.summary_by_sample(sample.showcase)
+                  - unless results.nil? or results.empty?
+                    ul.inline-list.right style="margin-left:0em;"
+                      - for name, status in results.each
+                        - icon = status ? 'fi-like' : 'fi-dislike'
+                        - color = status ? 'green' : 'red'
+                        - title = status ? "All tests pass on #{name}" : "Not all tests pass on #{name}"
+                        li style="margin-left: 0.3em"
+                          i class="#{icon}" title="#{title}" style="color: #{color}"
+
+              .row
+                .columns.desc=sample.showcase.description
