@@ -2,7 +2,7 @@
 <p>Temporary queues are JMS queues that exist for the lifetime of single JMS connection.
 Also the reception of the messages is exclusive to the connection, therefore no
 reasonable use case exist for temporary topic within Java EE container, as connection
-is usually exclusive to single component.</p>
+is exclusive to single component.</p>
 </div>
 <div class="paragraph">
 <p>Temporary queues are usually used as reply channels for request / response communication
@@ -12,11 +12,89 @@ over JMS.</p>
 listens on a Queue and passes the response to the destination specified in
 <code>JMSReplyTo</code> header of the message.</p>
 </div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">@Override
+public void onMessage(Message message) {
+    try {
+        Destination replyTo = message.getJMSReplyTo(); <b>(1)</b>
+        if (replyTo == null) {
+            return;
+        }
+        TextMessage request = (TextMessage) message;
+        String payload = request.getText();            <b>(2)</b>
+        System.out.println("Got request: "+payload);
+        String response = "Processed: "+payload;       <b>(3)</b>
+        jms.createProducer().send(replyTo, response);  <b>(4)</b>
+    } catch (JMSException e) {
+        e.printStackTrace();
+    }
+}</code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<ol>
+<li>
+<p>get the destination for the response</p>
+</li>
+<li>
+<p>read the payload</p>
+</li>
+<li>
+<p>process the request</p>
+</li>
+<li>
+<p>send the response</p>
+</li>
+</ol>
+</div>
 <div class="paragraph">
 <p><code>JmsClient</code> is a client to this server, and has to be non transactional,
 otherwise the request would be first sent upon commit, i. e. after the
 business method finishes. That would be too late. We need to send the message
 immediately, and wait for the response to arrive.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">@TransactionAttribute(TransactionAttributeType.NOT_SUPPORTED)        <b>(1)</b>
+public String process(String request) {
+    TextMessage requestMessage = jms.createTextMessage(request);
+    TemporaryQueue responseQueue = jms.createTemporaryQueue();
+    jms.createProducer()
+            .setJMSReplyTo(responseQueue)                            <b>(2)</b>
+            .send(requestQueue, requestMessage);                     <b>(3)</b>
+    try (JMSConsumer consumer = jms.createConsumer(responseQueue)) { <b>(4)</b>
+        String response = consumer.receiveBody(String.class, 2000);  <b>(5)</b>
+        if (response == null) {                                      <b>(6)</b>
+            throw new IllegalStateException("Message processing timed out");
+        } else {
+            return response;
+        }
+    }
+}</code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<ol>
+<li>
+<p>we need to send message in the middle of the method, therefore we cannot be transactional</p>
+</li>
+<li>
+<p>set the temporary queue as replyToDestination</p>
+</li>
+<li>
+<p>immediately send the request message</p>
+</li>
+<li>
+<p>listen on the temporary queue</p>
+</li>
+<li>
+<p>wait for a <code>TextMessage</code> to arrive</p>
+</li>
+<li>
+<p><code>receiveBody</code>  returns <code>null</code> in case of timeout</p>
+</li>
+</ol>
 </div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Deployment
