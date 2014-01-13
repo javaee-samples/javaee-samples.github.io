@@ -241,12 +241,12 @@ module SampleComponent
     # 1. line is already at 0
     def reposition_content(content)
         return "" if content.nil?
-        padding = 0
-        content.lines.collect.with_index{
+        lines = content.split("\n")
+        # Align method against the last line, probably } in source code
+        padding = lines.last.index(/\S/)
+        lines.collect.with_index{
             |line, i|
                 x = line
-                padding = line.index(/\S/) if i == 1
-                padding = 0 if padding.nil?
                 if i > 0
                     # only remove the padding if it's empty. Code formatting issues
                     padd = x[0..padding-1].strip
@@ -254,7 +254,7 @@ module SampleComponent
                 end
                 #puts "#{i} #{padding} #{x}"
                 x
-            }.join()
+            }.join("\n")
     end
 
     def is_module_pom(pom)
