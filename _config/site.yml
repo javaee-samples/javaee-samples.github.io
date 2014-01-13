@@ -5,9 +5,10 @@ issue_tracker: 'https://github.com/javaee-samples/javaee7-samples/issues'
 base_url: ''
 profiles:
   development:
+    base_url: ''
     deploy: nil # force development as the default
   production:
-    base_url: ''
+    base_url: 'http://javaee-samples.github.io'
     fingerprint_assets: true
     minify: true
     google_analytics: UA-18727998-5
