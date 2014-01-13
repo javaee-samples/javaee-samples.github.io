@@ -1,6 +1,7 @@
 name: JavaEE Samples
 title: Navigate your way trough EE via Tests
 org: JavaEE Samples
+issue_tracker: 'https://github.com/javaee-samples/javaee7-samples/issues'
 base_url: ''
 profiles:
   development:

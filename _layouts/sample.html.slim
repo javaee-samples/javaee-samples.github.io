@@ -131,6 +131,29 @@ header
         hljs.initHighlightingOnLoad();
       })
 
+.row
+  .large-12.columns
+    .large-6.columns
+      h3 Share the Knowledge
+
+      |Find this sample useful? 
+
+      a href="http://twitter.com/home/?status=#{URI.escape("Just read the #JavaEE-Sample \"#{page.showcase.category.nil? ? '' : page.showcase.category.id + '::'}#{page.showcase.name}\" and learned something new! #{site.base_url}#{page.url}")}"
+        |Share on 
+        i.fi-social-twitter
+
+      p There's a lot more about JavaEE to cover. If you're ready to learn more, check out the <a href="#{site.base_url}/">other available samples</a>.
+
+    .large-6.columns
+      h3 Help improve
+
+      - has_single_test = (!page.showcase.tests.nil? and page.showcase.tests.size == 1)
+      - puts page.showcase if page.showcase.tests[0].nil? and has_single_test
+      - href = "#{page.showcase.repository.html_url}/edit/master/#{page.showcase.module_path}src/test/java/#{page.showcase.tests[0].qualified_name.gsub('.', '/')}.java" if has_single_test
+      - href = "#{page.showcase.repository.html_url}/tree/master/#{page.showcase.module_path}/src/test/java" unless has_single_test
+
+      |Find a bug in the sample? Something missing? You can fix it by <a href="#{href}">editing the source</a>, making the correction and sending a pull request. Or report the problem to the <a href="#{site.issue_tracker}">issue tracker</a>
+
 #improve.hide.reveal-modal data-reveal=""
   a.close-reveal-modal href='./'
     |How to help improve this sample 
