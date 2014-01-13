@@ -95,6 +95,15 @@ module SampleComponent
             mod.module_path = module_path if mod.module_path.nil?
             mod.category = locate_category(site.categories, module_path)
 
+            mod.changes = []
+            rc.log(10).path(repository.relative_path).each do |c|
+                mod.changes << OpenStruct.new({
+                    "author" => c.author.name,
+                    "date" => c.author.date,
+                    "message" => c.message.split(/\n/)[0].chomp('.').capitalize
+                })
+            end
+
             mod.contributors = []
 
             # TMP Hack to resolve sub path
