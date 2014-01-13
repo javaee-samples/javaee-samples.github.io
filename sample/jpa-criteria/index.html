@@ -1,4 +1,156 @@
-<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaEE Sample::JPA::Criteria</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="/stylesheets/foundation-icons.css"><link rel="stylesheet" href="/stylesheets/app.css"><script src="/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="/humans.txt"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Criteria"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="/contributors">Contributors <i class="fi-torsos-male-female"></i></a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-10 columns"><h2>Criteria</h2></div><div class="large-2 columns"><div class="action right"><a class="button radius round success" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jpa/criteria/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jpa/criteria/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="highlight"><code>mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="highlight"><code>mvn test -Dtest=JpaCriteriaTest</code></pre></hr></div></div></div></div><div class="row"><div class="large-10 columns"><h3></h3></div></div><div class="sub"><div class="row"><div class="large-10 columns specifications"><ul class="inline-list"><li>Specifications in use:</li><li><ul class="inline-list"></ul><li><a href="/#CDI" title="Context and Dependency Injection 1.1">CDI</a></li><li><a href="/#EJB" title="Enterprise JavaBeans 3.2">EJB</a></li><li><a href="/#JPA" title="Java Persistence API 2.1">JPA</a></li><li><a href="/#validation" title="Bean Validation 1.1">validation</a></li></li></ul></div><div class="large-2 columns contributors"><ul class="inline-list"><li><img class="photo" title="Arun Gupta" src="http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"></li><li><img class="photo" title="Roberto Cortez" src="http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div id="test"><div class="row"><div class="large-7 columns"><h4>JpaCriteriaTest</h4></div><div class="large-3 columns"><ul class="inline-list" style="margin-left:0em;"><li style="margin-left: 0.3em"><i class="fi-like" title="All tests pass on GlassFish" style="color: green"></i></li><li style="margin-left: 0.3em"><i class="fi-like" title="All tests pass on WildFly" style="color: green"></i></li></ul></div><div class="large-2 columns"><a class="right" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jpa/criteria/src/test/java/org/javaee7/jpa/criteria/JpaCriteriaTest.java"><i class="fi-page-edit"></i></a></div></div><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jpa/criteria/src/test/java/org/javaee7/jpa/criteria/JpaCriteriaTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jpa/criteria/src/test/java/org/javaee7/jpa/criteria/JpaCriteriaTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
+<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaEE Sample::JPA::JPA Criteria API</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="/stylesheets/foundation-icons.css"><link rel="stylesheet" href="/stylesheets/app.css"><script src="/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="/humans.txt"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="JPA Criteria API"><meta name="twitter:description" content="Using the Criteria API to create queries"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="/contributors">Contributors <i class="fi-torsos-male-female"></i></a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-10 columns"><h2>JPA Criteria API</h2></div><div class="large-2 columns"><div class="action right"><a class="button radius round success" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jpa/criteria/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jpa/criteria/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="highlight"><code>mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="highlight"><code>mvn test -Dtest=JpaCriteriaTest</code></pre></hr></div></div></div></div><div class="row"><div class="large-10 columns"><h3>Using the Criteria API to create queries</h3></div></div><div class="sub"><div class="row"><div class="large-10 columns specifications"><ul class="inline-list"><li>Specifications in use:</li><li><ul class="inline-list"></ul><li><a href="/#CDI" title="Context and Dependency Injection 1.1">CDI</a></li><li><a href="/#EJB" title="Enterprise JavaBeans 3.2">EJB</a></li><li><a href="/#JPA" title="Java Persistence API 2.1">JPA</a></li><li><a href="/#validation" title="Bean Validation 1.1">validation</a></li></li></ul></div><div class="large-2 columns contributors"><ul class="inline-list"><li><img class="photo" title="Arun Gupta" src="http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"></li><li><img class="photo" title="Roberto Cortez" src="http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div id="test"><div class="row"><div class="large-7 columns"><h4>JpaCriteriaTest</h4></div><div class="large-3 columns"><ul class="inline-list" style="margin-left:0em;"><li style="margin-left: 0.3em"><i class="fi-like" title="All tests pass on GlassFish" style="color: green"></i></li><li style="margin-left: 0.3em"><i class="fi-like" title="All tests pass on WildFly" style="color: green"></i></li></ul></div><div class="large-2 columns"><a class="right" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jpa/criteria/src/test/java/org/javaee7/jpa/criteria/JpaCriteriaTest.java"><i class="fi-page-edit"></i></a></div></div><div class="paragraph">
+<p>In this sample we&#8217;re going to query a simple <code>JPA Entity</code>, using the <code>JPA Criteria API</code> and perform a select,
+update and delete operations.</p>
+</div>
+<div class="paragraph">
+<p>The following <code>JPA Entity</code>, represents a Movie which has a name and a comma separated list of actors:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">
+@Entity()
+@Table(name = "MOVIE_CRITERIA")
+@XmlRootElement()
+@NamedQueries({@NamedQuery(name = "Movie.findAll", query = "SELECT m FROM Movie m"), @NamedQuery(name = "Movie.findById", query = "SELECT m FROM Movie m WHERE m.id = :id"), @NamedQuery(name = "Movie.findByName", query = "SELECT m FROM Movie m WHERE m.name = :name"), @NamedQuery(name = "Movie.findByActors", query = "SELECT m FROM Movie m WHERE m.actors = :actors")})
+public class Movie implements Serializable {
+    private static final long serialVersionUID = 1L;
+    @Id()
+    @NotNull()
+    private Integer id;
+    @NotNull()
+    @Size(min = 1, max = 50)
+    private String name;
+    @NotNull()
+    @Size(min = 1, max = 200)
+    private String actors;
+
+    public Movie() {
+    }
+
+    public Movie(Integer id) {
+        this.id = id;
+    }
+
+    public Movie(Integer id, String name, String actors) {
+        this.id = id;
+        this.name = name;
+        this.actors = actors;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getActors() {
+        return actors;
+    }
+
+    public void setActors(String actors) {
+        this.actors = actors;
+    }
+
+    @Override()
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Movie movie = (Movie)o;
+        return id.equals(movie.id);
+    }
+
+    @Override()
+    public int hashCode() {
+        return id.hashCode();
+    }
+
+    @Override()
+    public String toString() {
+        return name;
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The select, update and delete operations are exposed using a simple stateless ejb.</p>
+</div>
+<div class="paragraph">
+<p>Select every movie:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">public List&lt;Movie&gt; listMovies() {
+CriteriaBuilder builder = em.getCriteriaBuilder();
+CriteriaQuery&lt;Movie&gt; listCriteria = builder.createQuery(Movie.class);
+Root&lt;Movie&gt; listRoot = listCriteria.from(Movie.class);
+listCriteria.select(listRoot);
+TypedQuery&lt;Movie&gt; query = em.createQuery(listCriteria);
+return query.getResultList();
+    }</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Update all the name of the movies to "INCEPTION" where the name of the movie is "Inception":</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">public void updateMovie() {
+CriteriaBuilder builder = em.getCriteriaBuilder();
+CriteriaUpdate&lt;Movie&gt; updateCriteria = builder.createCriteriaUpdate(Movie.class);
+Root&lt;Movie&gt; updateRoot = updateCriteria.from(Movie.class);
+updateCriteria.where(builder.equal(updateRoot.get(Movie_.name), "Inception"));
+updateCriteria.set(updateRoot.get(Movie_.name), "INCEPTION");
+Query q = em.createQuery(updateCriteria);
+q.executeUpdate();
+em.flush();
+    }</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Delete all movies where the name of the movie is "Matrix":</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">public void deleteMovie() {
+CriteriaBuilder builder = em.getCriteriaBuilder();
+CriteriaDelete&lt;Movie&gt; deleteCriteria = builder.createCriteriaDelete(Movie.class);
+Root&lt;Movie&gt; updateRoot = deleteCriteria.from(Movie.class);
+deleteCriteria.where(builder.equal(updateRoot.get(Movie_.name), "The Matrix"));
+Query q = em.createQuery(deleteCriteria);
+q.executeUpdate();
+em.flush();
+    }</code></pre>
+</div>
+</div><div class="paragraph">
+<p>We&#8217;re just going to deploy the application as a <code>web archive</code>. Note the inclusion of the following files:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="file language-file">/META-INF/persistence.xml
+/META-INF/create.sql
+/META-INF/drop.sql
+/META-INF/load.sql</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>persistence.xml</code> file is needed of course for the persistence unit definition. A datasource is not
+needed, since we can now use the new default datasource available in <code>JEE7</code>. We&#8217;re also using the new
+<code>javax.persistence.schema-generation.*</code> propertires to create, populate and drop the database.</p>
+</div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Deployment
 public static WebArchive createDeployment() {
@@ -12,27 +164,58 @@ public static WebArchive createDeployment() {
     return war;
 }</code></pre>
 </div>
-</div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/jpa/criteria/src/test/java/org/javaee7/jpa/criteria/JpaCriteriaTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
+</div><div class="paragraph">
+<p>In the test, we&#8217;re just going to invoke the different operations in sequence keeping in mind that each
+invocation might be dependent of the previous invoked operation.</p>
+</div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testCriteria() {
-    List&lt;Movie&gt; movies = movieBean.listMovies();
-    assertEquals(4, movies.size());
+    List&lt;Movie&gt; movies = movieBean.listMovies();        <b>(1)</b>
+    assertEquals(4, movies.size());                     <b>(2)</b>
     assertTrue(movies.contains(new Movie(1)));
     assertTrue(movies.contains(new Movie(2)));
     assertTrue(movies.contains(new Movie(3)));
     assertTrue(movies.contains(new Movie(4)));
-    movieBean.updateMovie();
+    movieBean.updateMovie();                            <b>(3)</b>
     movies = movieBean.listMovies();
-    assertEquals(4, movies.size());
-    assertEquals("INCEPTION", movies.get(2).getName());
-    movieBean.deleteMovie();
+    assertEquals(4, movies.size());                     <b>(4)</b>
+    assertEquals("INCEPTION", movies.get(2).getName()); <b>(5)</b>
+    movieBean.deleteMovie();                            <b>(6)</b>
     movies = movieBean.listMovies();
     assertFalse(movies.isEmpty());
-    assertEquals(3, movies.size());
-    assertFalse(movies.contains(new Movie(1)));
+    assertEquals(3, movies.size());                     <b>(7)</b>
+    assertFalse(movies.contains(new Movie(1)));         <b>(8)</b>
 }</code></pre>
 </div>
+</div>
+<div class="colist arabic">
+<ol>
+<li>
+<p>Get a list of all the movies in the database.</p>
+</li>
+<li>
+<p>4 movies loaded on the db, so the size shoud be 4.</p>
+</li>
+<li>
+<p>Update name to "INCEPTION" where name is "Inception"</p>
+</li>
+<li>
+<p>Size of movies should still be 4.</p>
+</li>
+<li>
+<p>Verify the movie name change.</p>
+</li>
+<li>
+<p>Now delete the movie "Matrix"</p>
+</li>
+<li>
+<p>Size of movies should be 3 now.</p>
+</li>
+<li>
+<p>Check if the movie "Matrix" is not on the list.</p>
+</li>
+</ol>
 </div></div><script type="text/javascript">$(function() {
   hljs.initHighlightingOnLoad();
 })</script></div></div><div id="improve" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to help improve this sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/jpa/criteria/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing you need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/jpa/criteria/</code></pre><p>Do the changes as you see fit and send a pull request!</p><p>Good Luck!</p></hr></div></div><footer style="max-width: 100%"><div class="row"><div class="large-6 columns" style="margin-bottom: .75em; margin-top: .75em"><ul class="unstyled"><li>&#169; Copyright 2013-2014 JavaEE Samples.</li><li><i class="fi-like"></i>&nbsp;Mixed with <a href="http://foundation.zurb.com/">Foundation</a>. Baked by <a href="|http://awestruct.org">Awestruct</a>.</li><li><i class="fi-share"></i>&nbsp;Website and docs licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</li></ul></div></div></footer><script src="/javascripts/foundation/foundation.js"></script><script src="/javascripts/foundation/foundation.topbar.js"></script><script src="/javascripts/foundation/foundation.reveal.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/highlight.min.js"></script><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/styles/pojoaque.css"><script type="text/javascript">$(document).foundation()</script><script type="text/javascript">
