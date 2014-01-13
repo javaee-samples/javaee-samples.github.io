@@ -18,6 +18,7 @@ public void testEchoObject() {
             .add("apple", "red")
             .add("banana", "yellow")
             .build();
+
     JsonObject response = target
             .request()
             .post(Entity.entity(jsonObject, MediaType.APPLICATION_JSON), JsonObject.class);

@@ -18,6 +18,7 @@ public void testConnect() throws URISyntaxException, DeploymentException, IOExce
     assertTrue(ChatClientEndpoint1.latch.await(2, TimeUnit.SECONDS));
 
     assertEquals(ChatClientEndpoint1.TEXT, ChatClientEndpoint1.response);
+
     ChatClientEndpoint1.latch = new CountDownLatch(1);
     ChatClientEndpoint2.latch = new CountDownLatch(1);
     final Session session2 = connectToServer(ChatClientEndpoint2.class);

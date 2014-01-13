@@ -18,7 +18,9 @@ public void testBatchletProcess() throws Exception {
     JobOperator jobOperator = BatchRuntime.getJobOperator();
     Long executionId = jobOperator.start("myJob", new Properties());
     JobExecution jobExecution = jobOperator.getJobExecution(executionId);
+
     BatchTestHelper.keepTestAlive(jobExecution);
+
     Assert.assertEquals(jobExecution.getBatchStatus(), BatchStatus.COMPLETED);
 }</code></pre>
 </div>

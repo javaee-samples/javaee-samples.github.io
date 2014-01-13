@@ -13,7 +13,9 @@ public static WebArchive deploy() throws URISyntaxException {
 public void shouldReceiveAsyncTextMessage() throws URISyntaxException, IOException, DeploymentException {
     MyAsyncEndpointTextClient endpoint = new MyAsyncEndpointTextClient();
     Session session = connectToEndpoint(endpoint, "text");
+
     session.getAsyncRemote().sendText(TEST_MESSAGE);
+
     await().untilCall(to(endpoint).getReceivedMessage(), is(equalTo(TEST_MESSAGE)));
 }</code></pre>
 </div>
@@ -24,7 +26,9 @@ public void shouldReceiveAsyncByteBufferMessage() throws URISyntaxException, IOE
     final ByteBuffer buffer = ByteBuffer.wrap(TEST_MESSAGE.getBytes());
     MyAsyncEndpointByteBufferClient endpoint = new MyAsyncEndpointByteBufferClient();
     Session session = connectToEndpoint(endpoint, "bytebuffer");
+
     session.getAsyncRemote().sendBinary(buffer);
+
     await().untilCall(to(endpoint).getReceivedMessage(), is(notNullValue()));
     String receivedString = bufferToString(endpoint.getReceivedMessage());
     assertThat(receivedString, is(equalTo(TEST_MESSAGE)));

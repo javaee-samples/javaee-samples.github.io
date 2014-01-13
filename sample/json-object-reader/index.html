@@ -5,6 +5,7 @@ public static Archive&lt;?&gt; deploy() {
     File[] requiredLibraries = Maven.resolver().loadPomFromFile("pom.xml")
             .resolve("org.json:json", "org.skyscreamer:jsonassert")
             .withTransitivity().asFile();
+
     return ShrinkWrap.create(WebArchive.class)
             .addAsLibraries(requiredLibraries);
 }</code></pre>
@@ -68,6 +69,7 @@ public void testNestedStructure() throws JSONException {
             + "  ]"
             + "}"));
     JsonObject json = jsonReader.readObject();
+
     assertNotNull(json);
     assertFalse(json.isEmpty());
     assertTrue(json.containsKey("title"));
@@ -93,6 +95,7 @@ public static Archive&lt;?&gt; deploy() {
     File[] requiredLibraries = Maven.resolver().loadPomFromFile("pom.xml")
             .resolve("org.json:json", "org.skyscreamer:jsonassert")
             .withTransitivity().asFile();
+
     return ShrinkWrap.create(WebArchive.class)
             .addAsResource("1.json")
             .addAsResource("2.json")
@@ -158,6 +161,7 @@ public void testNestedStructure() throws JSONException {
             .getContextClassLoader()
             .getResourceAsStream("/4.json"));
     JsonObject json = jsonReader.readObject();
+
     assertNotNull(json);
     assertFalse(json.isEmpty());
     assertTrue(json.containsKey("title"));

@@ -14,6 +14,7 @@ public static WebArchive createDeployment() {
 public void filtered_servlet_should_return_enhanced_foobar_text() throws MalformedURLException {
     Client client = ClientBuilder.newClient();
     WebTarget target = client.target(URI.create(new URL(base, "filtered/TestServlet").toExternalForm()));
+
     Response response = target.request().get();
     Assert.assertThat(response.readEntity(String.class), is(equalTo("foo--bar--bar")));
 }</code></pre>
@@ -25,6 +26,7 @@ public void filtered_servlet_should_return_enhanced_foobar_text() throws Malform
 public void standard_servlet_should_return_simple_text() throws MalformedURLException {
     Client client = ClientBuilder.newClient();
     WebTarget target = client.target(URI.create(new URL(base, "TestServlet").toExternalForm()));
+
     Response response = target.request().get();
     Assert.assertThat(response.readEntity(String.class), is(equalTo("bar")));
 }</code></pre>

@@ -18,20 +18,26 @@ public void test1PostAndGet() {
     map.add("name", "Penny");
     map.add("age", "1");
     target.request().post(Entity.form(map));
+
     map.clear();
     map.add("name", "Leonard");
     map.add("age", "2");
     target.request().post(Entity.form(map));
+
     map.clear();
     map.add("name", "Sheldon");
     map.add("age", "3");
     target.request().post(Entity.form(map));
+
     Person[] list = target.request().get(Person[].class);
     assertEquals(3, list.length);
+
     assertEquals("Penny", list[0].getName());
     assertEquals(1, list[0].getAge());
+
     assertEquals("Leonard", list[1].getName());
     assertEquals(2, list[1].getAge());
+
     assertEquals("Sheldon", list[2].getName());
     assertEquals(3, list[2].getAge());
 }</code></pre>
@@ -61,8 +67,10 @@ public void test3Put() {
     map.add("name", "Howard");
     map.add("age", "4");
     target.request().post(Entity.form(map));
+
     Person[] list = target.request().get(Person[].class);
     assertEquals(4, list.length);
+
     assertEquals("Howard", list[3].getName());
     assertEquals(4, list[3].getAge());
 }</code></pre>

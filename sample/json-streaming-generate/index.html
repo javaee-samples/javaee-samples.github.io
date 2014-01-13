@@ -5,6 +5,7 @@ public static Archive&lt;?&gt; deploy() {
     File[] requiredLibraries = Maven.resolver().loadPomFromFile("pom.xml")
             .resolve("org.json:json", "org.skyscreamer:jsonassert")
             .withTransitivity().asFile();
+
     return ShrinkWrap.create(WebArchive.class)
             .addAsLibraries(requiredLibraries);
 }</code></pre>
@@ -18,6 +19,7 @@ public void testEmptyObject() throws JSONException {
     JsonGenerator gen = factory.createGenerator(w);
     gen.writeStartObject().writeEnd();
     gen.flush();
+
     JSONAssert.assertEquals("{}", w.toString(), JSONCompareMode.STRICT);
 }</code></pre>
 </div>
@@ -28,6 +30,7 @@ public void testSimpleObject() throws JSONException {
     JsonGeneratorFactory factory = Json.createGeneratorFactory(null);
     StringWriter w = new StringWriter();
     JsonGenerator gen = factory.createGenerator(w);
+
     gen
             .writeStartObject()
             .write("apple", "red")
@@ -44,6 +47,7 @@ public void testArray() throws JSONException {
     JsonGeneratorFactory factory = Json.createGeneratorFactory(null);
     StringWriter w = new StringWriter();
     JsonGenerator gen = factory.createGenerator(w);
+
     gen
             .writeStartArray()
             .writeStartObject()
@@ -64,6 +68,7 @@ public void testNestedStructure() throws JSONException {
     JsonGeneratorFactory factory = Json.createGeneratorFactory(null);
     StringWriter w = new StringWriter();
     JsonGenerator gen = factory.createGenerator(w);
+
     gen
             .writeStartObject()
             .write("title", "The Matrix")

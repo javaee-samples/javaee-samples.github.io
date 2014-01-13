@@ -10,6 +10,7 @@ public static WebArchive createDeployment() {
 <pre class="highlight"><code class="java language-java">@Test
 public void testRemembersSession() throws IOException, SAXException {
 
+
     // -------------------- Request 1 ---------------------------
 
     // Accessing protected page without login
@@ -18,15 +19,21 @@ public void testRemembersSession() throws IOException, SAXException {
     // Not logged-in thus should not be accessible.
     assertFalse(response.contains("This is a protected servlet"));
 
+
     // -------------------- Request 2 ---------------------------
+
     // We access the protected page again and now login
 
     response = getFromServerPath("protected/servlet?doLogin");
+
     // Now has to be logged-in so page is accessible
     assertTrue("Could not access protected page, but should be able to. "
             + "Did the container remember the previously set 'unauthenticated identity'?",
             response.contains("This is a protected servlet"));
+
+
     // -------------------- Request 3 ---------------------------
+
     // JASPIC is normally stateless, but for this test the SAM uses the register session feature so now
     // we should be logged-in when doing a call without explicitly logging in again.
 
@@ -36,7 +43,9 @@ public void testRemembersSession() throws IOException, SAXException {
     assertTrue("Could not access protected page, but should be able to. "
             + "Did the container not remember the authenticated identity via 'javax.servlet.http.registerSession'?",
             response.contains("This is a protected servlet"));
+
     // Both the user name and roles/groups have to be restored
+
     // *** NOTE ***: The JASPIC 1.1 spec is NOT clear about remembering roles, but spec lead Ron Monzillo clarified that
     // this should indeed be the case. The next JASPIC revision of the spec will have to mention this explicitly.
     // Intuitively it should make sense though that the authenticated identity is fully restored and not partially,
@@ -53,6 +62,7 @@ public void testRemembersSession() throws IOException, SAXException {
 
     // This test almost can't fail, but include for clarity
     assertTrue(response.contains("This is a public servlet"));
+
     // When accessing the public page, the username and roles should be restored and be available
     // just as on protected pages
     assertTrue(response.contains("web username: test"));
@@ -63,16 +73,23 @@ public void testRemembersSession() throws IOException, SAXException {
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testJoinSessionIsOptional() throws IOException, SAXException {
+
+
     // -------------------- Request 1 ---------------------------
+
     // We access a protected page and login
     //
 
     String response = getFromServerPath("protected/servlet?doLogin");
+
     // Now has to be logged-in so page is accessible
     assertTrue("Could not access protected page, but should be able to. "
             + "Did the container remember the previously set 'unauthenticated identity'?",
             response.contains("This is a protected servlet"));
+
+
     // -------------------- Request 2 ---------------------------
+
     // JASPIC is normally stateless, but for this test the SAM uses the register session feature so now
     // we should be logged-in when doing a call without explicitly logging in again.
 
@@ -82,7 +99,9 @@ public void testJoinSessionIsOptional() throws IOException, SAXException {
     assertTrue("Could not access protected page, but should be able to. "
             + "Did the container not remember the authenticated identity via 'javax.servlet.http.registerSession'?",
             response.contains("This is a protected servlet"));
+
     // Both the user name and roles/groups have to be restored
+
     // *** NOTE ***: The JASPIC 1.1 spec is NOT clear about remembering roles, but spec lead Ron Monzillo clarified that
     // this should indeed be the case. The next JASPIC revision of the spec will have to mention this explicitly.
     // Intuitively it should make sense though that the authenticated identity is fully restored and not partially,

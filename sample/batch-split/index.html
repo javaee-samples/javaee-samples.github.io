@@ -18,12 +18,15 @@ public void testBatchSplit() throws Exception {
     JobOperator jobOperator = BatchRuntime.getJobOperator();
     Long executionId = jobOperator.start("myJob", new Properties());
     JobExecution jobExecution = jobOperator.getJobExecution(executionId);
+
     BatchTestHelper.keepTestAlive(jobExecution);
+
     List&lt;StepExecution&gt; stepExecutions = jobOperator.getStepExecutions(executionId);
     List&lt;String&gt; executedSteps = new ArrayList&lt;&gt;();
     for (StepExecution stepExecution : stepExecutions) {
         executedSteps.add(stepExecution.getStepName());
     }
+
     assertEquals(3, stepExecutions.size());
     assertTrue(executedSteps.contains("step1"));
     assertTrue(executedSteps.contains("step2"));

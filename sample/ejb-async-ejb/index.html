@@ -5,6 +5,7 @@ public static WebArchive createDeployment() {
     File[] jars = Maven.resolver().loadPomFromFile("pom.xml")
             .resolve("com.jayway.awaitility:awaitility")
             .withTransitivity().asFile();
+
     return ShrinkWrap.create(WebArchive.class)
             .addAsLibraries(jars)
             .addClasses(MyAsyncBeanClassLevel.class)
@@ -17,16 +18,21 @@ public static WebArchive createDeployment() {
 public void should_return_async_sum() throws ExecutionException, InterruptedException {
     final Integer numberOne = 5;
     final Integer numberTwo = 10;
+
+
     long start = System.currentTimeMillis();
     final Future&lt;Integer&gt; resultFuture = bean.addNumbers(numberOne, numberTwo);
+
     assertThat(resultFuture.isDone(), is(equalTo(false)));
     assertThat(System.currentTimeMillis() - start, is(lessThan(MyAsyncBeanMethodLevel.AWAIT)));
+
     await().until(new Callable&lt;Boolean&gt;() {
         @Override
         public Boolean call() throws Exception {
             return resultFuture.isDone();
         }
     });
+
     assertThat(resultFuture.get(), is(equalTo(numberOne + numberTwo)));
 }</code></pre>
 </div>
@@ -37,6 +43,7 @@ public static WebArchive createDeployment() {
     File[] jars = Maven.resolver().loadPomFromFile("pom.xml")
             .resolve("com.jayway.awaitility:awaitility")
             .withTransitivity().asFile();
+
     return ShrinkWrap.create(WebArchive.class)
             .addAsLibraries(jars)
             .addClasses(MyAsyncBeanMethodLevel.class)
@@ -49,16 +56,21 @@ public static WebArchive createDeployment() {
 public void should_return_async_sum() throws ExecutionException, InterruptedException {
     final Integer numberOne = 5;
     final Integer numberTwo = 10;
+
+
     long start = System.currentTimeMillis();
     final Future&lt;Integer&gt; resultFuture = bean.addNumbers(numberOne, numberTwo);
+
     assertThat(resultFuture.isDone(), is(equalTo(false)));
     assertThat(System.currentTimeMillis() - start, is(lessThan(MyAsyncBeanMethodLevel.AWAIT)));
+
     await().until(new Callable&lt;Boolean&gt;() {
         @Override
         public Boolean call() throws Exception {
             return resultFuture.isDone();
         }
     });
+
     assertThat(resultFuture.get(), is(equalTo(numberOne + numberTwo)));
 }</code></pre>
 </div>

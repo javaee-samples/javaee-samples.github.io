@@ -12,6 +12,7 @@ public static Archive&lt;?&gt; deploy() {
 <pre class="highlight"><code class="java language-java">@Test
 public void should_bean_be_injected() throws Exception {
     assertThat(annotatedBean, is(notNullValue()));
+
     // notAnnotatedBean is injected because CDI acts as version 1.0 if version is not explicit
     assertThat(notAnnotatedBean, is(notNullValue()));
 }</code></pre>

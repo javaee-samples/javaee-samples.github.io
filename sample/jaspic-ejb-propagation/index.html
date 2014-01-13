@@ -14,6 +14,7 @@ public static WebArchive createDeployment() {
 public void testProtectedServletWithLoginCallingEJB() throws IOException, SAXException {
 
     String response = getFromServerPath("protected/servlet-public-ejb?doLogin");
+
     // Both the web (HttpServletRequest) and EJB (EJBContext) should see the same
     // user name.
     assertTrue(response.contains("web username: test"));
@@ -36,10 +37,12 @@ public static WebArchive createDeployment() {
 public void testProtectedServletWithLoginCallingEJB() throws IOException, SAXException {
 
     String response = getFromServerPath("protected/servlet-protected-ejb?doLogin");
+
     // Both the web (HttpServletRequest) and EJB (EJBContext) should see the same
     // user name.
     assertTrue(response.contains("web username: test"));
     assertTrue("Web has user principal set, but EJB not.", response.contains("EJB username: test"));
+
     // Both the web (HttpServletRequest) and EJB (EJBContext) should see that the
     // user has the role "architect".
     assertTrue(response.contains("web user has role \"architect\": true"));
@@ -56,10 +59,12 @@ public resources the security context also propagates to EJB.</p>
 public void testPublicServletWithLoginCallingEJB() throws IOException, SAXException {
 
     String response = getFromServerPath("public/servlet-protected-ejb?doLogin");
+
     // Both the web (HttpServletRequest) and EJB (EJBContext) should see the same
     // user name.
     assertTrue(response.contains("web username: test"));
     assertTrue("Web has user principal set, but EJB not.", response.contains("EJB username: test"));
+
     // Both the web (HttpServletRequest) and EJB (EJBContext) should see that the
     // user has the role "architect".
     assertTrue(response.contains("web user has role \"architect\": true"));

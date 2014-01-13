@@ -13,15 +13,19 @@ public static WebArchive createDeployment() {
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testDynamicNamedCriteriaQueries() throws IOException, SAXException {
+
     // Nothing inserted yet, data base should not contain any entities
     // (this tests that a simple query without parameters works as named query created by Criteria)
     assertTrue(testService.getAll().size() == 0);
+
     // Insert one entity
     TestEntity testEntity = new TestEntity();
     testEntity.setValue("myValue");
     testService.save(testEntity);
+
     // The total amount of entities should be 1
     assertTrue(testService.getAll().size() == 1);
+
     // The entity with "myValue" should be found
     // (this tests that a query with a parameter works as named query created by Criteria)
     assertTrue(testService.getByValue("myValue").size() == 1);

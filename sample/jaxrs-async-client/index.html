@@ -132,10 +132,12 @@ public void testPollingString() throws InterruptedException, ExecutionException 
 <pre class="highlight"><code class="java language-java">@Test
 public void testInvocationCallback() throws InterruptedException, ExecutionException {
         target.request().async().get(new InvocationCallback&lt;String&gt;() { <b>(1)</b>
+
             @Override
             public void completed(String r) {                           <b>(2)</b>
                 assertEquals("apple", r);
             }
+
             @Override
             public void failed(Throwable t) {                           <b>(3)</b>
                 fail(t.getMessage());

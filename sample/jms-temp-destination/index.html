@@ -23,7 +23,9 @@ public void onMessage(Message message) {
         }
         TextMessage request = (TextMessage) message;
         String payload = request.getText();            <b>(2)</b>
+
         System.out.println("Got request: "+payload);
+
         String response = "Processed: "+payload;       <b>(3)</b>
         jms.createProducer().send(replyTo, response);  <b>(4)</b>
     } catch (JMSException e) {
@@ -58,13 +60,17 @@ immediately, and wait for the response to arrive.</p>
 <div class="content">
 <pre class="highlight"><code class="java language-java">@TransactionAttribute(TransactionAttributeType.NOT_SUPPORTED)        <b>(1)</b>
 public String process(String request) {
+
     TextMessage requestMessage = jms.createTextMessage(request);
     TemporaryQueue responseQueue = jms.createTemporaryQueue();
     jms.createProducer()
             .setJMSReplyTo(responseQueue)                            <b>(2)</b>
             .send(requestQueue, requestMessage);                     <b>(3)</b>
+
     try (JMSConsumer consumer = jms.createConsumer(responseQueue)) { <b>(4)</b>
+
         String response = consumer.receiveBody(String.class, 2000);  <b>(5)</b>
+
         if (response == null) {                                      <b>(6)</b>
             throw new IllegalStateException("Message processing timed out");
         } else {

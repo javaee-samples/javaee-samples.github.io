@@ -7,6 +7,7 @@ public static WebArchive deploy() {
     File[] jars = Maven.resolver().loadPomFromFile("pom.xml")
             .resolve("com.jayway.awaitility:awaitility")
             .withTransitivity().asFile();
+
     return ShrinkWrap.create(WebArchive.class)
             .addAsLibraries(jars)
             .addClasses(Ping.class, PingsListener.class, TimerSessionBean.class);
@@ -17,8 +18,10 @@ public static WebArchive deploy() {
 <pre class="highlight"><code class="java language-java">@Test
 public void should_receive_two_pings() {
     await().untilCall(to(pings.getPings()).size(), equalTo(2));
+
     Ping firstPing = pings.getPings().get(0);
     Ping secondPing = pings.getPings().get(1);
+
     long delay = secondPing.getTime() - firstPing.getTime();
     System.out.println("Actual timeout = " + delay);
     assertThat(delay, is(withinWindow(TIMEOUT, TOLERANCE)));

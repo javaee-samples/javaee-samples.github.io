@@ -16,6 +16,7 @@ public void test1Post() {
     target.request().post(Entity.text("mango"));
     target.request().post(Entity.text("kiwi"));
     target.request().post(Entity.text("passion fruit"));
+
     String list = target.request().get(String.class);
     System.out.println("--&gt; " + list);
     StringTokenizer tokens = new StringTokenizer(list, ",");
@@ -35,6 +36,7 @@ public void test2Get() {
 <pre class="highlight"><code class="java language-java">@Test
 public void test3Delete() {
     target.path("kiwi").request().delete();
+
     String list = target.request().get(String.class);
     StringTokenizer tokens = new StringTokenizer(list, ",");
     assertEquals(3, tokens.countTokens());
@@ -45,6 +47,7 @@ public void test3Delete() {
 <pre class="highlight"><code class="java language-java">@Test
 public void test4Put() {
     target.request().put(Entity.text("apple"));
+
     String list = target.request().get(String.class);
     StringTokenizer tokens = new StringTokenizer(list, ",");
     assertEquals(4, tokens.countTokens());
@@ -68,6 +71,7 @@ public void test1Post() {
     target.request().post(Entity.text("mango"));
     target.request().post(Entity.text("kiwi"));
     target.request().post(Entity.text("passion fruit"));
+
     String list = target.request().get(String.class);
     StringTokenizer tokens = new StringTokenizer(list, ",");
     assertEquals(4, tokens.countTokens());
@@ -86,6 +90,7 @@ public void test2Get() {
 <pre class="highlight"><code class="java language-java">@Test
 public void test3Delete() {
     target.path("kiwi").request().delete();
+
     String list = target.request().get(String.class);
     StringTokenizer tokens = new StringTokenizer(list, ",");
     assertEquals(3, tokens.countTokens());
@@ -96,6 +101,7 @@ public void test3Delete() {
 <pre class="highlight"><code class="java language-java">@Test
 public void test4Put() {
     target.request().put(Entity.text("apple"));
+
     String list = target.request().get(String.class);
     StringTokenizer tokens = new StringTokenizer(list, ",");
     assertEquals(4, tokens.countTokens());

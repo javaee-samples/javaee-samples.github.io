@@ -7,6 +7,7 @@ public void testWaiting() throws NoSuchMethodException, InterruptedException {
     final Method method = ReceptionSynchronizerTest.class.getDeclaredMethod("testWaiting");
     long startTime = System.currentTimeMillis();
     pool.schedule(new Runnable() {
+
         @Override
         public void run() {
             cut.registerInvocation(method);
@@ -59,6 +60,7 @@ public static WebArchive deploy() {
 public void testClassicApi() {
     String message = "The test message over JMS 1.1 API";
     classicSender.sendMessage(message);
+
     assertEquals(message, classicReceiver.receiveMessage());
 }</code></pre>
 </div>
@@ -68,6 +70,7 @@ public void testClassicApi() {
 public void testContainerManagedJmsContext() {
     String message = "Test message over container-managed JMSContext";
     simpleSender.sendMessage(message);
+
     assertEquals(message, simpleReceiver.receiveMessage());
 }</code></pre>
 </div>
@@ -77,6 +80,7 @@ public void testContainerManagedJmsContext() {
 public void testAppManagedJmsContext() {
     String message = "The test message over app-managed JMSContext";
     appManagedSender.sendMessage(message);
+
     assertEquals(message, appManagedReceiver.receiveMessage());
 }</code></pre>
 </div>

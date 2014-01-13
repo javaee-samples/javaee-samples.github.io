@@ -13,8 +13,10 @@ public static Archive&lt;?&gt; deploy() {
 public void test() throws Exception {
 	assertThat(sender, is(notNullValue()));
 	assertThat(sender, instanceOf(GreetingSender.class));
+
 	assertThat(receiver, is(notNullValue()));
 	assertThat(receiver, instanceOf(GreetingReceiver.class));
+
 	// default greet
 	assertEquals("Willkommen", receiver.getGreet());
 	// send a new greet

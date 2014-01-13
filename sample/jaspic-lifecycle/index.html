@@ -26,14 +26,17 @@ public void testBasicSAMMethodsCalled() throws IOException, SAXException {
 
     String response = getFromServerPath("protected/servlet");
 
+
     // First test if individual methods are called
     assertTrue("SAM method validateRequest not called, but should have been.",
             response.contains("validateRequest invoked"));
     assertTrue("Resource (Servlet) not invoked, but should have been.", response.contains("Resource invoked"));
+
     // The previous two methods are rare to not be called, but secureResponse is more likely to fail. Seemingly it's hard
     // to understand what this method should do exactly.
     assertTrue("SAM method secureResponse not called, but should have been.",
             response.contains("secureResponse invoked"));
+
     // Finally the order should be correct. More than a few implementations call secureResponse before the resource is
     // invoked.
     assertTrue("SAM methods called in wrong order",
@@ -48,10 +51,12 @@ Although occasionally a JASPIC 1.0 implementation indeed does this, it&#8217;s o
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testLogout() throws IOException, SAXException {
+
     // Note that we don't explicitly log-in; the test SAM uses for this test does that automatically before the resource
     // (servlet)
     // is invoked. Once we reach the Servlet we should be logged-in and can proceed to logout.
     String response = getFromServerPath("protected/servlet?doLogout");
+
     assertTrue("SAM method cleanSubject not called, but should have been.",
             response.contains("cleanSubject invoked"));
 }</code></pre>

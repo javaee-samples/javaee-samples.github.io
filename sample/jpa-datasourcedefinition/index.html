@@ -5,6 +5,7 @@ public static Archive&lt;?&gt; deploy() {
     File h2Library = Maven.resolver().loadPomFromFile("pom.xml")
             .resolve("com.h2database:h2").withoutTransitivity()
             .asSingleFile();
+
     return ShrinkWrap.create(WebArchive.class)
             .addClasses(DataSourceDefinitionHolder.class)
             .addAsLibraries(h2Library);

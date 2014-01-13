@@ -28,21 +28,22 @@ public void should_not_be_identical_beans() {
 </div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/ejb/stateful/src/test/java/org/javaee7/ejb/stateful/CartBeanStatefulnessTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
-@InSequence(2)
-	public void should_add_items_to_first_cart() {
-		// when
-		bean1.addItem(item_to_add);
-		// then
-		assertThat(bean1.getItems(), hasItem(item_to_add));
-	}</code></pre>
+   @InSequence(2)
+public void should_add_items_to_first_cart() {
+	// when
+	bean1.addItem(item_to_add);
+
+	// then
+	assertThat(bean1.getItems(), hasItem(item_to_add));
+}</code></pre>
 </div>
 </div><div class="improve">Missing a description for the test scenario. Add some javadoc to the @Test method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/ejb/stateful/src/test/java/org/javaee7/ejb/stateful/CartBeanStatefulnessTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
-@InSequence(3)
-	public void should_not_contain_any_items_in_second_cart() {
-		assertThat(bean2.getItems().isEmpty(), is(true));
-	}</code></pre>
+   @InSequence(3)
+public void should_not_contain_any_items_in_second_cart() {
+	assertThat(bean2.getItems().isEmpty(), is(true));
+}</code></pre>
 </div>
 </div></div><div id="test"><div class="row"><div class="large-7 columns"><h4>CartBeanWithInterfaceTest</h4></div><div class="large-3 columns"><ul class="inline-list" style="margin-left:0em;"><li style="margin-left: 0.3em"><i class="fi-like" title="All tests pass on GlassFish" style="color: green"></i></li><li style="margin-left: 0.3em"><i class="fi-like" title="All tests pass on WildFly" style="color: green"></i></li></ul></div><div class="large-2 columns"><a class="right" href="https://github.com/javaee-samples/javaee7-samples/edit/master/ejb/stateful/src/test/java/org/javaee7/ejb/stateful/CartBeanWithInterfaceTest.java"><i class="fi-page-edit"></i></a></div></div><div class="improve">Missing a description for the story. Add some javadoc to the TestClass. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/ejb/stateful/src/test/java/org/javaee7/ejb/stateful/CartBeanWithInterfaceTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="improve">Missing a description for the deployment. Add some javadoc to the @Deployment method. <a class="right button tiny round" href="https://github.com/javaee-samples/javaee7-samples/edit/master/ejb/stateful/src/test/java/org/javaee7/ejb/stateful/CartBeanWithInterfaceTest.java">Show me how! <i class="fi-page-edit"></i></a></div><div class="listingblock">
 <div class="content">
@@ -61,8 +62,10 @@ public static Archive&lt;?&gt; deployment() {
 <pre class="highlight"><code class="java language-java">@Test
 public void shouldAddOneItem() throws Exception {
 	// given
+
 	// when
 	sut.addItem("apple");
+
 	// then
 	assertThat(sut.getItems(), hasItem("apple"));
 }</code></pre>
@@ -75,10 +78,12 @@ public void shouldAddOneItem() throws Exception {
 public void shouldAddManyItems() throws Exception {
 	// given
 	final List&lt;String&gt; items = Arrays.asList("apple", "banana", "mango", "kiwi", "passion fruit");
+
 	// when
 	for (final String item : items) {
 		sut.addItem(item);
 	}
+
 	// then
 	assertThat(sut.getItems(), is(items));
 }</code></pre>
@@ -94,8 +99,10 @@ public void shouldRemoveOneItem() throws Exception {
 	for (final String item : items) {
 		sut.addItem(item);
 	}
+
 	// when
 	sut.removeItem("banana");
+
 	// then
 	assertThat(sut.getItems(), not(hasItem("banana")));
 }</code></pre>
@@ -107,8 +114,10 @@ public void shouldRemoveOneItem() throws Exception {
 <pre class="highlight"><code class="java language-java">@Test
 public void shouldBeEmpty() throws Exception {
 	// given
+
 	// when
 	final List&lt;String&gt; actual = sut.getItems();
+
 	// then
 	assertThat(actual.isEmpty(), is(true));
 }</code></pre>
@@ -129,8 +138,10 @@ public static Archive&lt;?&gt; deployment() {
 <pre class="highlight"><code class="java language-java">@Test
 public void shouldAddOneItem() throws Exception {
 	// given
+
 	// when
 	sut.addItem("apple");
+
 	// then
 	assertThat(sut.getItems(), hasItem("apple"));
 }</code></pre>
@@ -143,10 +154,12 @@ public void shouldAddOneItem() throws Exception {
 public void shouldAddManyItems() throws Exception {
 	// given
 	final List&lt;String&gt; items = Arrays.asList("apple", "banana", "mango", "kiwi", "passion fruit");
+
 	// when
 	for (final String item : items) {
 		sut.addItem(item);
 	}
+
 	// then
 	assertThat(sut.getItems(), is(items));
 }</code></pre>
@@ -162,8 +175,10 @@ public void shouldRemoveOneItem() throws Exception {
 	for (final String item : items) {
 		sut.addItem(item);
 	}
+
 	// when
 	sut.removeItem("banana");
+
 	// then
 	assertThat(sut.getItems(), not(hasItem("banana")));
 }</code></pre>
@@ -175,8 +190,10 @@ public void shouldRemoveOneItem() throws Exception {
 <pre class="highlight"><code class="java language-java">@Test
 public void shouldBeEmpty() throws Exception {
 	// given
+
 	// when
 	final List&lt;String&gt; actual = sut.getItems();
+
 	// then
 	assertThat(actual.isEmpty(), is(true));
 }</code></pre>

@@ -13,6 +13,7 @@ public static Archive&lt;?&gt; deploy() {
 public void test() throws Exception {
 	assertThat(bean, is(notNullValue()));
 	assertThat(bean, instanceOf(SimpleGreeting.class));
+
 	bean.setGreet("Arun");
 	assertEquals(bean.getGreet(), "Hi Arun !");
 }</code></pre>

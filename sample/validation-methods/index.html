@@ -12,11 +12,14 @@ public static Archive&lt;?&gt; deployment() {
 <pre class="highlight"><code class="java language-java">@Test
 public void constructorViolationsWhenNullParameters() throws NoSuchMethodException, SecurityException {
        final MyParameter parameter = new MyParameter();
+
 	ExecutableValidator methodValidator = validator.forExecutables();
 	Constructor&lt;MyBean2&gt; constructor = MyBean2.class
 			.getConstructor(parameter.getClass());
+
 	Set&lt;ConstraintViolation&lt;MyBean2&gt;&gt; constraints = methodValidator
 			.validateConstructorParameters(constructor, new Object[] {parameter});
+
 	ConstraintViolation&lt;MyBean2&gt; violation = constraints.iterator().next();
 	assertThat(constraints.size(), equalTo(1));
 	assertThat(violation.getMessageTemplate(), equalTo("{javax.validation.constraints.NotNull.message}"));
@@ -29,11 +32,14 @@ public void constructorViolationsWhenNullParameters() throws NoSuchMethodExcepti
 public void constructorViolationsWhenNotNullParameters() throws NoSuchMethodException, SecurityException {
 	final MyParameter parameter = new MyParameter();
        parameter.setValue("foo");
+
        ExecutableValidator methodValidator = validator.forExecutables();
 	Constructor&lt;MyBean2&gt; constructor = MyBean2.class
 			.getConstructor(parameter.getClass());
+
 	Set&lt;ConstraintViolation&lt;MyBean2&gt;&gt; constraints = methodValidator
 			.validateConstructorParameters(constructor, new Object[] {parameter});
+
 	assertThat(constraints.isEmpty(), equalTo(true));
 }</code></pre>
 </div>
@@ -115,6 +121,7 @@ public void multipleParametersNullSecondParameter() {
 	thrown.expect(ConstraintViolationException.class);
 	thrown.expectMessage("javax.validation.constraints.NotNull");
 	thrown.expectMessage("showList.arg1");
+
 	List&lt;String&gt; list = new ArrayList&lt;&gt;();
 	list.add("bar");
 	bean.showList(list, null);

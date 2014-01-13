@@ -15,6 +15,7 @@ public void testUnauthenticatedRequest() throws IOException, SAXException {
     WebConversation conv = new WebConversation();
     GetMethodWebRequest getRequest = new GetMethodWebRequest(base + "/LoginServlet");
     String responseText = conv.getResponse(getRequest).getText();
+
     assert(responseText.contains("isUserInRole?false"));
     assert(responseText.contains("getRemoteUser?null"));
     assert(responseText.contains("getUserPrincipal?null"));
@@ -29,6 +30,7 @@ public void testAuthenticatedRequest() throws IOException, SAXException {
     GetMethodWebRequest getRequest = new GetMethodWebRequest(base + "/LoginServlet?user=u1&amp;password=p1");
     String responseText = conv.getResponse(getRequest).getText();
     System.out.println(responseText);
+
 
     assert(responseText.contains("isUserInRole?true"));
     assert(responseText.contains("getRemoteUser?u1"));
