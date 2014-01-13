@@ -96,7 +96,7 @@ module SampleComponent
             mod.category = locate_category(site.categories, module_path)
 
             mod.changes = []
-            rc.log(10).path(repository.relative_path).each do |c|
+            rc.log(10).path(module_path).each do |c|
                 mod.changes << OpenStruct.new({
                     "author" => c.author.name,
                     "date" => c.author.date,
