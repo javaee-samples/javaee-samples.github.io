@@ -15,6 +15,13 @@ head
   script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"
   link rel='author' type='text/plain' href="#{site.base_url}/humans.txt"
 
+  - if page.twitter_card
+    meta name="twitter:card" content="#{page.twitter_card}"
+  - if page.twitter_title
+    meta name="twitter:title" content="#{page.twitter_title}"
+  - if page.twitter_description
+    meta name="twitter:description" content="#{page.twitter_description[0..200]}"
+
 body.antialiased
   nav.top-bar
     ul.title-area

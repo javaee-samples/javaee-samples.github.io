@@ -2,6 +2,9 @@
 layout: default
 ---
 - page.title = "JavaEE Sample::#{page.showcase.category.nil? ? "" : page.showcase.category.id}::#{page.showcase.name}"
+- page.twitter_card = "summary"
+- page.twitter_title = page.showcase.name
+- page.twitter_description = page.showcase.description
 header
   .row
     .large-10.columns
