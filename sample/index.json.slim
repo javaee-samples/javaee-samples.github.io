@@ -1,0 +1,25 @@
+---
+---
+- samples = []
+- for showcase_page in site.showcases
+  - showcase = showcase_page.showcase
+  - next if showcase.category.nil?
+  - sample = {}
+  - samples << sample
+  - sample[:id] = showcase.module_path
+  - sample[:name] = showcase.name
+  - sample[:description] = showcase.description.nil? ? "" : showcase.description 
+  - sample[:html_url] = "#{site.base_url}#{showcase_page.output_path}"
+  - sample[:category] = showcase.category.id
+  - unless showcase.changes.nil?
+    - sample[:last_updated] = showcase.changes.first.date
+  - unless showcase.api_usage.nil?
+    - sample[:usage] = []
+    - for usage in showcase.api_usage.each_key
+      - sample[:usage] << usage
+  - unless showcase.contributors.nil?
+    - sample[:authors] = []
+    - for c in site.identities.unique_by_emails(showcase.contributors)
+      - sample[:authors] << {:name => c.name, :avatar => c.avatar_url(25)}
+
+=JSON.pretty_generate samples
