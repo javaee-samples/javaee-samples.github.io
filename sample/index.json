@@ -3,7 +3,7 @@
     "id": "batch/batchlet-simple/",
     "name": "Batchlet simple",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-batchlet-simple/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-batchlet-simple/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -29,7 +29,7 @@
     "id": "batch/chunk-checkpoint/",
     "name": "Chunk checkpoint",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-chunk-checkpoint/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-chunk-checkpoint/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -51,7 +51,7 @@
     "id": "batch/chunk-csv-database/",
     "name": "Chunk csv database",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-chunk-csv-database/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-chunk-csv-database/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -75,7 +75,7 @@
     "id": "batch/chunk-exception/",
     "name": "Chunk exception",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-chunk-exception/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-chunk-exception/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -97,7 +97,7 @@
     "id": "batch/chunk-mapper/",
     "name": "Chunk mapper",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-chunk-mapper/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-chunk-mapper/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -119,7 +119,7 @@
     "id": "batch/chunk-optional-processor/",
     "name": "Chunk optional processor",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-chunk-optional-processor/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-chunk-optional-processor/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -141,7 +141,7 @@
     "id": "batch/chunk-partition/",
     "name": "Chunk partition",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-chunk-partition/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-chunk-partition/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -163,7 +163,7 @@
     "id": "batch/chunk-simple/",
     "name": "Chunk simple",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-chunk-simple/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-chunk-simple/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -185,7 +185,7 @@
     "id": "batch/decision/",
     "name": "Decision",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-decision/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-decision/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 00:42:55 +0100",
     "usage": [
@@ -207,7 +207,7 @@
     "id": "batch/flow/",
     "name": "Flow",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-flow/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-flow/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -229,7 +229,7 @@
     "id": "batch/batch-listeners/",
     "name": "Batch listeners",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-batch-listeners/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-batch-listeners/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -251,7 +251,7 @@
     "id": "batch/multiple-steps/",
     "name": "Multiple steps",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-multiple-steps/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-multiple-steps/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -273,7 +273,7 @@
     "id": "batch/split/",
     "name": "Split",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-split/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-split/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 17:24:14 +0100",
     "usage": [
@@ -295,7 +295,7 @@
     "id": "batch/chunk-simple-nobeans/",
     "name": "Chunk simple nobeans",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/batch-chunk-simple-nobeans/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/batch-chunk-simple-nobeans/index.html",
     "category": "Batch",
     "last_updated": "2013-12-31 13:03:32 +0100",
     "usage": [
@@ -317,7 +317,7 @@
     "id": "cdi/vetoed/",
     "name": "Vetoed",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-vetoed/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-vetoed/index.html",
     "category": "CDI",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -335,7 +335,7 @@
     "id": "cdi/pkg-level/",
     "name": "Pkg level",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-pkg-level/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-pkg-level/index.html",
     "category": "CDI",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -353,7 +353,7 @@
     "id": "cdi/decorators/",
     "name": "Decorators",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-decorators/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-decorators/index.html",
     "category": "CDI",
     "last_updated": "2013-12-03 17:17:26 +0100",
     "usage": [
@@ -374,7 +374,7 @@
     "id": "cdi/bean-discovery-all/",
     "name": "Bean discovery all",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-bean-discovery-all/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-bean-discovery-all/index.html",
     "category": "CDI",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -399,7 +399,7 @@
     "id": "cdi/bean-discovery-annotated/",
     "name": "Bean discovery annotated",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-bean-discovery-annotated/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-bean-discovery-annotated/index.html",
     "category": "CDI",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -424,7 +424,7 @@
     "id": "cdi/bean-discovery-none/",
     "name": "Bean discovery none",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-bean-discovery-none/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-bean-discovery-none/index.html",
     "category": "CDI",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -449,7 +449,7 @@
     "id": "cdi/exclude-filter/",
     "name": "Exclude filter",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-exclude-filter/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-exclude-filter/index.html",
     "category": "CDI",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -467,7 +467,7 @@
     "id": "cdi/built-in/",
     "name": "Built in",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-built-in/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-built-in/index.html",
     "category": "CDI",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -487,7 +487,7 @@
     "id": "cdi/interceptors/",
     "name": "Interceptors",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-interceptors/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-interceptors/index.html",
     "category": "CDI",
     "last_updated": "2014-01-02 18:21:51 +0100",
     "usage": [
@@ -508,7 +508,7 @@
     "id": "cdi/interceptors-priority/",
     "name": "Interceptors priority",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-interceptors-priority/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-interceptors-priority/index.html",
     "category": "CDI",
     "last_updated": "2014-01-04 15:19:45 +0100",
     "usage": [
@@ -525,7 +525,7 @@
     "id": "cdi/nobeans-xml/",
     "name": "Nobeans xml",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-nobeans-xml/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-nobeans-xml/index.html",
     "category": "CDI",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -550,7 +550,7 @@
     "id": "cdi/beansxml-noversion/",
     "name": "Beansxml noversion",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-beansxml-noversion/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-beansxml-noversion/index.html",
     "category": "CDI",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -575,7 +575,7 @@
     "id": "cdi/beanmanager/",
     "name": "Beanmanager",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-beanmanager/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-beanmanager/index.html",
     "category": "CDI",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -593,7 +593,7 @@
     "id": "cdi/extension/",
     "name": "Extension",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-extension/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-extension/index.html",
     "category": "CDI",
     "last_updated": "2013-10-27 02:43:21 +0200",
     "usage": [
@@ -611,7 +611,7 @@
     "id": "cdi/scopes/",
     "name": "scopes",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-scopes/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-scopes/index.html",
     "category": "CDI",
     "last_updated": "2013-09-20 18:58:53 +0200",
     "usage": [
@@ -629,7 +629,7 @@
     "id": "cdi/alternatives/",
     "name": "Alternatives",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-alternatives/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-alternatives/index.html",
     "category": "CDI",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -654,7 +654,7 @@
     "id": "cdi/alternatives-priority/",
     "name": "Alternatives priority",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-alternatives-priority/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-alternatives-priority/index.html",
     "category": "CDI",
     "last_updated": "2013-12-30 18:04:04 +0100",
     "usage": [
@@ -671,7 +671,7 @@
     "id": "cdi/nobeans-el-injection/",
     "name": "Nobeans el injection",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-nobeans-el-injection/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-nobeans-el-injection/index.html",
     "category": "CDI",
     "last_updated": "2013-12-11 23:50:53 +0100",
     "usage": [
@@ -688,7 +688,7 @@
     "id": "cdi/nobeans-el-injection-flowscoped/",
     "name": "Nobeans el injection flowscoped",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-nobeans-el-injection-flowscoped/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-nobeans-el-injection-flowscoped/index.html",
     "category": "CDI",
     "last_updated": "2013-12-13 14:39:08 +0100",
     "usage": [
@@ -705,7 +705,7 @@
     "id": "cdi/events/",
     "name": "Events",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/cdi-events/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/cdi-events/index.html",
     "category": "CDI",
     "last_updated": "2014-01-05 00:17:12 +0100",
     "usage": [
@@ -722,7 +722,7 @@
     "id": "concurrency/managedexecutor/",
     "name": "Managedexecutor",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/concurrency-managedexecutor/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/concurrency-managedexecutor/index.html",
     "category": "Concurrency",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -750,7 +750,7 @@
     "id": "concurrency/managedscheduledexecutor/",
     "name": "managedscheduledexecutor",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/concurrency-managedscheduledexecutor/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/concurrency-managedscheduledexecutor/index.html",
     "category": "Concurrency",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -769,7 +769,7 @@
     "id": "concurrency/managedthreadfactory/",
     "name": "managedthreadfactory",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/concurrency-managedthreadfactory/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/concurrency-managedthreadfactory/index.html",
     "category": "Concurrency",
     "last_updated": "2013-11-08 15:28:50 +0100",
     "usage": [
@@ -788,7 +788,7 @@
     "id": "concurrency/dynamicproxy/",
     "name": "Dynamicproxy",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/concurrency-dynamicproxy/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/concurrency-dynamicproxy/index.html",
     "category": "Concurrency",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -807,7 +807,7 @@
     "id": "ejb/embeddable/",
     "name": "Embeddable",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/ejb-embeddable/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/ejb-embeddable/index.html",
     "category": "EJB",
     "last_updated": "2013-11-08 15:27:30 +0100",
     "usage": [
@@ -824,7 +824,7 @@
     "id": "ejb/lifecycle/",
     "name": "Lifecycle",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/ejb-lifecycle/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/ejb-lifecycle/index.html",
     "category": "EJB",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -843,7 +843,7 @@
     "id": "ejb/singleton/",
     "name": "Singleton",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/ejb-singleton/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/ejb-singleton/index.html",
     "category": "EJB",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -862,7 +862,7 @@
     "id": "ejb/stateful/",
     "name": "Stateful",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/ejb-stateful/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/ejb-stateful/index.html",
     "category": "EJB",
     "last_updated": "2013-12-09 21:08:50 +0100",
     "usage": [
@@ -889,7 +889,7 @@
     "id": "ejb/stateless/",
     "name": "Stateless",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/ejb-stateless/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/ejb-stateless/index.html",
     "category": "EJB",
     "last_updated": "2013-12-09 21:08:50 +0100",
     "usage": [
@@ -916,7 +916,7 @@
     "id": "ejb/timer/",
     "name": "Timer",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/ejb-timer/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/ejb-timer/index.html",
     "category": "EJB",
     "last_updated": "2013-12-07 18:03:26 +0100",
     "usage": [
@@ -938,7 +938,7 @@
     "id": "ejb/async-ejb/",
     "name": "Async ejb",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/ejb-async-ejb/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/ejb-async-ejb/index.html",
     "category": "EJB",
     "last_updated": "2013-12-07 22:16:29 +0100",
     "usage": [
@@ -960,7 +960,7 @@
     "id": "el/standalone/",
     "name": "Standalone",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/el-standalone/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/el-standalone/index.html",
     "category": "EL",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -985,7 +985,7 @@
     "id": "javamail/definition/",
     "name": "Definition",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/javamail-definition/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/javamail-definition/index.html",
     "category": "JavaMail",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -1004,7 +1004,7 @@
     "id": "jaspic/common/",
     "name": "Common",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaspic-common/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaspic-common/index.html",
     "category": "JASPIC",
     "last_updated": "2014-01-11 01:34:10 +0100",
     "usage": [
@@ -1026,7 +1026,7 @@
     "id": "jaspic/basic-authentication/",
     "name": "Basic authentication",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaspic-basic-authentication/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaspic-basic-authentication/index.html",
     "category": "JASPIC",
     "last_updated": "2014-01-11 01:34:10 +0100",
     "usage": [
@@ -1048,7 +1048,7 @@
     "id": "jaspic/ejb-propagation/",
     "name": "Ejb propagation",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaspic-ejb-propagation/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaspic-ejb-propagation/index.html",
     "category": "JASPIC",
     "last_updated": "2014-01-11 01:34:10 +0100",
     "usage": [
@@ -1071,7 +1071,7 @@
     "id": "jaspic/lifecycle/",
     "name": "Lifecycle",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaspic-lifecycle/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaspic-lifecycle/index.html",
     "category": "JASPIC",
     "last_updated": "2014-01-11 01:34:10 +0100",
     "usage": [
@@ -1093,7 +1093,7 @@
     "id": "jaspic/register-session/",
     "name": "Register session",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaspic-register-session/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaspic-register-session/index.html",
     "category": "JASPIC",
     "last_updated": "2014-01-11 01:34:10 +0100",
     "usage": [
@@ -1115,7 +1115,7 @@
     "id": "jaspic/wrapping/",
     "name": "Wrapping",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaspic-wrapping/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaspic-wrapping/index.html",
     "category": "JASPIC",
     "last_updated": "2014-01-11 01:34:10 +0100",
     "usage": [
@@ -1137,7 +1137,7 @@
     "id": "jaxrs/angularjs/",
     "name": "Angularjs",
     "description": "Angular JS consuming REST services",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-angularjs/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-angularjs/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 23:15:04 +0100",
     "usage": [
@@ -1156,7 +1156,7 @@
     "id": "jaxrs/async-client/",
     "name": "Async Client",
     "description": "Invoke a JAX-RS service via an asynchronous client",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-async-client/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-async-client/index.html",
     "category": "JAXRS",
     "last_updated": "2014-01-13 20:47:51 +0100",
     "usage": [
@@ -1177,7 +1177,7 @@
     "id": "jaxrs/async-server/",
     "name": "Async server",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-async-server/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-async-server/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 17:03:54 +0100",
     "usage": [
@@ -1200,7 +1200,7 @@
     "id": "jaxrs/beanvalidation/",
     "name": "Beanvalidation",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-beanvalidation/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-beanvalidation/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 17:03:54 +0100",
     "usage": [
@@ -1222,7 +1222,7 @@
     "id": "jaxrs/client-negotiation/",
     "name": "Client negotiation",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-client-negotiation/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-client-negotiation/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 17:03:54 +0100",
     "usage": [
@@ -1243,7 +1243,7 @@
     "id": "jaxrs/dynamicfilter/",
     "name": "Dynamicfilter",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-dynamicfilter/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-dynamicfilter/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 17:03:54 +0100",
     "usage": [
@@ -1264,7 +1264,7 @@
     "id": "jaxrs/filter/",
     "name": "Filter",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-filter/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-filter/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 17:03:54 +0100",
     "usage": [
@@ -1285,7 +1285,7 @@
     "id": "jaxrs/filter-interceptor/",
     "name": "Filter interceptor",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-filter-interceptor/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-filter-interceptor/index.html",
     "category": "JAXRS",
     "last_updated": "2013-10-27 02:18:21 +0100",
     "usage": [
@@ -1303,7 +1303,7 @@
     "id": "jaxrs/interceptor/",
     "name": "Interceptor",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-interceptor/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-interceptor/index.html",
     "category": "JAXRS",
     "last_updated": "2013-10-27 02:24:37 +0100",
     "usage": [
@@ -1321,7 +1321,7 @@
     "id": "jaxrs/invocation/",
     "name": "Invocation",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-invocation/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-invocation/index.html",
     "category": "JAXRS",
     "last_updated": "2013-10-27 02:26:01 +0100",
     "usage": [
@@ -1339,7 +1339,7 @@
     "id": "jaxrs/invocation-async/",
     "name": "Invocation async",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-invocation-async/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-invocation-async/index.html",
     "category": "JAXRS",
     "last_updated": "2013-11-08 00:59:28 +0100",
     "usage": [
@@ -1357,7 +1357,7 @@
     "id": "jaxrs/jaxrs-client/",
     "name": "Jaxrs client",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-jaxrs-client/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-jaxrs-client/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 17:03:54 +0100",
     "usage": [
@@ -1388,7 +1388,7 @@
     "id": "jaxrs/jaxrs-endpoint/",
     "name": "Jaxrs endpoint",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-jaxrs-endpoint/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-jaxrs-endpoint/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -1417,7 +1417,7 @@
     "id": "jaxrs/jsonp/",
     "name": "Jsonp",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-jsonp/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-jsonp/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 17:03:54 +0100",
     "usage": [
@@ -1440,7 +1440,7 @@
     "id": "jaxrs/link/",
     "name": "Link",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-link/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-link/index.html",
     "category": "JAXRS",
     "last_updated": "2013-10-23 10:26:23 +0200",
     "usage": [
@@ -1462,7 +1462,7 @@
     "id": "jaxrs/mapping-exceptions/",
     "name": "Mapping exceptions",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-mapping-exceptions/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-mapping-exceptions/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 17:03:54 +0100",
     "usage": [
@@ -1483,7 +1483,7 @@
     "id": "jaxrs/readerwriter/",
     "name": "Readerwriter",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-readerwriter/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-readerwriter/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 14:47:02 +0100",
     "usage": [
@@ -1504,7 +1504,7 @@
     "id": "jaxrs/readerwriter-json/",
     "name": "Readerwriter json",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-readerwriter-json/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-readerwriter-json/index.html",
     "category": "JAXRS",
     "last_updated": "2013-10-27 12:54:36 +0100",
     "usage": [
@@ -1523,7 +1523,7 @@
     "id": "jaxrs/request-binding/",
     "name": "Request binding",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-request-binding/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-request-binding/index.html",
     "category": "JAXRS",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -1541,7 +1541,7 @@
     "id": "jaxrs/resource-validation/",
     "name": "Resource validation",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-resource-validation/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-resource-validation/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 02:01:52 +0100",
     "usage": [
@@ -1565,7 +1565,7 @@
     "id": "jaxrs/server-negotiation/",
     "name": "Server negotiation",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-server-negotiation/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-server-negotiation/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 14:59:08 +0100",
     "usage": [
@@ -1586,7 +1586,7 @@
     "id": "jaxrs/singleton/",
     "name": "singleton",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-singleton/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-singleton/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 17:03:54 +0100",
     "usage": [
@@ -1608,7 +1608,7 @@
     "id": "jaxrs/readerwriter-injection/",
     "name": "Readerwriter injection",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-readerwriter-injection/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-readerwriter-injection/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-03 14:38:21 +0100",
     "usage": [
@@ -1630,7 +1630,7 @@
     "id": "jaxrs/jaxrs-security-declarative/",
     "name": "Jaxrs security declarative",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jaxrs-jaxrs-security-declarative/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-jaxrs-security-declarative/index.html",
     "category": "JAXRS",
     "last_updated": "2013-12-12 20:49:02 +0100",
     "usage": [
@@ -1649,7 +1649,7 @@
     "id": "jca/connector-simple/connector/",
     "name": "connector",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jca-connector-simple-connector/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jca-connector-simple-connector/index.html",
     "category": "JCA",
     "last_updated": "2013-10-23 10:26:23 +0200",
     "usage": [
@@ -1672,7 +1672,7 @@
     "id": "jms/jms-xa/",
     "name": "Jms xa",
     "description": "Arquillian test for JMS XA",
-    "path": "http://javaee-samples.github.io/sample/jms-jms-xa/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jms-jms-xa/index.html",
     "category": "JMS",
     "last_updated": "2013-12-04 21:19:12 +0100",
     "usage": [
@@ -1693,7 +1693,7 @@
     "id": "jms/send-receive/",
     "name": "Send receive",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jms-send-receive/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jms-send-receive/index.html",
     "category": "JMS",
     "last_updated": "2014-01-11 13:22:53 +0100",
     "usage": [
@@ -1716,7 +1716,7 @@
     "id": "jms/temp-destination/",
     "name": "Temporary destinations",
     "description": "Request/Response over JMS",
-    "path": "http://javaee-samples.github.io/sample/jms-temp-destination/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jms-temp-destination/index.html",
     "category": "JMS",
     "last_updated": "2014-01-12 01:15:37 +0100",
     "usage": [
@@ -1739,7 +1739,7 @@
     "id": "jpa/criteria/",
     "name": "JPA Criteria API",
     "description": "Using the Criteria API to create queries",
-    "path": "http://javaee-samples.github.io/sample/jpa-criteria/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-criteria/index.html",
     "category": "JPA",
     "last_updated": "2014-01-13 18:52:42 +0100",
     "usage": [
@@ -1763,7 +1763,7 @@
     "id": "jpa/datasourcedefinition/",
     "name": "Datasourcedefinition",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-datasourcedefinition/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-datasourcedefinition/index.html",
     "category": "JPA",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -1784,7 +1784,7 @@
     "id": "jpa/datasourcedefinition-webxml-pu/",
     "name": "Datasourcedefinition webxml pu",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-datasourcedefinition-webxml-pu/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-datasourcedefinition-webxml-pu/index.html",
     "category": "JPA",
     "last_updated": "2014-01-08 18:29:25 +0100",
     "usage": [
@@ -1803,7 +1803,7 @@
     "id": "jpa/datasourcedefinition-annotation-pu/",
     "name": "Datasourcedefinition annotation pu",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-datasourcedefinition-annotation-pu/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-datasourcedefinition-annotation-pu/index.html",
     "category": "JPA",
     "last_updated": "2014-01-08 18:29:25 +0100",
     "usage": [
@@ -1822,7 +1822,7 @@
     "id": "jpa/dynamic-named-query/",
     "name": "Dynamic named query",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-dynamic-named-query/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-dynamic-named-query/index.html",
     "category": "JPA",
     "last_updated": "2013-12-22 17:18:02 +0100",
     "usage": [
@@ -1841,7 +1841,7 @@
     "id": "jpa/entitygraph/",
     "name": "Entitygraph",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-entitygraph/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-entitygraph/index.html",
     "category": "JPA",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -1861,7 +1861,7 @@
     "id": "jpa/listeners/",
     "name": "Listeners",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-listeners/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-listeners/index.html",
     "category": "JPA",
     "last_updated": "2013-11-09 13:15:40 +0100",
     "usage": [
@@ -1882,7 +1882,7 @@
     "id": "jpa/multiple-pu/",
     "name": "Multiple pu",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-multiple-pu/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-multiple-pu/index.html",
     "category": "JPA",
     "last_updated": "2013-10-24 23:06:25 +0200",
     "usage": [
@@ -1903,7 +1903,7 @@
     "id": "jpa/storedprocedure/",
     "name": "Storedprocedure",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-storedprocedure/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-storedprocedure/index.html",
     "category": "JPA",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -1923,7 +1923,7 @@
     "id": "jpa/jndi-context/",
     "name": "Jndi context",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-jndi-context/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-jndi-context/index.html",
     "category": "JPA",
     "last_updated": "2013-10-30 13:23:46 +0100",
     "usage": [
@@ -1942,7 +1942,7 @@
     "id": "jpa/locking-optimistic/",
     "name": "Locking optimistic",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-locking-optimistic/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-locking-optimistic/index.html",
     "category": "JPA",
     "last_updated": "2013-10-30 14:06:43 +0100",
     "usage": [
@@ -1962,7 +1962,7 @@
     "id": "jpa/locking-pessimistic/",
     "name": "Locking pessimistic",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-locking-pessimistic/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-locking-pessimistic/index.html",
     "category": "JPA",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -1982,7 +1982,7 @@
     "id": "jpa/pu-typesafe/",
     "name": "Pu typesafe",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-pu-typesafe/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-pu-typesafe/index.html",
     "category": "JPA",
     "last_updated": "2013-10-30 14:31:59 +0100",
     "usage": [
@@ -2003,7 +2003,7 @@
     "id": "jpa/schema-gen-metadata/",
     "name": "Schema gen metadata",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-schema-gen-metadata/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-schema-gen-metadata/index.html",
     "category": "JPA",
     "last_updated": "2013-12-07 15:47:10 +0100",
     "usage": [
@@ -2022,7 +2022,7 @@
     "id": "jpa/schema-gen-scripts/",
     "name": "Schema gen scripts",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-schema-gen-scripts/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-schema-gen-scripts/index.html",
     "category": "JPA",
     "last_updated": "2013-12-05 05:13:59 +0100",
     "usage": [
@@ -2042,7 +2042,7 @@
     "id": "jpa/schema-gen-scripts-external/",
     "name": "Schema gen scripts external",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-schema-gen-scripts-external/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-schema-gen-scripts-external/index.html",
     "category": "JPA",
     "last_updated": "2013-10-30 14:57:08 +0100",
     "usage": [
@@ -2062,7 +2062,7 @@
     "id": "jpa/schema-gen-scripts-generate/",
     "name": "Schema gen scripts generate",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-schema-gen-scripts-generate/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-schema-gen-scripts-generate/index.html",
     "category": "JPA",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2079,7 +2079,7 @@
     "id": "jpa/schema-gen-index/",
     "name": "Schema gen index",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-schema-gen-index/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-schema-gen-index/index.html",
     "category": "JPA",
     "last_updated": "2013-11-09 14:12:30 +0100",
     "usage": [
@@ -2097,7 +2097,7 @@
     "id": "jpa/native-sql/",
     "name": "Native sql",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-native-sql/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-native-sql/index.html",
     "category": "JPA",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2117,7 +2117,7 @@
     "id": "jpa/native-sql-resultset-mapping/",
     "name": "Native sql resultset mapping",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-native-sql-resultset-mapping/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-native-sql-resultset-mapping/index.html",
     "category": "JPA",
     "last_updated": "2013-11-06 15:33:28 +0100",
     "usage": [
@@ -2141,7 +2141,7 @@
     "id": "jpa/unsynchronized-pc/",
     "name": "Unsynchronized pc",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-unsynchronized-pc/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-unsynchronized-pc/index.html",
     "category": "JPA",
     "last_updated": "2013-11-09 13:42:25 +0100",
     "usage": [
@@ -2161,7 +2161,7 @@
     "id": "jpa/extended-pc/",
     "name": "Extended pc",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-extended-pc/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-extended-pc/index.html",
     "category": "JPA",
     "last_updated": "2013-11-09 13:47:06 +0100",
     "usage": [
@@ -2181,7 +2181,7 @@
     "id": "jpa/jpa-converter/",
     "name": "Jpa converter",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jpa-jpa-converter/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-jpa-converter/index.html",
     "category": "JPA",
     "last_updated": "2013-11-09 16:55:03 +0100",
     "usage": [
@@ -2201,7 +2201,7 @@
     "id": "jta/transactional/",
     "name": "Transactional",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jta-transactional/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jta-transactional/index.html",
     "category": "JTA",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -2227,7 +2227,7 @@
     "id": "jta/tx-exception/",
     "name": "Tx exception",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jta-tx-exception/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jta-tx-exception/index.html",
     "category": "JTA",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -2254,7 +2254,7 @@
     "id": "jta/user-transaction/",
     "name": "User transaction",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jta-user-transaction/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jta-user-transaction/index.html",
     "category": "JTA",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -2280,7 +2280,7 @@
     "id": "jsf/ajax/",
     "name": "Ajax",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-ajax/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-ajax/index.html",
     "category": "JSF",
     "last_updated": "2013-10-27 13:34:11 +0100",
     "usage": [
@@ -2298,7 +2298,7 @@
     "id": "jsf/bean-validation/",
     "name": "Bean validation",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-bean-validation/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-bean-validation/index.html",
     "category": "JSF",
     "last_updated": "2013-12-20 22:53:42 +0100",
     "usage": [
@@ -2316,7 +2316,7 @@
     "id": "jsf/components/",
     "name": "Components",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-components/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-components/index.html",
     "category": "JSF",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2333,7 +2333,7 @@
     "id": "jsf/composite-component/",
     "name": "Composite component",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-composite-component/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-composite-component/index.html",
     "category": "JSF",
     "last_updated": "2013-11-19 15:05:45 +0100",
     "usage": [
@@ -2354,7 +2354,7 @@
     "id": "jsf/contracts/",
     "name": "Contracts",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-contracts/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-contracts/index.html",
     "category": "JSF",
     "last_updated": "2013-11-19 15:05:45 +0100",
     "usage": [
@@ -2375,7 +2375,7 @@
     "id": "jsf/contracts-library/",
     "name": "Contracts library",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-contracts-library/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-contracts-library/index.html",
     "category": "JSF",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "authors": [
@@ -2389,7 +2389,7 @@
     "id": "jsf/contracts-library-impl/",
     "name": "Contracts library impl",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-contracts-library-impl/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-contracts-library-impl/index.html",
     "category": "JSF",
     "last_updated": "2013-08-27 21:05:47 +0200",
     "authors": [
@@ -2403,7 +2403,7 @@
     "id": "jsf/file-upload/",
     "name": "File upload",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-file-upload/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-file-upload/index.html",
     "category": "JSF",
     "last_updated": "2013-10-27 13:52:33 +0100",
     "usage": [
@@ -2421,7 +2421,7 @@
     "id": "jsf/flows-simple/",
     "name": "Flows simple",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-flows-simple/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-flows-simple/index.html",
     "category": "JSF",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2439,7 +2439,7 @@
     "id": "jsf/flows-mixed/",
     "name": "Flows mixed",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-flows-mixed/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-flows-mixed/index.html",
     "category": "JSF",
     "last_updated": "2013-11-19 15:05:45 +0100",
     "usage": [
@@ -2461,7 +2461,7 @@
     "id": "jsf/flows-programmatic/",
     "name": "Flows programmatic",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-flows-programmatic/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-flows-programmatic/index.html",
     "category": "JSF",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2479,7 +2479,7 @@
     "id": "jsf/flows-declarative/",
     "name": "Flows declarative",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-flows-declarative/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-flows-declarative/index.html",
     "category": "JSF",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2497,7 +2497,7 @@
     "id": "jsf/http-get/",
     "name": "Http get",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-http-get/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-http-get/index.html",
     "category": "JSF",
     "last_updated": "2013-12-20 22:08:36 +0100",
     "usage": [
@@ -2515,7 +2515,7 @@
     "id": "jsf/passthrough/",
     "name": "Passthrough",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-passthrough/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-passthrough/index.html",
     "category": "JSF",
     "last_updated": "2013-11-08 01:00:58 +0100",
     "usage": [
@@ -2532,7 +2532,7 @@
     "id": "jsf/radio-buttons/",
     "name": "Radio buttons",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-radio-buttons/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-radio-buttons/index.html",
     "category": "JSF",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2551,7 +2551,7 @@
     "id": "jsf/resource-handling/",
     "name": "Resource handling",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-resource-handling/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-resource-handling/index.html",
     "category": "JSF",
     "last_updated": "2013-11-19 15:05:45 +0100",
     "usage": [
@@ -2573,7 +2573,7 @@
     "id": "jsf/simple-facelet/",
     "name": "Simple facelet",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-simple-facelet/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-simple-facelet/index.html",
     "category": "JSF",
     "last_updated": "2013-10-27 14:53:29 +0100",
     "usage": [
@@ -2591,7 +2591,7 @@
     "id": "jsf/server-extension/",
     "name": "Server extension",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-server-extension/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-server-extension/index.html",
     "category": "JSF",
     "last_updated": "2013-10-27 14:53:44 +0100",
     "usage": [
@@ -2609,7 +2609,7 @@
     "id": "jsf/viewscoped/",
     "name": "Viewscoped",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/jsf-viewscoped/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/jsf-viewscoped/index.html",
     "category": "JSF",
     "last_updated": "2013-10-27 14:59:59 +0100",
     "usage": [
@@ -2627,7 +2627,7 @@
     "id": "json/object-builder/",
     "name": "Object builder",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/json-object-builder/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/json-object-builder/index.html",
     "category": "JSON",
     "last_updated": "2013-12-24 01:26:03 +0100",
     "usage": [
@@ -2648,7 +2648,7 @@
     "id": "json/object-reader/",
     "name": "Object reader",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/json-object-reader/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/json-object-reader/index.html",
     "category": "JSON",
     "last_updated": "2013-11-12 17:09:33 +0100",
     "usage": [
@@ -2665,7 +2665,7 @@
     "id": "json/streaming-generate/",
     "name": "Streaming generate",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/json-streaming-generate/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/json-streaming-generate/index.html",
     "category": "JSON",
     "last_updated": "2013-11-12 18:22:48 +0100",
     "usage": [
@@ -2682,7 +2682,7 @@
     "id": "json/streaming-parser/",
     "name": "Streaming parser",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/json-streaming-parser/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/json-streaming-parser/index.html",
     "category": "JSON",
     "last_updated": "2013-11-12 22:35:58 +0100",
     "usage": [
@@ -2699,7 +2699,7 @@
     "id": "servlet/cookies/",
     "name": "Cookies",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-cookies/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-cookies/index.html",
     "category": "Servlet",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2716,7 +2716,7 @@
     "id": "servlet/async-servlet/",
     "name": "Async servlet",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-async-servlet/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-async-servlet/index.html",
     "category": "Servlet",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2735,7 +2735,7 @@
     "id": "servlet/error-mapping/",
     "name": "Error mapping",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-error-mapping/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-error-mapping/index.html",
     "category": "Servlet",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2752,7 +2752,7 @@
     "id": "servlet/event-listeners/",
     "name": "Event listeners",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-event-listeners/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-event-listeners/index.html",
     "category": "Servlet",
     "last_updated": "2013-11-01 21:44:12 +0100",
     "usage": [
@@ -2769,7 +2769,7 @@
     "id": "servlet/metadata-complete/",
     "name": "Metadata complete",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-metadata-complete/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-metadata-complete/index.html",
     "category": "Servlet",
     "last_updated": "2013-12-14 01:11:45 +0100",
     "usage": [
@@ -2786,7 +2786,7 @@
     "id": "servlet/nonblocking/",
     "name": "Nonblocking",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-nonblocking/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-nonblocking/index.html",
     "category": "Servlet",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2803,7 +2803,7 @@
     "id": "servlet/protocol-handler/",
     "name": "Protocol handler",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-protocol-handler/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-protocol-handler/index.html",
     "category": "Servlet",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -2820,7 +2820,7 @@
     "id": "servlet/resource-packaging/",
     "name": "Resource packaging",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-resource-packaging/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-resource-packaging/index.html",
     "category": "Servlet",
     "last_updated": "2013-12-04 09:33:58 +0100",
     "usage": [
@@ -2845,7 +2845,7 @@
     "id": "servlet/servlet-filters/",
     "name": "Servlet filters",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-servlet-filters/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-servlet-filters/index.html",
     "category": "Servlet",
     "last_updated": "2013-12-29 21:01:36 +0100",
     "usage": [
@@ -2867,7 +2867,7 @@
     "id": "servlet/file-upload/",
     "name": "File upload",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-file-upload/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-file-upload/index.html",
     "category": "Servlet",
     "last_updated": "2013-12-11 22:29:19 +0100",
     "usage": [
@@ -2888,7 +2888,7 @@
     "id": "servlet/web-fragment/",
     "name": "Web fragment",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-web-fragment/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-web-fragment/index.html",
     "category": "Servlet",
     "last_updated": "2013-10-31 06:29:50 +0100",
     "usage": [
@@ -2905,7 +2905,7 @@
     "id": "servlet/security-basicauth/",
     "name": "security-basicauth",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-security-basicauth/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-security-basicauth/index.html",
     "category": "Servlet",
     "last_updated": "2013-12-14 01:41:54 +0100",
     "usage": [
@@ -2922,7 +2922,7 @@
     "id": "servlet/security-form-based/",
     "name": "security-form-based",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-security-form-based/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-security-form-based/index.html",
     "category": "Servlet",
     "last_updated": "2013-12-14 02:03:02 +0100",
     "usage": [
@@ -2939,7 +2939,7 @@
     "id": "servlet/security-programmatic/",
     "name": "security-programmatic",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-security-programmatic/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-security-programmatic/index.html",
     "category": "Servlet",
     "last_updated": "2013-12-11 22:29:19 +0100",
     "usage": [
@@ -2956,7 +2956,7 @@
     "id": "servlet/security-deny-uncovered/",
     "name": "Security deny uncovered",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-security-deny-uncovered/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-security-deny-uncovered/index.html",
     "category": "Servlet",
     "last_updated": "2013-12-12 02:06:00 +0100",
     "usage": [
@@ -2973,7 +2973,7 @@
     "id": "servlet/security-basicauth-omission/",
     "name": "Security basicauth omission",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/servlet-security-basicauth-omission/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-security-basicauth-omission/index.html",
     "category": "Servlet",
     "last_updated": "2013-12-12 21:09:51 +0100",
     "usage": [
@@ -2990,7 +2990,7 @@
     "id": "validation/methods/",
     "name": "Methods",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/validation-methods/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/validation-methods/index.html",
     "category": "validation",
     "last_updated": "2013-11-26 22:03:38 +0100",
     "usage": [
@@ -3012,7 +3012,7 @@
     "id": "validation/custom-constraint/",
     "name": "Custom constraint",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/validation-custom-constraint/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/validation-custom-constraint/index.html",
     "category": "validation",
     "last_updated": "2013-11-26 14:18:50 +0100",
     "usage": [
@@ -3038,7 +3038,7 @@
     "id": "websocket/chat/",
     "name": "Chat",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-chat/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-chat/index.html",
     "category": "WebSocket",
     "last_updated": "2013-12-11 20:10:33 +0100",
     "usage": [
@@ -3055,7 +3055,7 @@
     "id": "websocket/encoder/",
     "name": "Encoder",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-encoder/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-encoder/index.html",
     "category": "WebSocket",
     "last_updated": "2013-12-03 10:49:22 +0100",
     "usage": [
@@ -3077,7 +3077,7 @@
     "id": "websocket/encoder-client/",
     "name": "Encoder client",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-encoder-client/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-encoder-client/index.html",
     "category": "WebSocket",
     "last_updated": "2013-12-03 10:49:22 +0100",
     "usage": [
@@ -3099,7 +3099,7 @@
     "id": "websocket/encoder-programmatic/",
     "name": "Encoder programmatic",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-encoder-programmatic/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-encoder-programmatic/index.html",
     "category": "WebSocket",
     "last_updated": "2013-12-03 10:49:22 +0100",
     "usage": [
@@ -3121,7 +3121,7 @@
     "id": "websocket/endpoint/",
     "name": "Endpoint",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-endpoint/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint/index.html",
     "category": "WebSocket",
     "last_updated": "2013-12-03 10:49:22 +0100",
     "usage": [
@@ -3142,7 +3142,7 @@
     "id": "websocket/endpoint-async/",
     "name": "Endpoint async",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-endpoint-async/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-async/index.html",
     "category": "WebSocket",
     "last_updated": "2013-12-04 23:18:25 +0100",
     "usage": [
@@ -3163,7 +3163,7 @@
     "id": "websocket/endpoint-javatypes/",
     "name": "Endpoint javatypes",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-endpoint-javatypes/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-javatypes/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3180,7 +3180,7 @@
     "id": "websocket/endpoint-config/",
     "name": "Endpoint config",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-endpoint-config/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-config/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3197,7 +3197,7 @@
     "id": "websocket/endpoint-programmatic/",
     "name": "Endpoint programmatic",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic/index.html",
     "category": "WebSocket",
     "last_updated": "2013-12-03 10:49:22 +0100",
     "usage": [
@@ -3218,7 +3218,7 @@
     "id": "websocket/endpoint-programmatic-async/",
     "name": "Endpoint programmatic async",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic-async/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic-async/index.html",
     "category": "WebSocket",
     "last_updated": "2013-11-05 02:47:45 +0100",
     "usage": [
@@ -3235,7 +3235,7 @@
     "id": "websocket/endpoint-programmatic-config/",
     "name": "Endpoint programmatic config",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic-config/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic-config/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3252,7 +3252,7 @@
     "id": "websocket/endpoint-programmatic-injection/",
     "name": "Endpoint programmatic injection",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic-injection/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic-injection/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3271,7 +3271,7 @@
     "id": "websocket/endpoint-security/",
     "name": "Endpoint security",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-endpoint-security/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-security/index.html",
     "category": "WebSocket",
     "last_updated": "2013-11-05 02:54:26 +0100",
     "usage": [
@@ -3289,7 +3289,7 @@
     "id": "websocket/httpsession/",
     "name": "Httpsession",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-httpsession/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-httpsession/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3307,7 +3307,7 @@
     "id": "websocket/injection/",
     "name": "Injection",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-injection/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-injection/index.html",
     "category": "WebSocket",
     "last_updated": "2013-11-05 02:59:29 +0100",
     "usage": [
@@ -3326,7 +3326,7 @@
     "id": "websocket/javase-client/",
     "name": "Javase client",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-javase-client/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-javase-client/index.html",
     "category": "WebSocket",
     "last_updated": "2013-11-06 01:33:24 +0100",
     "usage": [
@@ -3347,7 +3347,7 @@
     "id": "websocket/messagesize/",
     "name": "Messagesize",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-messagesize/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-messagesize/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3364,7 +3364,7 @@
     "id": "websocket/parameters/",
     "name": "Parameters",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-parameters/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-parameters/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3381,7 +3381,7 @@
     "id": "websocket/properties/",
     "name": "Properties",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-properties/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-properties/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3398,7 +3398,7 @@
     "id": "websocket/websocket-vs-rest/",
     "name": "Websocket vs rest",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-websocket-vs-rest/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-vs-rest/index.html",
     "category": "WebSocket",
     "last_updated": "2013-11-10 21:20:21 +0100",
     "usage": [
@@ -3420,7 +3420,7 @@
     "id": "websocket/subprotocol/",
     "name": "Subprotocol",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-subprotocol/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-subprotocol/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3437,7 +3437,7 @@
     "id": "websocket/websocket-client/",
     "name": "Websocket client",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-websocket-client/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-client/index.html",
     "category": "WebSocket",
     "last_updated": "2013-12-20 01:20:03 +0100",
     "usage": [
@@ -3455,7 +3455,7 @@
     "id": "websocket/websocket-client-config/",
     "name": "Websocket client config",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-websocket-client-config/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-client-config/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3473,7 +3473,7 @@
     "id": "websocket/websocket-client-programmatic/",
     "name": "Websocket client programmatic",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-websocket-client-programmatic/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-client-programmatic/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3491,7 +3491,7 @@
     "id": "websocket/websocket-client-programmatic-config/",
     "name": "Websocket client programmatic config",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-websocket-client-programmatic-config/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-client-programmatic-config/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3509,7 +3509,7 @@
     "id": "websocket/websocket-client-programmatic-encoders/",
     "name": "Websocket client programmatic encoders",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-websocket-client-programmatic-encoders/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-client-programmatic-encoders/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3528,7 +3528,7 @@
     "id": "websocket/whiteboard/",
     "name": "Whiteboard",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-whiteboard/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-whiteboard/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
@@ -3546,7 +3546,7 @@
     "id": "websocket/endpoint-singleton/",
     "name": "Endpoint singleton",
     "description": "",
-    "path": "http://javaee-samples.github.io/sample/websocket-endpoint-singleton/index.html",
+    "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-singleton/index.html",
     "category": "WebSocket",
     "last_updated": "2013-09-17 22:05:19 +0200",
     "usage": [
