@@ -1859,22 +1859,25 @@
   },
   {
     "id": "jpa/listeners/",
-    "name": "Listeners",
-    "description": "",
+    "name": "JPA Listeners",
+    "description": "Invocation examples of all the available Entity Listeners",
     "html_url": "http://javaee-samples.github.io/sample/jpa-listeners/index.html",
     "category": "JPA",
-    "last_updated": "2013-11-09 13:15:40 +0100",
+    "last_updated": "2014-01-16 22:11:31 +0100",
     "usage": [
-      "EJB",
       "JPA",
-      "Servlet",
-      "CDI",
-      "validation"
+      "validation",
+      "EJB",
+      "CDI"
     ],
     "authors": [
       {
         "name": "Arun Gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
