@@ -34,6 +34,7 @@ Awestruct::Extensions::Pipeline.new do
 
   # Indexifier moves HTML files to their own directory to achieve "pretty" URLs (e.g., features.html -> /features/index.html)
   extension Awestruct::Extensions::Indexifier.new
+  extension Awestruct::Extensions::Sitemap.new
 
   extension Awestruct::Extensions::Jenkins::Jobs.new('https://arungupta.ci.cloudbees.com/')
 
