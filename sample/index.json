@@ -1695,7 +1695,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jms-send-receive/index.html",
     "category": "JMS",
-    "last_updated": "2014-01-11 13:22:53 +0100",
+    "last_updated": "2014-01-11 23:29:29 +0100",
     "usage": [
       "JMS",
       "EJB",
@@ -1729,6 +1729,26 @@
         "name": "Arun Gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
+      {
+        "name": "Patrik Duditš",
+        "avatar": "http://gravatar.com/avatar/19a56ae56e133a56dd06d22be7d283ae?s=25"
+      }
+    ]
+  },
+  {
+    "id": "jms/jms-batch/",
+    "name": "Batch JMS processing",
+    "description": "ItemReader reading from durable subscription",
+    "html_url": "http://javaee-samples.github.io/sample/jms-jms-batch/index.html",
+    "category": "JMS",
+    "last_updated": "2014-01-17 23:46:50 +0100",
+    "usage": [
+      "EJB",
+      "Batch",
+      "CDI",
+      "JMS"
+    ],
+    "authors": [
       {
         "name": "Patrik Duditš",
         "avatar": "http://gravatar.com/avatar/19a56ae56e133a56dd06d22be7d283ae?s=25"
