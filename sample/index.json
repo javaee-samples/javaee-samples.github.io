@@ -1741,7 +1741,7 @@
     "description": "ItemReader reading from durable subscription",
     "html_url": "http://javaee-samples.github.io/sample/jms-jms-batch/index.html",
     "category": "JMS",
-    "last_updated": "2014-01-17 23:46:50 +0100",
+    "last_updated": "2014-02-02 04:19:39 +0100",
     "usage": [
       "EJB",
       "Batch",
@@ -1749,6 +1749,10 @@
       "JMS"
     ],
     "authors": [
+      {
+        "name": "Aslak Knutsen",
+        "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
       {
         "name": "Patrik Duditš",
         "avatar": "http://gravatar.com/avatar/19a56ae56e133a56dd06d22be7d283ae?s=25"
@@ -1806,7 +1810,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-datasourcedefinition-webxml-pu/index.html",
     "category": "JPA",
-    "last_updated": "2014-01-08 18:29:25 +0100",
+    "last_updated": "2014-01-28 20:26:35 +0100",
     "usage": [
       "EJB",
       "JPA",
@@ -1825,7 +1829,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-datasourcedefinition-annotation-pu/index.html",
     "category": "JPA",
-    "last_updated": "2014-01-08 18:29:25 +0100",
+    "last_updated": "2014-01-28 20:26:35 +0100",
     "usage": [
       "EJB",
       "JPA",
@@ -1883,7 +1887,7 @@
     "description": "Invocation examples of all the available Entity Listeners",
     "html_url": "http://javaee-samples.github.io/sample/jpa-listeners/index.html",
     "category": "JPA",
-    "last_updated": "2014-01-16 22:11:31 +0100",
+    "last_updated": "2014-01-21 21:33:06 +0100",
     "usage": [
       "JPA",
       "validation",
@@ -2118,41 +2122,55 @@
   },
   {
     "id": "jpa/native-sql/",
-    "name": "Native sql",
-    "description": "",
+    "name": "JPA Native SQL",
+    "description": "Using the EntityManager API to perform native SQL queries",
     "html_url": "http://javaee-samples.github.io/sample/jpa-native-sql/index.html",
     "category": "JPA",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-02-02 04:30:06 +0100",
     "usage": [
       "JPA",
       "EJB",
-      "CDI",
-      "Servlet"
+      "CDI"
     ],
     "authors": [
       {
         "name": "Arun Gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Aslak Knutsen",
+        "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
   {
     "id": "jpa/native-sql-resultset-mapping/",
-    "name": "Native sql resultset mapping",
-    "description": "",
+    "name": "JPA Native SQL ResultSet Mapping",
+    "description": "Using the EntityManager API to perform native SQL queries and map the result with @SqlResultSetMapping\n        annotation\n    ",
     "html_url": "http://javaee-samples.github.io/sample/jpa-native-sql-resultset-mapping/index.html",
     "category": "JPA",
-    "last_updated": "2013-11-06 15:33:28 +0100",
+    "last_updated": "2014-02-02 04:30:06 +0100",
     "usage": [
       "JPA",
       "EJB",
-      "CDI",
-      "Servlet"
+      "CDI"
     ],
     "authors": [
       {
         "name": "Arun Gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Aslak Knutsen",
+        "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Fotofinder",
@@ -2358,7 +2376,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-composite-component/index.html",
     "category": "JSF",
-    "last_updated": "2013-11-19 15:05:45 +0100",
+    "last_updated": "2014-01-31 11:24:29 +0100",
     "usage": [
       "CDI"
     ],
@@ -2366,6 +2384,10 @@
       {
         "name": "Arun Gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Tomas Remes",
+        "avatar": "http://gravatar.com/avatar/f9bd8b8796f11c7296086248441c3a8c?s=25"
       },
       {
         "name": "Andrey Cheptsov",
@@ -2634,15 +2656,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-viewscoped/index.html",
     "category": "JSF",
-    "last_updated": "2013-10-27 14:59:59 +0100",
+    "last_updated": "2014-01-31 11:24:29 +0100",
     "usage": [
-      "JSF",
-      "CDI"
+      "JSF"
     ],
     "authors": [
       {
         "name": "Arun Gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Tomas Remes",
+        "avatar": "http://gravatar.com/avatar/f9bd8b8796f11c7296086248441c3a8c?s=25"
       }
     ]
   },
