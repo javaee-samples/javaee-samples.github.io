@@ -1906,6 +1906,25 @@
     ]
   },
   {
+    "id": "jpa/listeners-injection/",
+    "name": "JPA Listeners Injection",
+    "description": "JPA 2.1 Entity Listeners injection",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-listeners-injection/index.html",
+    "category": "JPA",
+    "last_updated": "2014-02-03 21:45:45 +0100",
+    "usage": [
+      "JPA",
+      "validation",
+      "EJB"
+    ],
+    "authors": [
+      {
+        "name": "Kuba Marchwicki",
+        "avatar": "http://gravatar.com/avatar/b5405045448a182b8ee12236ec63d8b0?s=25"
+      }
+    ]
+  },
+  {
     "id": "jpa/multiple-pu/",
     "name": "Multiple pu",
     "description": "",
