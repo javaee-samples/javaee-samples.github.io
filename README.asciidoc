@@ -80,7 +80,12 @@ First we need to pull in all the dependencies. Execute the following in the term
 bundle install
 ----
 
-NOTE: If you get a telling you bundle could not be found, execute *gem install bundler* and reexecute the previous step
+NOTE: If you get an error telling you bundle could not be found, execute *gem install bundler* and reexecute the previous step
+
+NOTE: If you get an error telling you _libxml2_ is missing, please visit http://nokogiri.org/tutorials/installing_nokogiri.html[Installing Nokogiri]. Additional development packages for *libxslt* and *libxml2* are required. Depending on system, install dependencies (for Ubuntu execute *sudo apt-get install libxslt-dev libxml2-dev*) and reexecute the previous step
+
+NOTE: If you get an error telling you _no such file to load -- mkmf (LoadError)_, *rvm install ruby-1.9.3-dev* and reexecute the previous step
+
 
 The site rely on fetching data from Github so we need to give it a *Personal Access Tokens* to use.
 Create a file called *.github-auth* in the javaee-samples.github.io folder and add the Access token generated from the https://github.com/settings/applications[Gihub settings page].
