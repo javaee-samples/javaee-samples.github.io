@@ -845,7 +845,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/ejb-singleton/index.html",
     "category": "EJB",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-02-08 16:46:58 +0100",
     "usage": [
       "EJB",
       "CDI",
@@ -855,6 +855,10 @@
       {
         "name": "Arun Gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Ondrej Zizka",
+        "avatar": "http://gravatar.com/avatar/d0edf9d0f312ec47d27046845580ba4f?s=25"
       }
     ]
   },
