@@ -2227,17 +2227,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-extended-pc/index.html",
     "category": "JPA",
-    "last_updated": "2013-11-09 13:47:06 +0100",
+    "last_updated": "2014-02-03 21:47:02 +0100",
     "usage": [
       "JPA",
-      "EJB",
-      "CDI",
-      "Servlet"
+      "EJB"
     ],
     "authors": [
       {
         "name": "Arun Gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Kuba Marchwicki",
+        "avatar": "http://gravatar.com/avatar/b5405045448a182b8ee12236ec63d8b0?s=25"
       }
     ]
   },
