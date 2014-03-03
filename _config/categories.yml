@@ -127,5 +127,12 @@
   packages: 
     - javax.validation
 
+- id: jaxws
+  name: Java API for XML Web Services 2.2
+  jsrs:
+    - JSR-224
+  packages:
+    - javax.xml.ws
+    - javax.jws
 - id: extra
   name: External Integrations
