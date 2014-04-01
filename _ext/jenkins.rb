@@ -19,10 +19,10 @@ module Awestruct::Extensions::Jenkins
 
       jobs_overview_url = API_URL % [@base_url]
       jobs_overview = RestClient.get jobs_overview_url, :accept => 'application/json', :cache_expiry_age => DURATION_1_DAY
-      jobs_overview['jobs'].select{|j|j['name'] =~ /.*Samples on.*/}.each do |job| 
+      jobs_overview['jobs'].select{|j|j['name'] =~ /.*Samples.on.*/i}.each do |job|
         
         container = nil
-        if job['name'] =~ /.*Samples on (.+)\-cb.*/
+        if job['name'] =~ /.*Samples.on.(.+)\-cb.*/i
           name = $1
           container = site.results.containers.find{|c|c.name.eql? name}
           if container.nil?
