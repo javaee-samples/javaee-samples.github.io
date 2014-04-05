@@ -31,7 +31,7 @@ source "https://rubygems.org"
 
 ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.9'
 
-gem "awestruct", "0.5.3"
+gem "awestruct", "0.5.4.rc3"
 
 gem "slim"
 gem "kramdown"
