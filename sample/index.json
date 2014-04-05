@@ -12,7 +12,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -38,7 +38,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -62,7 +62,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -73,18 +73,18 @@
   },
   {
     "id": "batch/chunk-exception/",
-    "name": "Chunk exception",
-    "description": "",
+    "name": "Batch Chunk Exception",
+    "description": "Chunk Exception Handling - Retrying and Skipping",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-exception/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 13:03:32 +0100",
+    "last_updated": "2014-04-04 21:31:51 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -106,7 +106,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -128,7 +128,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -150,7 +150,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -172,7 +172,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -194,7 +194,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -216,7 +216,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -238,7 +238,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -260,7 +260,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -282,7 +282,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -304,7 +304,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -326,7 +326,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -344,7 +344,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -361,7 +361,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -386,7 +386,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -415,7 +415,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -444,7 +444,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -470,7 +470,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -490,7 +490,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -507,7 +507,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -557,7 +557,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -586,7 +586,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -612,7 +612,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -630,7 +630,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -648,7 +648,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -669,7 +669,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -715,7 +715,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -732,7 +732,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -773,7 +773,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -804,7 +804,7 @@
         "avatar": "http://gravatar.com/avatar/aba82ecdcf1e1534f2c579d124d8cd35?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -823,7 +823,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -842,7 +842,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -859,7 +859,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -878,7 +878,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -897,7 +897,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -920,7 +920,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -951,7 +951,7 @@
         "avatar": "http://gravatar.com/avatar/aba82ecdcf1e1534f2c579d124d8cd35?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -977,7 +977,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -999,7 +999,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1024,7 +1024,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1051,7 +1051,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -1220,7 +1220,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1243,7 +1243,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1265,7 +1265,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1286,7 +1286,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1307,7 +1307,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1328,7 +1328,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1350,7 +1350,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -1368,7 +1368,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -1386,7 +1386,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -1404,7 +1404,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -1415,7 +1415,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-jaxrs-client/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 17:03:54 +0100",
+    "last_updated": "2014-04-04 01:17:55 +0200",
     "usage": [
       "EJB",
       "JAXRS",
@@ -1423,7 +1423,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1452,7 +1452,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1483,7 +1483,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1505,7 +1505,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1526,7 +1526,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1547,7 +1547,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1570,7 +1570,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -1588,7 +1588,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -1608,7 +1608,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1629,7 +1629,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1651,7 +1651,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1673,7 +1673,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1696,7 +1696,26 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
+        "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      }
+    ]
+  },
+  {
+    "id": "jaxrs/db-access/",
+    "name": "Db access",
+    "description": "",
+    "html_url": "http://javaee-samples.github.io/sample/jaxrs-db-access/index.html",
+    "category": "JAXRS",
+    "last_updated": "2014-04-04 02:35:38 +0200",
+    "usage": [
+      "JAXRS",
+      "JPA",
+      "EJB"
+    ],
+    "authors": [
+      {
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -1749,7 +1768,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1793,7 +1812,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1820,7 +1839,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1872,7 +1891,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1978,7 +1997,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -1998,7 +2017,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2042,7 +2061,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2062,7 +2081,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2081,7 +2100,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2101,7 +2120,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2121,7 +2140,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2142,7 +2161,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2161,7 +2180,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2181,7 +2200,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2201,7 +2220,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2218,7 +2237,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2236,7 +2255,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2255,7 +2274,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2282,7 +2301,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2314,7 +2333,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2332,7 +2351,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2356,7 +2375,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2378,7 +2397,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2409,7 +2428,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2439,7 +2458,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2465,7 +2484,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2483,7 +2502,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2500,7 +2519,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2517,7 +2536,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2542,7 +2561,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2560,7 +2579,7 @@
     "last_updated": "2013-09-17 22:05:19 +0200",
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2574,7 +2593,7 @@
     "last_updated": "2013-08-27 21:05:47 +0200",
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2592,7 +2611,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2610,7 +2629,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2628,7 +2647,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2650,7 +2669,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2668,7 +2687,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2686,7 +2705,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2703,7 +2722,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2722,7 +2741,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2740,7 +2759,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2762,7 +2781,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2784,7 +2803,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2801,7 +2820,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2822,7 +2841,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2847,7 +2866,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2864,7 +2883,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2881,7 +2900,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2898,7 +2917,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2917,7 +2936,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2934,7 +2953,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2951,7 +2970,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2968,7 +2987,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2985,7 +3004,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3002,7 +3021,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3019,7 +3038,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3045,7 +3064,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3066,7 +3085,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3087,7 +3106,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3104,7 +3123,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3121,7 +3140,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3138,7 +3157,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3155,7 +3174,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3172,7 +3191,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3190,7 +3209,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3212,7 +3231,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3237,7 +3256,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3255,7 +3274,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3277,7 +3296,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3299,7 +3318,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3320,7 +3339,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3341,7 +3360,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3362,7 +3381,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3379,7 +3398,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3396,7 +3415,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3417,7 +3436,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3434,7 +3453,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3453,7 +3472,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3471,7 +3490,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3489,7 +3508,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3508,7 +3527,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3525,7 +3544,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3546,7 +3565,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3563,7 +3582,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3580,7 +3599,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3598,7 +3617,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3619,7 +3638,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3637,7 +3656,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3655,7 +3674,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3673,7 +3692,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3691,7 +3710,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3710,7 +3729,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3728,7 +3747,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3749,7 +3768,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3767,7 +3786,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
