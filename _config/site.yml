@@ -11,7 +11,8 @@ profiles:
     base_url: 'http://javaee-samples.github.io'
     fingerprint_assets: true
     minify: true
-    google_analytics: UA-18727998-5
+    google_analytics:
+      account: UA-18727998-5
     deploy:
       host: github_pages
       branch: master
