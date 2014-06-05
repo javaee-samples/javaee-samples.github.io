@@ -58,7 +58,9 @@ module SampleComponent
     include Awestruct::Extensions::Repository::Visitors::Base
 
     JAVA_SRC_DIR = "src/main/java"
+    JAVA_SRC_RESOURCE_DIR = "src/main/resources"
     JAVA_TEST_DIR = "src/test/java"
+    JAVA_TEST_RESOURCE_DIR = "src/test/resources"
 
     def handles(repository)
       repository.path.eql? "javaee7-samples"
@@ -125,7 +127,23 @@ module SampleComponent
             mod.sources ||= []
             
             src_dir = "#{repository.clone_dir}/#{module_path}/#{JAVA_SRC_DIR}"
+            src_resource_dir = "#{repository.clone_dir}/#{module_path}/#{JAVA_SRC_RESOURCE_DIR}"
             test_dir = "#{repository.clone_dir}/#{module_path}/#{JAVA_TEST_DIR}"
+            test_resource_dir = "#{repository.clone_dir}/#{module_path}/#{JAVA_TEST_RESOURCE_DIR}"
+
+            extract_source = Proc.new{ |file|
+                next if file =~ /$\.java/
+                next unless File.file? file
+
+                source = OpenStruct.new
+                source.name = File.basename(file)
+                source.content = File.read(file).gsub(/<!--.*?-->/m, '').strip
+                source.path = file.gsub("#{repository.clone_dir}/#{module_path}/", '')
+                mod.sources << source
+            }
+
+            Dir.glob("#{src_resource_dir}/**/*").each &extract_source
+            Dir.glob("#{test_resource_dir}/**/*").each &extract_source
 
             Java::Doc.parse src_dir do |root| 
                 root.classes.each do |c|

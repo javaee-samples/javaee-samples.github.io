@@ -76,8 +76,8 @@ class SiteIncludeProcessor < Asciidoctor::Extensions::IncludeProcessor
       end
       source = method.content
     end
-
-    block = sourcify source, "java", false 
+    type = File.extname(file.path)[1..-1]
+    block = sourcify source, type, false
     reader.push_include block, target, target, 1, attributes
   end
 end
