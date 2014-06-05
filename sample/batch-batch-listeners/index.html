@@ -1,6 +1,342 @@
-<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaEE Sample::Batch::Batch listeners</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="http://javaee-samples.github.io/stylesheets/foundation-icons.css"><link rel="stylesheet" href="http://javaee-samples.github.io/stylesheets/app.css"><script src="http://javaee-samples.github.io/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="http://javaee-samples.github.io/humans.txt"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Batch listeners"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="http://javaee-samples.github.io/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="http://javaee-samples.github.io/contributors">Contributors <i class="fi-torsos-male-female"></i></a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-10 columns"><h2>Batch listeners</h2></div><div class="large-2 columns"><div class="action right"><a class="button radius round success" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/batch/batch-listeners/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/batch/batch-listeners/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="highlight"><code>mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="highlight"><code></code></pre></hr></div></div></div></div><div class="row"><div class="large-10 columns"><h3></h3></div></div><div class="sub"><div class="row"><div class="large-10 columns specifications"><ul class="inline-list"><li>Specifications in use:</li><li><ul class="inline-list"></ul><li><a href="http://javaee-samples.github.io/#Batch" title="Batch Processing for Java Platform 1.0">Batch</a></li><li><a href="http://javaee-samples.github.io/#CDI" title="Context and Dependency Injection 1.1">CDI</a></li></li></ul></div><div class="large-2 columns contributors"><ul class="inline-list"><li><img class="photo" title="Arun-gupta" src="http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"></li><li><img class="photo" title="Roberto Cortez" src="http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div class="improve">Missing a story. Add a test case.<a class="right button round" data-reveal-id="improve">Show me how! <i class="fi-page-edit"></i></a></div><script type="text/javascript">$(function() {
+<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>JavaEE Sample::Batch::Batch Listeners</title><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.css"><link rel="stylesheet" href="http://javaee-samples.github.io/stylesheets/foundation-icons.css"><link rel="stylesheet" href="http://javaee-samples.github.io/stylesheets/app.css"><script src="http://javaee-samples.github.io/javascripts/vendor/custom.modernizr.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><link rel="author" type="text/plain" href="http://javaee-samples.github.io/humans.txt"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Batch Listeners"><meta name="twitter:description" content="Batch Listeners - Applying Listeners to Job, Chunk, Step, Reader, Processor and Writer"></head><body class="antialiased"><nav class="top-bar"><ul class="title-area"><li class="name"><h1><a href="http://javaee-samples.github.io/">JavaEE Samples</a></h1></li><li class="toggle-topbar"><a href="#"><i class="fi-home"></i></a></li></ul><section class="top-bar-section"><ul class="right"><li class="divider"><li><a href="http://javaee-samples.github.io/contributors">Contributors <i class="fi-torsos-male-female"></i></a></li></li></ul></section></nav><div class="container"><header><div class="row"><div class="large-10 columns"><h2>Batch Listeners</h2></div><div class="large-2 columns"><div class="action right"><a class="button radius round success" data-reveal-id="run">Run <i class="fi-play"></i></a><div id="run" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to run the sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/batch/batch-listeners/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing we need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/batch/batch-listeners/</code></pre>Now we are ready to start testing. You can run all the tests in this sample by executing:<pre class="highlight"><code>mvn test</code></pre>Or you can run individual tests by executing one of the following:<pre class="highlight"><code>mvn test -Dtest=BatchListenersTest</code></pre></hr></div></div></div></div><div class="row"><div class="large-10 columns"><h3>Batch Listeners - Applying Listeners to Job, Chunk, Step, Reader, Processor and Writer</h3></div></div><div class="sub"><div class="row"><div class="large-10 columns specifications"><ul class="inline-list"><li>Specifications in use:</li><li><ul class="inline-list"></ul><li><a href="http://javaee-samples.github.io/#Batch" title="Batch Processing for Java Platform 1.0">Batch</a></li><li><a href="http://javaee-samples.github.io/#CDI" title="Context and Dependency Injection 1.1">CDI</a></li></li></ul></div><div class="large-2 columns contributors"><ul class="inline-list"><li><img class="photo" title="Arun Gupta" src="http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"></li><li><img class="photo" title="Roberto Cortez" src="http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"></li></ul></div></div></div><script type="text/javascript">//$(function() { activateGuideMenuControl() })</script></header><div class="row"><div class="large-12 columns"><div id="test"><div class="row"><div class="large-7 columns"><h4>BatchListenersTest</h4></div><div class="large-3 columns"><ul class="inline-list" style="margin-left:0em;"><li style="margin-left: 0.3em"><i class="fi-like" title="All tests pass on GlassFish 4.0" style="color: green"></i></li><li style="margin-left: 0.3em"><i class="fi-like" title="All tests pass on WildFly nightly" style="color: green"></i></li></ul></div><div class="large-2 columns"><a class="right" href="https://github.com/javaee-samples/javaee7-samples/edit/master/batch/batch-listeners/src/test/java/org/javaee7/batch/batch/listeners/BatchListenersTest.java"><i class="fi-page-edit"></i></a></div></div><div class="paragraph">
+<p>The Batch specification, provides several listeners to notify about specific event ocurring during the batch
+processing execution.</p>
+</div>
+<div class="paragraph">
+<p>Events can be caught via extending the following classes, for the appropriate batch lifecycle event:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>javax.batch.api.listener.AbstractJobListener</code></p>
+</li>
+<li>
+<p><code>javax.batch.api.listener.AbstractStepListener</code></p>
+</li>
+<li>
+<p><code>javax.batch.api.chunk.listener.AbstractChunkListener</code></p>
+</li>
+<li>
+<p><code>javax.batch.api.chunk.listener.AbstractItemReadListener</code></p>
+</li>
+<li>
+<p><code>javax.batch.api.chunk.listener.AbstractItemProcessListener</code></p>
+</li>
+<li>
+<p><code>javax.batch.api.chunk.listener.AbstractItemWriteListener</code></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The Job Listener:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">
+@Named()
+public class MyJobListener extends AbstractJobListener {
+
+    public MyJobListener() {
+        super();
+    }
+
+    @Override()
+    public void beforeJob() {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyJobListener.beforeJob");
+    }
+
+    @Override()
+    public void afterJob() {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyJobListener.afterJob");
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Allows you to execute code before and after the job execution. Useful to setup and clear resources needed by the job.</p>
+</div>
+<div class="paragraph">
+<p>The Step Listener:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">
+@Named()
+public class MyStepListener extends AbstractStepListener {
+
+    public MyStepListener() {
+        super();
+    }
+
+    @Override()
+    public void beforeStep() throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyStepListener.beforeStep");
+    }
+
+    @Override()
+    public void afterStep() throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyStepListener.afterStep");
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Allows you to execute code before and after the step execution. Useful to setup and clear resources needed by the
+step.</p>
+</div>
+<div class="paragraph">
+<p>The Chunk Listener:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">
+@Named()
+public class MyChunkListener extends AbstractChunkListener {
+
+    public MyChunkListener() {
+        super();
+    }
+
+    @Override()
+    public void beforeChunk() throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyChunkListener.beforeChunk");
+    }
+
+    @Override()
+    public void afterChunk() throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyChunkListener.afterChunk");
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Allows you to execude code before and after the chunk processing. Useful to setup and clear resources needed by the
+chunk.</p>
+</div>
+<div class="paragraph">
+<p>The Read Listener:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">
+@Named()
+public class MyItemReadListener extends AbstractItemReadListener {
+
+    public MyItemReadListener() {
+        super();
+    }
+
+    @Override()
+    public void beforeRead() throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyItemReadListener.beforeRead");
+    }
+
+    @Override()
+    public void afterRead(Object item) throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyItemReadListener.afterRead: " + item);
+    }
+
+    @Override()
+    public void onReadError(Exception ex) throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyItemReadListener.onReadError: " + ex.getLocalizedMessage());
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Allows you to execute code before and after reading a element as well if an error occurs reading that element. Useful
+to setup additional resources and add additional information to the object reading. You can also provide some logic
+to treat a failed object read.</p>
+</div>
+<div class="paragraph">
+<p>The Processor Listener:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">
+@Named()
+public class MyItemProcessorListener extends AbstractItemProcessListener {
+
+    public MyItemProcessorListener() {
+        super();
+    }
+
+    @Override()
+    public void beforeProcess(Object item) throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyItemProcessorListener.beforeProcess: " + item);
+    }
+
+    @Override()
+    public void afterProcess(Object item, Object result) throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyItemProcessorListener.afterProcess: " + item + ", " + result);
+    }
+
+    @Override()
+    public void onProcessError(Object item, Exception ex) throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyItemProcessorListener.onProcessError: " + item + ", " + ex.getLocalizedMessage());
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Allows you to execute code before and after processing a element as well if an error occurs processing that element.
+Useful to setup additional resources and add additional information to the object processing. You can also provide
+some logic to  treat a failed object processing.</p>
+</div>
+<div class="paragraph">
+<p>The Writer Listener:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">
+@Named()
+public class MyItemWriteListener extends AbstractItemWriteListener {
+
+    public MyItemWriteListener() {
+        super();
+    }
+
+    @Override()
+    public void beforeWrite(List items) throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyItemWriteListener.beforeWrite: " + items);
+    }
+
+    @Override()
+    public void afterWrite(List items) throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyItemWriteListener.afterWrite: " + items);
+    }
+
+    @Override()
+    public void onWriteError(List items, Exception ex) throws Exception {
+        BatchListenerRecorder.batchListenersCountDownLatch.countDown();
+        System.out.println("MyItemWriteListener.onError: " + items + ", " + ex.getLocalizedMessage());
+    }
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Allows you to execute code before and after writing a element as well if an error occurs writing that element.
+Useful to setup additional resources and add additional information to the object writing. You can also provide
+some logic to  treat a failed object write.</p>
+</div>
+<div class="paragraph">
+<p>Remember that listeners need to be configured in the job xml file (<code>myjob.xml</code>).</p>
+</div><div class="paragraph">
+<p>We&#8217;re just going to deploy the application as a <code>web archive</code>. Note the inclusion of the following files:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="file language-file">/META-INF/batch-jobs/myjob.xml</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>myjob.xml</code> file is needed for running the batch definition.</p>
+</div><div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">@Deployment
+public static WebArchive createDeployment() {
+    WebArchive war = ShrinkWrap.create(WebArchive.class)
+            .addClass(BatchTestHelper.class)
+            .addPackage("org.javaee7.batch.batch.listeners")
+            .addAsWebInfResource(EmptyAsset.INSTANCE, ArchivePaths.create("beans.xml"))
+            .addAsResource("META-INF/batch-jobs/myJob.xml");
+    System.out.println(war.toString(true));
+    return war;
+}</code></pre>
+</div>
+</div><div class="paragraph">
+<p>In the test, we&#8217;re just going to invoke the batch execution and wait for completion. To validate the test
+expected behaviour we need to query the <code>Metric[]</code> object available in the step execution and also verify if the
+listeners were executed correctly via a <code>CountDownLatch</code> wait.</p>
+</div>
+<div class="paragraph">
+<p>The batch process itself will read and process 10 elements from numbers  1 to 10, but only write the odd
+elements.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Each listener will decrement the total value of the <code>CountDownLatch</code>, until all the predicted events are
+executed. The number of predicted events is 60:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>MyJobListener</code> executes 2 times, 1 for <code>MyJobListener#beforeJob</code> and 1 more for <code>MyJobListener#afterJob</code>.</p>
+</li>
+<li>
+<p><code>MyStepListener</code> executes 2 times, 1 for <code>MyStepListener#beforeStep</code> and 1 more for <code>MyStepListener#afterStep</code>.</p>
+</li>
+<li>
+<p><code>MyChunkListener</code> executes 8 times, 4 for <code>MyChunkListener#beforeChunk</code> and 4 more
+for <code>MyChunkListener#afterChunk</code>. Chunk size is set to 3 and the total elements is 10, so 10/3 = 3 and 1 more
+for the last element, means 4 for each chunk listener event.</p>
+</li>
+<li>
+<p><code>MyItemReader</code> executes 22 times, 10 elements in total plus an empty read, so <code>MyItemReadListener#beforeRead</code>
+executes 11 times and <code>MyItemReadListener#afterRead</code> the other 11 times.</p>
+</li>
+<li>
+<p><code>MyItemProcessorListener</code> executes 20 times, 10 elements read in total,
+so <code>MyItemProcessorLister#beforeProcess</code> executes 10 times
+and <code>MyItemProcessorLister#afterProcess</code> the other 10 times.</p>
+</li>
+<li>
+<p><code>MyItemWriterListener</code> executed 6 times, 3 times for <code>MyItemWriterListener#beforeWrite</code> and another 3 times
+for <code>MyItemWriterListener#afterWrite</code>. This one is a bit more tricky, since not every element needs to be
+written. Looking at <code>MyItemProcessor</code>, only even records are going to be written. We also need to take into
+account the elements read per chunk, so: Chunk[1] read and process [1,2,3] and wrote [2,6], Chunk[2] read and
+process [4,5,6] and wrote [10], Chunk[3] read and process [7,8,9] and wrote [14,18], Chunk[4] read and process
+[10] and did not wrote anything, so only 3 writes for the full processing.</p>
+</li>
+<li>
+<p>Total: 2 + 2 + 8 + 22 + 20 + 6 = 60</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div><div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="java language-java">@Test
+public void testBatchListeners() throws Exception {
+    JobOperator jobOperator = BatchRuntime.getJobOperator();
+    Long executionId = jobOperator.start("myJob", new Properties());
+    JobExecution jobExecution = jobOperator.getJobExecution(executionId);
+
+    BatchTestHelper.keepTestAlive(jobExecution);
+
+    List&lt;StepExecution&gt; stepExecutions = jobOperator.getStepExecutions(executionId);
+    for (StepExecution stepExecution : stepExecutions) {
+        if (stepExecution.getStepName().equals("myStep")) {
+            Map&lt;Metric.MetricType, Long&gt; metricsMap = BatchTestHelper.getMetricsMap(stepExecution.getMetrics());
+
+            assertEquals(10L, metricsMap.get(Metric.MetricType.READ_COUNT).longValue());
+            assertEquals(10L / 2L, metricsMap.get(Metric.MetricType.WRITE_COUNT).longValue());
+            assertEquals(10L / 3 + (10L % 3 &gt; 0 ? 1 : 0), metricsMap.get(Metric.MetricType.COMMIT_COUNT).longValue());
+        }
+    }
+
+    assertTrue(BatchListenerRecorder.batchListenersCountDownLatch.await(0, TimeUnit.SECONDS));
+    assertEquals(jobExecution.getBatchStatus(), BatchStatus.COMPLETED);
+}</code></pre>
+</div>
+</div></div><script type="text/javascript">$(function() {
   hljs.initHighlightingOnLoad();
-})</script></div></div><div class="row"><div class="large-12 columns"><div class="large-6 columns"><h3>Share the Knowledge</h3>Find this sample useful? <a href="http://twitter.com/home/?status=Just%20read%20the%20%23JavaEE-Sample%20%22Batch::Batch%20listeners%22%20and%20learned%20something%20new!%20http://javaee-samples.github.io/sample/batch-batch-listeners/">Share on <i class="fi-social-twitter"></i></a><p>There's a lot more about JavaEE to cover. If you're ready to learn more, check out the <a href="http://javaee-samples.github.io/">other available samples</a>.</p></div><div class="large-6 columns"><h3>Help Improve</h3>Find a bug in the sample? Something missing? You can fix it by <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/batch/batch-listeners//src/test/java">editing the source</a>, making the correction and sending a pull request. Or report the problem to the <a href="https://github.com/javaee-samples/javaee7-samples/issues">issue tracker</a></div></div></div><div class="row"><div class="large-12 columns changes"><h4>Recent Changelog</h4><ul><li><div>Dec 31, 2013: Code style issues <em>by Roberto Cortez</em></div></li><li><div>Dec 31, 2013: Removed servlets and jsp's <em>by Roberto Cortez</em></div></li><li><div>Dec 04, 2013: Changed asserts for countdownlatch <em>by Roberto Cortez</em></div></li><li><div>Dec 04, 2013: Refactored batch tests to use countdownlatch instead of boolean static variables to monitor execution <em>by Roberto Cortez</em></div></li><li><div>Nov 26, 2013: Simplified listener tests <em>by Roberto Cortez</em></div></li><li><div>Nov 24, 2013: Added tests to batch-listeners project <em>by Roberto Cortez</em></div></li><li><div>Nov 15, 2013: Cleaning up pom.xml <em>by Arun Gupta</em></div></li><li><div>Nov 15, 2013: Renaming to be more appropriate <em>by Arun Gupta</em></div></li></ul></div></div><div id="improve" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to help improve this sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/batch/batch-listeners/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing you need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/batch/batch-listeners/</code></pre><p>Do the changes as you see fit and send a pull request!</p><p>Good Luck!</p></hr></div></div><footer style="max-width: 100%"><div class="row"><div class="large-6 columns" style="margin-bottom: .75em; margin-top: .75em"><ul class="unstyled"><li>&#169; Copyright 2013-2014 JavaEE Samples.</li><li><i class="fi-like"></i>&nbsp;Mixed with <a href="http://foundation.zurb.com/">Foundation</a>. Baked by <a href="http://awestruct.org">Awestruct</a>.</li><li><i class="fi-share"></i>&nbsp;Website and docs licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</li></ul></div></div></footer><script src="http://javaee-samples.github.io/javascripts/foundation/foundation.js"></script><script src="http://javaee-samples.github.io/javascripts/foundation/foundation.topbar.js"></script><script src="http://javaee-samples.github.io/javascripts/foundation/foundation.reveal.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/highlight.min.js"></script><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/styles/pojoaque.css"><script type="text/javascript">$(document).foundation()</script><script type="text/javascript">
+})</script></div></div><div class="row"><div class="large-12 columns"><div class="large-6 columns"><h3>Share the Knowledge</h3>Find this sample useful? <a href="http://twitter.com/home/?status=Just%20read%20the%20%23JavaEE-Sample%20%22Batch::Batch%20Listeners%22%20and%20learned%20something%20new!%20http://javaee-samples.github.io/sample/batch-batch-listeners/">Share on <i class="fi-social-twitter"></i></a><p>There's a lot more about JavaEE to cover. If you're ready to learn more, check out the <a href="http://javaee-samples.github.io/">other available samples</a>.</p></div><div class="large-6 columns"><h3>Help Improve</h3>Find a bug in the sample? Something missing? You can fix it by <a href="https://github.com/javaee-samples/javaee7-samples/edit/master/batch/batch-listeners/src/test/java/org/javaee7/batch/batch/listeners/BatchListenersTest.java">editing the source</a>, making the correction and sending a pull request. Or report the problem to the <a href="https://github.com/javaee-samples/javaee7-samples/issues">issue tracker</a></div></div></div><div class="row"><div class="large-12 columns changes"><h4>Recent Changelog</h4><ul><li><div>May 27, 2014: Added documentation to batch-listeners project <em>by Roberto Cortez</em></div></li><li><div>Dec 31, 2013: Code style issues <em>by Roberto Cortez</em></div></li><li><div>Dec 31, 2013: Removed servlets and jsp's <em>by Roberto Cortez</em></div></li><li><div>Dec 04, 2013: Changed asserts for countdownlatch <em>by Roberto Cortez</em></div></li><li><div>Dec 04, 2013: Refactored batch tests to use countdownlatch instead of boolean static variables to monitor execution <em>by Roberto Cortez</em></div></li><li><div>Nov 26, 2013: Simplified listener tests <em>by Roberto Cortez</em></div></li><li><div>Nov 24, 2013: Added tests to batch-listeners project <em>by Roberto Cortez</em></div></li><li><div>Nov 15, 2013: Cleaning up pom.xml <em>by Arun Gupta</em></div></li><li><div>Nov 15, 2013: Renaming to be more appropriate <em>by Arun Gupta</em></div></li></ul></div></div><div id="improve" class="hide reveal-modal" data-reveal=""><a class="close-reveal-modal" href="./">How to help improve this sample <i class="fi-x"></i></a><hr class="clear">The source code for this sample can be found in the <a href="https://github.com/javaee-samples/javaee7-samples/tree/master/batch/batch-listeners/">javaee7-samples</a> <i class="fi-social-github"></i>GitHub repository. The first thing you need to do is to get the source by downloading the repository and then go into the samples folder:<pre class="highlight"><code>git clone git://github.com/javaee-samples/javaee7-samples.git<br/>cd javaee7-samples/batch/batch-listeners/</code></pre><p>Do the changes as you see fit and send a pull request!</p><p>Good Luck!</p></hr></div></div><footer style="max-width: 100%"><div class="row"><div class="large-6 columns" style="margin-bottom: .75em; margin-top: .75em"><ul class="unstyled"><li>&#169; Copyright 2013-2014 JavaEE Samples.</li><li><i class="fi-like"></i>&nbsp;Mixed with <a href="http://foundation.zurb.com/">Foundation</a>. Baked by <a href="http://awestruct.org">Awestruct</a>.</li><li><i class="fi-share"></i>&nbsp;Website and docs licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</li></ul></div></div></footer><script src="http://javaee-samples.github.io/javascripts/foundation/foundation.js"></script><script src="http://javaee-samples.github.io/javascripts/foundation/foundation.topbar.js"></script><script src="http://javaee-samples.github.io/javascripts/foundation/foundation.reveal.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/highlight.min.js"></script><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/7.3/styles/pojoaque.css"><script type="text/javascript">$(document).foundation()</script><script type="text/javascript">
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount','UA-18727998-5']);
 _gaq.push(['_trackPageview']);
