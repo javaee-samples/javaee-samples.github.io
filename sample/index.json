@@ -249,11 +249,11 @@
   },
   {
     "id": "batch/multiple-steps/",
-    "name": "Multiple steps",
-    "description": "",
+    "name": "Batch Multiple Steps",
+    "description": "Batch JSL - Executing Multiple Steps",
     "html_url": "http://javaee-samples.github.io/sample/batch-multiple-steps/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 13:03:32 +0100",
+    "last_updated": "2014-05-30 18:40:32 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -271,11 +271,11 @@
   },
   {
     "id": "batch/split/",
-    "name": "Split",
-    "description": "",
+    "name": "Batch Split",
+    "description": "Batch JSL - Splitting Steps",
     "html_url": "http://javaee-samples.github.io/sample/batch-split/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 17:24:14 +0100",
+    "last_updated": "2014-05-30 18:40:11 +0200",
     "usage": [
       "Batch",
       "CDI"
