@@ -183,11 +183,11 @@
   },
   {
     "id": "batch/decision/",
-    "name": "Decision",
-    "description": "",
+    "name": "Batch Decision",
+    "description": "Batch DSL - Decision",
     "html_url": "http://javaee-samples.github.io/sample/batch-decision/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 00:42:55 +0100",
+    "last_updated": "2014-06-12 18:21:25 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -205,11 +205,11 @@
   },
   {
     "id": "batch/flow/",
-    "name": "Flow",
-    "description": "",
+    "name": "Batch Flow",
+    "description": "Batch DSL - Flow",
     "html_url": "http://javaee-samples.github.io/sample/batch-flow/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 13:03:32 +0100",
+    "last_updated": "2014-06-12 18:21:33 +0200",
     "usage": [
       "Batch",
       "CDI"
