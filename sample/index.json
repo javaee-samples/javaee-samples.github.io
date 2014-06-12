@@ -5,7 +5,7 @@
     "description": "Batchlet Simple - Execute a task oriented step",
     "html_url": "http://javaee-samples.github.io/sample/batch-batchlet-simple/index.html",
     "category": "Batch",
-    "last_updated": "2014-05-29 01:55:05 +0200",
+    "last_updated": "2014-06-05 15:46:21 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -2009,6 +2009,25 @@
     "usage": [
       "EJB",
       "JPA",
+      "CDI"
+    ],
+    "authors": [
+      {
+        "name": "Arjan Tijms",
+        "avatar": "http://gravatar.com/avatar/d383928ce35a8dab6f4cf8f4e5e269b9?s=25"
+      }
+    ]
+  },
+  {
+    "id": "jpa/datasourcedefinition-applicationxml-pu/",
+    "name": "Datasourcedefinition applicationxml pu",
+    "description": "",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-datasourcedefinition-applicationxml-pu/index.html",
+    "category": "JPA",
+    "last_updated": "2014-06-10 16:54:14 +0200",
+    "usage": [
+      "JPA",
+      "EJB",
       "CDI"
     ],
     "authors": [
