@@ -187,7 +187,7 @@
     "description": "Batch DSL - Decision",
     "html_url": "http://javaee-samples.github.io/sample/batch-decision/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-12 18:21:25 +0200",
+    "last_updated": "2014-06-12 18:38:50 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -196,6 +196,10 @@
       {
         "name": "Arun Gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Aslak Knutsen",
+        "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
       },
       {
         "name": "Roberto Cortez",
