@@ -14,6 +14,12 @@ head
   script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"
   link rel='author' type='text/plain' href="#{site.base_url}/humans.txt"
 
+  /# Add author link if google.url found in profile
+  - unless page.nil? or page.showcase.nil? or page.showcase.contributors.nil?
+    -for c in site.identities.unique_by_emails(page.showcase.contributors)
+      - unless c.google.nil?
+        link rel="author" href="#{c.google.url}"
+
   - if page.twitter_card
     meta name="twitter:card" content="#{page.twitter_card}"
   - if page.twitter_title
