@@ -64,8 +64,11 @@ header
         - unless page.showcase.contributors.nil?
           ul.inline-list
             -for c in site.identities.unique_by_emails(page.showcase.contributors)
-              li
-                img.photo title="#{c.name}" src="#{c.avatar_url(25)}"
+              li itemscope="" itemtype="http://data-vocabulary.org/Person"
+                meta itemprop="role" content="author"
+                meta itemprop="name" content="#{c.name}"
+                meta itemprop="affiliation" content="#{c.company}"
+                img.photo title="#{c.name}" src="#{c.avatar_url(25)}" itemprop="photo"
 
   javascript:
     //$(function() { activateGuideMenuControl() })
