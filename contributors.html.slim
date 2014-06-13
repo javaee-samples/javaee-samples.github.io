@@ -17,7 +17,7 @@ header
   .large-12.columns
     ul.contributors.row
       - site.identities.contributors().sort_by{|c| c.commits * Order::DESC}.each do |contributor|
-        li.large-4.columns
+        li.large-4.columns itemscope="" itemtype="http://data-vocabulary.org/Person"
           div.reveal-modal.hide id="#{contributor.github_id}" data-reveal=""
             .modal-header
               a.close-reveal-modal
@@ -33,23 +33,25 @@ header
               - else
                 | No bio available.
           .photo
-            img src="#{contributor.avatar_url(140)}" alt="#{contributor.name}" data-reveal-id="#{contributor.github_id}"
+            img src="#{contributor.avatar_url(140)}" alt="#{contributor.name}" data-reveal-id="#{contributor.github_id}" itemprop="photo"
             ul
               li
                 - if contributor.blog
-                  a href="#{contributor.blog}" Blog
+                  a href="#{contributor.blog}" itemprop="url" Blog
                 - else
                   span Blog
               li
                 - if !contributor.twitter.nil?
-                  a href="#{contributor.twitter.url}" Twitter
+                  a href="#{contributor.twitter.url}" itemprop="url" Twitter
                 - else
                   span Twitter
               li
-                a href="#{contributor.github.profile_url}" GitHub
-          h5=contributor.name
-          strong= contributor.company
-          em= contributor.location
+                a href="#{contributor.github.profile_url}" itemprop="url" GitHub
+          meta itemprop="role" content="contributor"
+          h5 itemprop="name"=contributor.name
+          strong itemprop="affiliation"=contributor.company
+          em itemscope="" itemprop="address" itemtype="http://www.data-vocabulary.org/Address"
+            span itemprop="locality" =contributor.location
 .row
   .large-12.columns
     strong Is your information incomplete? Is your profile picture missing?
