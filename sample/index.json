@@ -27,11 +27,11 @@
   },
   {
     "id": "batch/chunk-checkpoint/",
-    "name": "Chunk checkpoint",
-    "description": "",
+    "name": "Batch Chunk Checkpoint",
+    "description": "Chunk Checkpoint - Custom Checkpoint Policy",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-checkpoint/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 13:03:32 +0100",
+    "last_updated": "2014-06-18 14:20:20 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -49,11 +49,11 @@
   },
   {
     "id": "batch/chunk-csv-database/",
-    "name": "Chunk csv database",
-    "description": "",
+    "name": "Batch Chunk CSV Database",
+    "description": "Chunk Processing - Read, Process, Write to a Database",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-csv-database/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 13:03:32 +0100",
+    "last_updated": "2014-06-18 17:32:45 +0200",
     "usage": [
       "Batch",
       "CDI",
@@ -95,11 +95,11 @@
   },
   {
     "id": "batch/chunk-mapper/",
-    "name": "Chunk mapper",
-    "description": "",
+    "name": "Batch Chunk Partition Mapper",
+    "description": "Chunk Processing - Read, Process, Write in multiple Threads",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-mapper/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 13:03:32 +0100",
+    "last_updated": "2014-06-18 18:54:41 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -117,11 +117,11 @@
   },
   {
     "id": "batch/chunk-optional-processor/",
-    "name": "Chunk optional processor",
-    "description": "",
+    "name": "Batch Chunk Optional Processor",
+    "description": "Chunk Processing - Read and Write",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-optional-processor/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 13:03:32 +0100",
+    "last_updated": "2014-06-18 17:29:12 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -139,11 +139,11 @@
   },
   {
     "id": "batch/chunk-partition/",
-    "name": "Chunk partition",
-    "description": "",
+    "name": "Batch Chunk Partition",
+    "description": "Chunk Processing - Read, Process, Write in multiple Threads",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-partition/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 13:03:32 +0100",
+    "last_updated": "2014-06-18 18:34:37 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -161,11 +161,11 @@
   },
   {
     "id": "batch/chunk-simple/",
-    "name": "Chunk simple",
-    "description": "",
+    "name": "Batch Chunk Simple",
+    "description": "Chunk Processing - Read, Process, Write",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-simple/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 13:03:32 +0100",
+    "last_updated": "2014-06-18 16:52:36 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -297,11 +297,11 @@
   },
   {
     "id": "batch/chunk-simple-nobeans/",
-    "name": "Chunk simple nobeans",
-    "description": "",
+    "name": "Batch Chunk Simple No Beans",
+    "description": "Chunk Processing - Read, Process, Write",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-simple-nobeans/index.html",
     "category": "Batch",
-    "last_updated": "2013-12-31 13:03:32 +0100",
+    "last_updated": "2014-06-18 16:41:16 +0200",
     "usage": [
       "Batch",
       "CDI"
