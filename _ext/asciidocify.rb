@@ -3,12 +3,6 @@ require 'asciidoctor/extensions'
 
 module AsciiDoc
 
-  Asciidoctor::Extensions.register do |document|
-    #unless document.attributes["sample"].nil? or document.attributes["sample"].empty?
-      include_processor SiteIncludeProcessor
-    #end
-  end
-
   def asciidocify(content, sample = {})
     Asciidoctor.render(content, {:attributes => {"sample" => sample}})
   end
@@ -51,8 +45,8 @@ class SiteIncludeProcessor < Asciidoctor::Extensions::IncludeProcessor
     true
   end
 
-  def process reader, target, attributes
-    sample = @document.attributes["sample"]
+  def process document, reader, target, attributes
+    sample = document.attributes["sample"]
     target_file = target
     target_method = nil
 
@@ -79,5 +73,22 @@ class SiteIncludeProcessor < Asciidoctor::Extensions::IncludeProcessor
     type = File.extname(file.path)[1..-1]
     block = sourcify source, type, false
     reader.push_include block, target, target, 1, attributes
+  end
+end
+
+Asciidoctor::Extensions.register do
+  include_processor SiteIncludeProcessor
+
+  inline_macro do
+    named :javaapi
+    using_format :short
+    match /((?:java|javax)\.\w[\.\w]+\.[A-Z]\w+)/
+    process do |parent, target|
+      doc_uri_pattern = 'https://javaee-spec.java.net/nonav/javadocs/%s.html'
+      doc_uri = doc_uri_pattern % target.gsub(/\./, '/')
+      link_name = target
+      link_name = $1 if target =~ /([A-Z]\w*$)/
+      (create_anchor parent, link_name, type: :link, target: doc_uri, attributes: {'title' => target}).render
+    end
   end
 end

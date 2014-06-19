@@ -35,7 +35,9 @@ gem "awestruct", "0.5.5"
 
 gem "slim"
 gem "kramdown"
-gem "asciidoctor"
+#gem "asciidoctor", "1.5.0.preview.8"
+#gem "asciidoctor", :path => '../../asciidoc/asciidoctor/'
+gem "asciidoctor", :git => 'git@github.com:aslakknutsen/asciidoctor.git', :branch => 'javaee_smaples_tmp'
 gem "uglifier"
 gem "htmlcompressor"
 gem "coffee-script"
