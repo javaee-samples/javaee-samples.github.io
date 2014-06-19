@@ -4,8 +4,7 @@ its subscribed messages in a batch job in form of an <code>ItemReader</code>.</p
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Named()
+<pre class="highlight"><code class="java language-java">@Named()
 public class JmsItemReader extends AbstractItemReader {
 
     public JmsItemReader() {
@@ -44,8 +43,7 @@ the result into a <code>@Singleton</code> EJB.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Named()
+<pre class="highlight"><code class="java language-java">@Named()
 public class SummingItemWriter extends AbstractItemWriter {
 
     public SummingItemWriter() {
@@ -87,8 +85,7 @@ public class SummingItemWriter extends AbstractItemWriter {
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@JMSDestinationDefinition(name = Resources.TOPIC, resourceAdapter = "jmsra", interfaceName = "javax.jms.Topic", destinationName = "batch.topic", description = "Batch processing topic")
+<pre class="highlight"><code class="java language-java">@JMSDestinationDefinition(name = Resources.TOPIC, resourceAdapter = "jmsra", interfaceName = "javax.jms.Topic", destinationName = "batch.topic", description = "Batch processing topic")
 @JMSConnectionFactoryDefinition(name = Resources.CONNECTION_FACTORY, resourceAdapter = "jmsra", clientId = "batchJob", description = "Connection factory with clientId of the durable subscription")
 public class Resources {
 
@@ -109,8 +106,8 @@ public class Resources {
 <div class="content">
 <pre class="highlight"><code class="java language-java">@PostConstruct
 void createSubscription() {
-    try (JMSContext jms = factory.createContext()) { <b>(1)</b>
-        JMSConsumer consumer = jms.createDurableConsumer(topic, Resources.SUBSCRIPTION); <b>(2)</b>
+    try (JMSContext jms = factory.createContext()) { <b class="conum">(1)</b>
+        JMSConsumer consumer = jms.createDurableConsumer(topic, Resources.SUBSCRIPTION); <b class="conum">(2)</b>
         consumer.close();
     }
 }</code></pre>
@@ -198,7 +195,7 @@ public void worksInMultipleRuns() throws InterruptedException {
     assertEquals(14, collector.getLastItemCount());
     assertEquals(sum, collector.getLastSum());
     assertEquals(2, collector.getNumberOfJobs());
-    sum = sendMessages(8); <b>(1)</b>
+    sum = sendMessages(8); <b class="conum">(1)</b>
     sum += sendMessages(4);
     runJob();
     assertEquals(12, collector.getLastItemCount());

@@ -17,17 +17,17 @@ listens on a Queue and passes the response to the destination specified in
 <pre class="highlight"><code class="java language-java">@Override
 public void onMessage(Message message) {
     try {
-        Destination replyTo = message.getJMSReplyTo(); <b>(1)</b>
+        Destination replyTo = message.getJMSReplyTo(); <b class="conum">(1)</b>
         if (replyTo == null) {
             return;
         }
         TextMessage request = (TextMessage) message;
-        String payload = request.getText();            <b>(2)</b>
+        String payload = request.getText();            <b class="conum">(2)</b>
 
         System.out.println("Got request: "+payload);
 
-        String response = "Processed: "+payload;       <b>(3)</b>
-        jms.createProducer().send(replyTo, response);  <b>(4)</b>
+        String response = "Processed: "+payload;       <b class="conum">(3)</b>
+        jms.createProducer().send(replyTo, response);  <b class="conum">(4)</b>
     } catch (JMSException e) {
         e.printStackTrace();
     }
@@ -58,20 +58,20 @@ immediately, and wait for the response to arrive.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">@TransactionAttribute(TransactionAttributeType.NOT_SUPPORTED)        <b>(1)</b>
+<pre class="highlight"><code class="java language-java">@TransactionAttribute(TransactionAttributeType.NOT_SUPPORTED)        <b class="conum">(1)</b>
 public String process(String request) {
 
     TextMessage requestMessage = jms.createTextMessage(request);
     TemporaryQueue responseQueue = jms.createTemporaryQueue();
     jms.createProducer()
-            .setJMSReplyTo(responseQueue)                            <b>(2)</b>
-            .send(requestQueue, requestMessage);                     <b>(3)</b>
+            .setJMSReplyTo(responseQueue)                            <b class="conum">(2)</b>
+            .send(requestQueue, requestMessage);                     <b class="conum">(3)</b>
 
-    try (JMSConsumer consumer = jms.createConsumer(responseQueue)) { <b>(4)</b>
+    try (JMSConsumer consumer = jms.createConsumer(responseQueue)) { <b class="conum">(4)</b>
 
-        String response = consumer.receiveBody(String.class, 2000);  <b>(5)</b>
+        String response = consumer.receiveBody(String.class, 2000);  <b class="conum">(5)</b>
 
-        if (response == null) {                                      <b>(6)</b>
+        if (response == null) {                                      <b class="conum">(6)</b>
             throw new IllegalStateException("Message processing timed out");
         } else {
             return response;

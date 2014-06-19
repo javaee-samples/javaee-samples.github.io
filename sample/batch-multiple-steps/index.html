@@ -55,11 +55,11 @@ public void testBatchMultipleSteps() throws Exception {
         }
     }
 
-    <b>(1)</b>
+    <b class="conum">(1)</b>
     assertEquals(2, stepExecutions.size());
-    <b>(2)</b>
+    <b class="conum">(2)</b>
     assertArrayEquals(new String[]{"step1", "step2"}, executedSteps.toArray());
-    <b>(3)</b>
+    <b class="conum">(3)</b>
     assertEquals(BatchStatus.COMPLETED, jobExecution.getBatchStatus());
 }</code></pre>
 </div>

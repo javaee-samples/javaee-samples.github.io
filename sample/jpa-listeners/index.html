@@ -6,8 +6,7 @@ Listener Methods</code>: <code>@PostLoad</code>, <code>@PrePersist</code>, <code
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-public class MovieListener {
+<pre class="highlight"><code class="java language-java">public class MovieListener {
 
     public MovieListener() {
         super();
@@ -77,8 +76,7 @@ public class MovieListener {
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Entity()
+<pre class="highlight"><code class="java language-java">@Entity()
 @Table(name = "MOVIE_LISTENER")
 @XmlRootElement()
 @NamedQueries({@NamedQuery(name = "Movie.findAll", query = "SELECT m FROM Movie m"), @NamedQuery(name = "Movie.findById", query = "SELECT m FROM Movie m WHERE m.id = :id"), @NamedQuery(name = "Movie.findByName", query = "SELECT m FROM Movie m WHERE m.name = :name"), @NamedQuery(name = "Movie.findByActors", query = "SELECT m FROM Movie m WHERE m.actors = :actors")})
@@ -191,37 +189,37 @@ invocation might be dependent of the previous invoked operation.</p>
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testListeners() throws Exception {
-    List&lt;Movie&gt; movies = movieBean.listMovies();    <b>(1)</b>
+    List&lt;Movie&gt; movies = movieBean.listMovies();    <b class="conum">(1)</b>
     assertEquals(4, movies.size());
 
     assertFalse(prePersistInvoked);
     assertFalse(postPersistInvoked);
-    movieBean.createMovie();                        <b>(2)</b>
+    movieBean.createMovie();                        <b class="conum">(2)</b>
     assertTrue(prePersistInvoked);
     assertTrue(postPersistInvoked);
 
-    movies = movieBean.listMovies();                <b>(3)</b>
+    movies = movieBean.listMovies();                <b class="conum">(3)</b>
     assertEquals(5, movies.size());
     assertTrue(movies.contains(new Movie(5)));
 
 
     assertFalse(preUpdateInvoked);
     assertFalse(postUpdateInvoked);
-    movieBean.updateMovie();                        <b>(4)</b>
+    movieBean.updateMovie();                        <b class="conum">(4)</b>
     assertTrue(preUpdateInvoked);
     assertTrue(postUpdateInvoked);
 
-    movies = movieBean.listMovies();                <b>(5)</b>
+    movies = movieBean.listMovies();                <b class="conum">(5)</b>
     assertEquals(5, movies.size());
     assertEquals("Inception2", movies.get(2).getName());
 
     assertFalse(preRemoveInvoked);
     assertFalse(postRemoveInvoked);
-    movieBean.deleteMovie();                        <b>(6)</b>
+    movieBean.deleteMovie();                        <b class="conum">(6)</b>
     assertTrue(preRemoveInvoked);
     assertTrue(postRemoveInvoked);
 
-    movies = movieBean.listMovies();                <b>(7)</b>
+    movies = movieBean.listMovies();                <b class="conum">(7)</b>
     assertFalse(movies.isEmpty());
     assertEquals(4, movies.size());
     assertFalse(movies.contains(new Movie(3)));

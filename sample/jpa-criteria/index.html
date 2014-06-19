@@ -7,8 +7,7 @@ update and delete operations.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Entity()
+<pre class="highlight"><code class="java language-java">@Entity()
 @Table(name = "MOVIE_CRITERIA")
 @XmlRootElement()
 @NamedQueries({@NamedQuery(name = "Movie.findAll", query = "SELECT m FROM Movie m"), @NamedQuery(name = "Movie.findById", query = "SELECT m FROM Movie m WHERE m.id = :id"), @NamedQuery(name = "Movie.findByName", query = "SELECT m FROM Movie m WHERE m.name = :name"), @NamedQuery(name = "Movie.findByActors", query = "SELECT m FROM Movie m WHERE m.actors = :actors")})
@@ -171,23 +170,23 @@ invocation might be dependent of the previous invoked operation.</p>
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testCriteria() {
-    List&lt;Movie&gt; movies = movieBean.listMovies();        <b>(1)</b>
-    assertEquals(4, movies.size());                     <b>(2)</b>
+    List&lt;Movie&gt; movies = movieBean.listMovies();        <b class="conum">(1)</b>
+    assertEquals(4, movies.size());                     <b class="conum">(2)</b>
     assertTrue(movies.contains(new Movie(1)));
     assertTrue(movies.contains(new Movie(2)));
     assertTrue(movies.contains(new Movie(3)));
     assertTrue(movies.contains(new Movie(4)));
 
-    movieBean.updateMovie();                            <b>(3)</b>
+    movieBean.updateMovie();                            <b class="conum">(3)</b>
     movies = movieBean.listMovies();
-    assertEquals(4, movies.size());                     <b>(4)</b>
-    assertEquals("INCEPTION", movies.get(2).getName()); <b>(5)</b>
+    assertEquals(4, movies.size());                     <b class="conum">(4)</b>
+    assertEquals("INCEPTION", movies.get(2).getName()); <b class="conum">(5)</b>
 
-    movieBean.deleteMovie();                            <b>(6)</b>
+    movieBean.deleteMovie();                            <b class="conum">(6)</b>
     movies = movieBean.listMovies();
     assertFalse(movies.isEmpty());
-    assertEquals(3, movies.size());                     <b>(7)</b>
-    assertFalse(movies.contains(new Movie(1)));         <b>(8)</b>
+    assertEquals(3, movies.size());                     <b class="conum">(7)</b>
+    assertFalse(movies.contains(new Movie(1)));         <b class="conum">(8)</b>
 }</code></pre>
 </div>
 </div>

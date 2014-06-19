@@ -50,19 +50,19 @@ public void testBatchSplit() throws Exception {
         executedSteps.add(stepExecution.getStepName());
     }
 
-    <b>(1)</b>
+    <b class="conum">(1)</b>
     assertEquals(3, stepExecutions.size());
     assertTrue(executedSteps.contains("step1"));
     assertTrue(executedSteps.contains("step2"));
     assertTrue(executedSteps.contains("step3"));
 
-    <b>(2)</b>
+    <b class="conum">(2)</b>
     assertTrue(executedSteps.get(0).equals("step1") || executedSteps.get(0).equals("step2"));
     assertTrue(executedSteps.get(1).equals("step1") || executedSteps.get(1).equals("step2"));
-    <b>(3)</b>
+    <b class="conum">(3)</b>
     assertTrue(executedSteps.get(2).equals("step3"));
 
-    <b>(4)</b>
+    <b class="conum">(4)</b>
     assertEquals(BatchStatus.COMPLETED, jobExecution.getBatchStatus());
 }</code></pre>
 </div>

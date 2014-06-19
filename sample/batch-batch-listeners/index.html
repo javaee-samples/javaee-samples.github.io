@@ -8,22 +8,22 @@ processing execution.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><code>javax.batch.api.listener.AbstractJobListener</code></p>
+<p><code><a href="https://javaee-spec.java.net/nonav/javadocs/javax/batch/api/listener/AbstractJobListener.html" title="javax.batch.api.listener.AbstractJobListener">AbstractJobListener</a></code></p>
 </li>
 <li>
-<p><code>javax.batch.api.listener.AbstractStepListener</code></p>
+<p><code><a href="https://javaee-spec.java.net/nonav/javadocs/javax/batch/api/listener/AbstractStepListener.html" title="javax.batch.api.listener.AbstractStepListener">AbstractStepListener</a></code></p>
 </li>
 <li>
-<p><code>javax.batch.api.chunk.listener.AbstractChunkListener</code></p>
+<p><code><a href="https://javaee-spec.java.net/nonav/javadocs/javax/batch/api/chunk/listener/AbstractChunkListener.html" title="javax.batch.api.chunk.listener.AbstractChunkListener">AbstractChunkListener</a></code></p>
 </li>
 <li>
-<p><code>javax.batch.api.chunk.listener.AbstractItemReadListener</code></p>
+<p><code><a href="https://javaee-spec.java.net/nonav/javadocs/javax/batch/api/chunk/listener/AbstractItemReadListener.html" title="javax.batch.api.chunk.listener.AbstractItemReadListener">AbstractItemReadListener</a></code></p>
 </li>
 <li>
-<p><code>javax.batch.api.chunk.listener.AbstractItemProcessListener</code></p>
+<p><code><a href="https://javaee-spec.java.net/nonav/javadocs/javax/batch/api/chunk/listener/AbstractItemProcessListener.html" title="javax.batch.api.chunk.listener.AbstractItemProcessListener">AbstractItemProcessListener</a></code></p>
 </li>
 <li>
-<p><code>javax.batch.api.chunk.listener.AbstractItemWriteListener</code></p>
+<p><code><a href="https://javaee-spec.java.net/nonav/javadocs/javax/batch/api/chunk/listener/AbstractItemWriteListener.html" title="javax.batch.api.chunk.listener.AbstractItemWriteListener">AbstractItemWriteListener</a></code></p>
 </li>
 </ul>
 </div>
@@ -32,8 +32,7 @@ processing execution.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Named()
+<pre class="highlight"><code class="java language-java">@Named()
 public class MyJobListener extends AbstractJobListener {
 
     public MyJobListener() {
@@ -62,8 +61,7 @@ public class MyJobListener extends AbstractJobListener {
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Named()
+<pre class="highlight"><code class="java language-java">@Named()
 public class MyStepListener extends AbstractStepListener {
 
     public MyStepListener() {
@@ -93,8 +91,7 @@ step.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Named()
+<pre class="highlight"><code class="java language-java">@Named()
 public class MyChunkListener extends AbstractChunkListener {
 
     public MyChunkListener() {
@@ -124,8 +121,7 @@ chunk.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Named()
+<pre class="highlight"><code class="java language-java">@Named()
 public class MyItemReadListener extends AbstractItemReadListener {
 
     public MyItemReadListener() {
@@ -162,8 +158,7 @@ to treat a failed object read.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Named()
+<pre class="highlight"><code class="java language-java">@Named()
 public class MyItemProcessorListener extends AbstractItemProcessListener {
 
     public MyItemProcessorListener() {
@@ -200,8 +195,7 @@ some logic to  treat a failed object processing.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Named()
+<pre class="highlight"><code class="java language-java">@Named()
 public class MyItemWriteListener extends AbstractItemWriteListener {
 
     public MyItemWriteListener() {

@@ -8,8 +8,7 @@ a select operation and map the query result using <code>@SqlResultSetMapping</co
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Entity()
+<pre class="highlight"><code class="java language-java">@Entity()
 @Table(name = "EMPLOYEE_NATIVE_SQL_RESULTSET_MAPPING")
 @SqlResultSetMapping(name = "myMapping", entities = {@EntityResult(entityClass = Employee.class, fields = {@FieldResult(name = "identifier", column = "id"), @FieldResult(name = "simpleName", column = "name")})})
 public class Employee implements Serializable {

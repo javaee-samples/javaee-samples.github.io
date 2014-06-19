@@ -3,13 +3,12 @@
 task is invoked once, executes, and returns an exit status.</p>
 </div>
 <div class="paragraph">
-<p>A Batchlet need to implement <code>javax.batch.api.Batchlet</code> interface or in alternative extend
-<code>javax.batch.api.AbstractBatchlet</code> that already provides empty implementations for all methods.</p>
+<p>A Batchlet need to implement <code><a href="https://javaee-spec.java.net/nonav/javadocs/javax/batch/api/Batchlet.html" title="javax.batch.api.Batchlet">Batchlet</a></code> interface or in alternative extend
+<code><a href="https://javaee-spec.java.net/nonav/javadocs/javax/batch/api/AbstractBatchlet.html" title="javax.batch.api.AbstractBatchlet">AbstractBatchlet</a></code> that already provides empty implementations for all methods.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@Named()
+<pre class="highlight"><code class="java language-java">@Named()
 public class MyBatchlet extends AbstractBatchlet {
 
     public MyBatchlet() {
@@ -25,7 +24,7 @@ public class MyBatchlet extends AbstractBatchlet {
 </div>
 </div>
 <div class="paragraph">
-<p>We are mostly interested in overriding <code>javax.batch.api.AbstractBatchlet#process</code> to provide the behaviour that we
+<p>We are mostly interested in overriding <code><a href="https://javaee-spec.java.net/nonav/javadocs/javax/batch/api/AbstractBatchlet.html" title="javax.batch.api.AbstractBatchlet">AbstractBatchlet</a>#process</code> to provide the behaviour that we
 want to achieve with the Batchlet itself. Common cases include: copy files to process with a chunk oriented step,
 startup and cleanup, or validations to your processing workflow.</p>
 </div>

@@ -22,8 +22,7 @@ the <code>JAX-RS</code> <code>Application</code> class to define our root path.<
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="java language-java">
-@ApplicationPath("webresources")
+<pre class="highlight"><code class="java language-java">@ApplicationPath("webresources")
 public class MyApplication extends Application {
 
     public MyApplication() {
@@ -83,9 +82,9 @@ with access to the complete <code>Response</code>.</p>
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testPollingResponse() throws InterruptedException, ExecutionException {
-    Future&lt;Response&gt; r1 = target.request().async().get(); <b>(1)</b>
-    String response = r1.get().readEntity(String.class);  <b>(2)</b>
-    assertEquals("apple", response);                      <b>(3)</b>
+    Future&lt;Response&gt; r1 = target.request().async().get(); <b class="conum">(1)</b>
+    String response = r1.get().readEntity(String.class);  <b class="conum">(2)</b>
+    assertEquals("apple", response);                      <b class="conum">(3)</b>
 }</code></pre>
 </div>
 </div>
@@ -107,9 +106,9 @@ public void testPollingResponse() throws InterruptedException, ExecutionExceptio
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testPollingString() throws InterruptedException, ExecutionException {
-    Future&lt;String&gt; r1 = target.request().async().get(String.class); <b>(1)</b>
-    String response = r1.get();                                     <b>(2)</b>
-    assertEquals("apple", response);                                <b>(3)</b>
+    Future&lt;String&gt; r1 = target.request().async().get(String.class); <b class="conum">(1)</b>
+    String response = r1.get();                                     <b class="conum">(2)</b>
+    assertEquals("apple", response);                                <b class="conum">(3)</b>
 }</code></pre>
 </div>
 </div>
@@ -131,15 +130,15 @@ public void testPollingString() throws InterruptedException, ExecutionException 
 <div class="content">
 <pre class="highlight"><code class="java language-java">@Test
 public void testInvocationCallback() throws InterruptedException, ExecutionException {
-        target.request().async().get(new InvocationCallback&lt;String&gt;() { <b>(1)</b>
+        target.request().async().get(new InvocationCallback&lt;String&gt;() { <b class="conum">(1)</b>
 
             @Override
-            public void completed(String r) {                           <b>(2)</b>
+            public void completed(String r) {                           <b class="conum">(2)</b>
                 assertEquals("apple", r);
             }
 
             @Override
-            public void failed(Throwable t) {                           <b>(3)</b>
+            public void failed(Throwable t) {                           <b class="conum">(3)</b>
                 fail(t.getMessage());
             }
 
