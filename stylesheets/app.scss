@@ -239,10 +239,10 @@ ul.contributors {
 
 // AsciiDoc Rendering styles
 
-.colist {
+.ulist, .colist {
   margin-left: 2em;
 }
 
-.colist p {
-  margin-bottom:0em;
+.ulist p, .colist p {
+  margin-bottom: 0em;
 }
