@@ -35,7 +35,14 @@ module Awestruct::Extensions::Jenkins
         end
 
         result_url = TEST_RESULTS % [job['url']]
-        result = RestClient.get result_url, :accept => 'application/json', :cache_expiry_age => DURATION_1_DAY
+        result = nil
+        begin
+          result = RestClient.get result_url, :accept => 'application/json', :cache_expiry_age => DURATION_1_DAY
+        rescue Exception => e
+          puts "Could not download lastCompletedBuild for #{job['name']}"
+          puts e.message
+        end
+        next if result.nil?
 
         result['suites'].each do |suite|
           suite['cases'].each do |c|
