@@ -5810,9 +5810,9 @@ ul.contributors + p strong {
   display: block; }
 
 /* line 242, /home/aslak/dev/source/javaee/javaee-samples.github.io/stylesheets/app.scss */
-.colist {
+.ulist, .colist {
   margin-left: 2em; }
 
 /* line 246, /home/aslak/dev/source/javaee/javaee-samples.github.io/stylesheets/app.scss */
-.colist p {
+.ulist p, .colist p {
   margin-bottom: 0em; }
