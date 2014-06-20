@@ -5,7 +5,7 @@
     "description": "Batchlet Simple - Execute a task oriented step",
     "html_url": "http://javaee-samples.github.io/sample/batch-batchlet-simple/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -31,7 +31,7 @@
     "description": "Chunk Checkpoint - Custom Checkpoint Policy",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-checkpoint/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -53,7 +53,7 @@
     "description": "Chunk Processing - Read, Process, Write to a Database",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-csv-database/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI",
@@ -77,7 +77,7 @@
     "description": "Chunk Exception Handling - Retrying and Skipping",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-exception/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -99,7 +99,7 @@
     "description": "Chunk Processing - Read, Process, Write in multiple Threads",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-mapper/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -121,7 +121,7 @@
     "description": "Chunk Processing - Read and Write",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-optional-processor/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -143,7 +143,7 @@
     "description": "Chunk Processing - Read, Process, Write in multiple Threads",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-partition/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -165,7 +165,7 @@
     "description": "Chunk Processing - Read, Process, Write",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-simple/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -187,7 +187,7 @@
     "description": "Batch DSL - Decision",
     "html_url": "http://javaee-samples.github.io/sample/batch-decision/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -213,7 +213,7 @@
     "description": "Batch DSL - Flow",
     "html_url": "http://javaee-samples.github.io/sample/batch-flow/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -235,7 +235,7 @@
     "description": "Batch Listeners - Applying Listeners to Job, Chunk, Step, Reader, Processor and Writer",
     "html_url": "http://javaee-samples.github.io/sample/batch-batch-listeners/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -257,7 +257,7 @@
     "description": "Batch JSL - Executing Multiple Steps",
     "html_url": "http://javaee-samples.github.io/sample/batch-multiple-steps/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -279,7 +279,7 @@
     "description": "Batch JSL - Splitting Steps",
     "html_url": "http://javaee-samples.github.io/sample/batch-split/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
@@ -301,7 +301,7 @@
     "description": "Chunk Processing - Read, Process, Write",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-simple-nobeans/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-19 17:17:22 +0200",
+    "last_updated": "2014-06-20 12:31:42 +0200",
     "usage": [
       "Batch",
       "CDI"
