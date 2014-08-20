@@ -5,14 +5,14 @@
     "description": "Batchlet Simple - Execute a task oriented step",
     "html_url": "http://javaee-samples.github.io/sample/batch-batchlet-simple/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -31,14 +31,14 @@
     "description": "Chunk Checkpoint - Custom Checkpoint Policy",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-checkpoint/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -53,7 +53,7 @@
     "description": "Chunk Processing - Read, Process, Write to a Database",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-csv-database/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI",
@@ -62,7 +62,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -77,14 +77,14 @@
     "description": "Chunk Exception Handling - Retrying and Skipping",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-exception/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -99,14 +99,14 @@
     "description": "Chunk Processing - Read, Process, Write in multiple Threads",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-mapper/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -121,14 +121,14 @@
     "description": "Chunk Processing - Read and Write",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-optional-processor/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -143,14 +143,14 @@
     "description": "Chunk Processing - Read, Process, Write in multiple Threads",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-partition/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -165,14 +165,14 @@
     "description": "Chunk Processing - Read, Process, Write",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-simple/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -187,14 +187,14 @@
     "description": "Batch DSL - Decision",
     "html_url": "http://javaee-samples.github.io/sample/batch-decision/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -213,14 +213,14 @@
     "description": "Batch DSL - Flow",
     "html_url": "http://javaee-samples.github.io/sample/batch-flow/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -235,14 +235,14 @@
     "description": "Batch Listeners - Applying Listeners to Job, Chunk, Step, Reader, Processor and Writer",
     "html_url": "http://javaee-samples.github.io/sample/batch-batch-listeners/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -257,14 +257,14 @@
     "description": "Batch JSL - Executing Multiple Steps",
     "html_url": "http://javaee-samples.github.io/sample/batch-multiple-steps/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -279,14 +279,14 @@
     "description": "Batch JSL - Splitting Steps",
     "html_url": "http://javaee-samples.github.io/sample/batch-split/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -301,14 +301,14 @@
     "description": "Chunk Processing - Read, Process, Write",
     "html_url": "http://javaee-samples.github.io/sample/batch-chunk-simple-nobeans/index.html",
     "category": "Batch",
-    "last_updated": "2014-06-20 12:31:42 +0200",
+    "last_updated": "2014-07-05 05:51:06 +0200",
     "usage": [
       "Batch",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -318,20 +318,48 @@
     ]
   },
   {
+    "id": "batch/scheduling/",
+    "name": "Batch Schedule",
+    "description": "Scheduling a Batch Job",
+    "html_url": "http://javaee-samples.github.io/sample/batch-scheduling/index.html",
+    "category": "Batch",
+    "last_updated": "2014-07-09 03:14:13 +0200",
+    "usage": [
+      "EJB",
+      "Batch",
+      "Concurrency",
+      "CDI"
+    ],
+    "authors": [
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
+      {
+        "name": "Arun-gupta",
+        "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      }
+    ]
+  },
+  {
     "id": "cdi/vetoed/",
     "name": "Vetoed",
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-vetoed/index.html",
     "category": "CDI",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -341,15 +369,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-pkg-level/index.html",
     "category": "CDI",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -359,14 +391,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-decorators/index.html",
     "category": "CDI",
-    "last_updated": "2013-12-03 17:17:26 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Korneliusz Rabczak",
@@ -380,7 +416,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-bean-discovery-all/index.html",
     "category": "CDI",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
@@ -390,7 +426,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -409,7 +445,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-bean-discovery-annotated/index.html",
     "category": "CDI",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
@@ -419,7 +455,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -438,7 +474,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-bean-discovery-none/index.html",
     "category": "CDI",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
@@ -448,7 +484,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -467,15 +503,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-exclude-filter/index.html",
     "category": "CDI",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -485,7 +525,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-built-in/index.html",
     "category": "CDI",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "Servlet",
@@ -494,8 +534,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -505,13 +549,13 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-interceptors/index.html",
     "category": "CDI",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -521,6 +565,10 @@
       {
         "name": "Radim Hanus",
         "avatar": "http://gravatar.com/avatar/1e6e5a866d04af3a13524d1e6fe4ed7d?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -530,7 +578,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-interceptors-priority/index.html",
     "category": "CDI",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
@@ -542,6 +590,10 @@
       {
         "name": "Radim Hanus",
         "avatar": "http://gravatar.com/avatar/1e6e5a866d04af3a13524d1e6fe4ed7d?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -551,7 +603,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-nobeans-xml/index.html",
     "category": "CDI",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
@@ -561,7 +613,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -590,7 +642,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -609,15 +661,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-beanmanager/index.html",
     "category": "CDI",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -627,15 +683,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-extension/index.html",
     "category": "CDI",
-    "last_updated": "2013-10-27 02:43:21 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -645,15 +705,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-scopes/index.html",
     "category": "CDI",
-    "last_updated": "2014-04-06 11:52:33 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arend.von.reinersdorff",
+        "avatar": "http://gravatar.com/avatar/4a5a2102c1f72577bf9254537b8e86e5?s=25"
+      },
+      {
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Abhishek Gupta",
@@ -667,7 +735,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-alternatives/index.html",
     "category": "CDI",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
@@ -677,7 +745,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -696,7 +764,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-alternatives-priority/index.html",
     "category": "CDI",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
@@ -708,6 +776,10 @@
       {
         "name": "Radim Hanus",
         "avatar": "http://gravatar.com/avatar/1e6e5a866d04af3a13524d1e6fe4ed7d?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -723,7 +795,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -734,13 +806,17 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/cdi-nobeans-el-injection-flowscoped/index.html",
     "category": "CDI",
-    "last_updated": "2013-12-13 14:39:08 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
+      {
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -772,7 +848,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/concurrency-managedexecutor/index.html",
     "category": "Concurrency",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Concurrency",
       "CDI",
@@ -781,7 +857,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -800,7 +876,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/concurrency-managedscheduledexecutor/index.html",
     "category": "Concurrency",
-    "last_updated": "2014-03-25 11:40:09 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Concurrency",
       "CDI",
@@ -812,8 +888,12 @@
         "avatar": "http://gravatar.com/avatar/aba82ecdcf1e1534f2c579d124d8cd35?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -823,7 +903,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/concurrency-managedthreadfactory/index.html",
     "category": "Concurrency",
-    "last_updated": "2013-11-08 15:28:50 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "Concurrency",
       "CDI",
@@ -831,8 +911,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -842,7 +926,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/concurrency-dynamicproxy/index.html",
     "category": "Concurrency",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Concurrency",
       "CDI",
@@ -850,8 +934,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -861,14 +949,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/ejb-embeddable/index.html",
     "category": "EJB",
-    "last_updated": "2013-11-08 15:27:30 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "EJB"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -878,7 +970,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/ejb-lifecycle/index.html",
     "category": "EJB",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "EJB",
       "CDI",
@@ -886,8 +978,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -897,7 +993,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/ejb-singleton/index.html",
     "category": "EJB",
-    "last_updated": "2014-02-08 16:46:58 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "Servlet",
@@ -905,12 +1001,16 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Ondrej Zizka",
         "avatar": "http://gravatar.com/avatar/c2e81d39016f1e0633e4348b3fcd1d15?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -920,7 +1020,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/ejb-stateful/index.html",
     "category": "EJB",
-    "last_updated": "2013-12-09 21:08:50 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "EJB",
       "Servlet",
@@ -928,12 +1028,16 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Rafał Roppel",
         "avatar": "http://gravatar.com/avatar/4e0f4e2278aaecc65991e2a13f0b4325?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Kuba Marchwicki",
@@ -947,7 +1051,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/ejb-stateless/index.html",
     "category": "EJB",
-    "last_updated": "2014-03-26 23:22:31 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "EJB",
       "Servlet",
@@ -959,12 +1063,16 @@
         "avatar": "http://gravatar.com/avatar/aba82ecdcf1e1534f2c579d124d8cd35?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Rafał Roppel",
         "avatar": "http://gravatar.com/avatar/4e0f4e2278aaecc65991e2a13f0b4325?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Kuba Marchwicki",
@@ -978,15 +1086,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/ejb-timer/index.html",
     "category": "EJB",
-    "last_updated": "2013-12-07 18:03:26 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "EJB",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Kuba Marchwicki",
@@ -1000,15 +1112,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/ejb-async-ejb/index.html",
     "category": "EJB",
-    "last_updated": "2013-12-07 22:16:29 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "EJB",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Kuba Marchwicki",
@@ -1032,7 +1148,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1051,7 +1167,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/javamail-definition/index.html",
     "category": "JavaMail",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "JavaMail",
@@ -1059,8 +1175,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1137,12 +1257,16 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaspic-lifecycle/index.html",
     "category": "JASPIC",
-    "last_updated": "2014-01-11 01:34:10 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JASPIC",
       "Servlet"
     ],
     "authors": [
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
       {
         "name": "Stefan Guilhen",
         "avatar": "http://gravatar.com/avatar/4ce28e3d3f99e984c21b880dbac66d7d?s=25"
@@ -1159,12 +1283,16 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaspic-register-session/index.html",
     "category": "JASPIC",
-    "last_updated": "2014-01-11 01:34:10 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JASPIC",
       "Servlet"
     ],
     "authors": [
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
       {
         "name": "Stefan Guilhen",
         "avatar": "http://gravatar.com/avatar/4ce28e3d3f99e984c21b880dbac66d7d?s=25"
@@ -1181,12 +1309,16 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaspic-wrapping/index.html",
     "category": "JASPIC",
-    "last_updated": "2014-01-11 01:34:10 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JASPIC",
       "Servlet"
     ],
     "authors": [
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
       {
         "name": "Stefan Guilhen",
         "avatar": "http://gravatar.com/avatar/4ce28e3d3f99e984c21b880dbac66d7d?s=25"
@@ -1203,13 +1335,21 @@
     "description": "Angular JS consuming REST services",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-angularjs/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 23:15:04 +0100",
+    "last_updated": "2014-08-12 14:41:47 +0200",
     "usage": [
       "JPA",
       "JAXRS",
       "EJB"
     ],
     "authors": [
+      {
+        "name": "Bartosz Majsak",
+        "avatar": "http://gravatar.com/avatar/de13898b827f3227a9f9f31eb90a2367?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
       {
         "name": "Bernard Labno",
         "avatar": "http://gravatar.com/avatar/4da9d21f8432bc5a2aebda9af268d34c?s=25"
@@ -1222,18 +1362,22 @@
     "description": "Invoke a JAX-RS service via an asynchronous client",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-async-client/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-01-13 20:47:51 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1243,7 +1387,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-async-server/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 17:03:54 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS",
       "Concurrency",
@@ -1251,12 +1395,16 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1266,19 +1414,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-beanvalidation/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 17:03:54 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS",
       "validation"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1305,18 +1457,22 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-client-negotiation/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 17:03:54 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1326,18 +1482,22 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-dynamicfilter/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 17:03:54 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1364,18 +1524,22 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-filter/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 17:03:54 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1385,15 +1549,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-filter-interceptor/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-10-27 02:18:21 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JAXRS",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1403,15 +1571,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-interceptor/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-10-27 02:24:37 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JAXRS",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1421,15 +1593,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-invocation/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-10-27 02:26:01 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JAXRS",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1439,15 +1615,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-invocation-async/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-11-08 00:59:28 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JAXRS",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1457,7 +1637,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-jaxrs-client/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-04-04 01:17:55 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "EJB",
       "JAXRS",
@@ -1465,7 +1645,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1475,6 +1655,10 @@
       {
         "name": "Petr Sakař",
         "avatar": "http://gravatar.com/avatar/d18456efd65cb895472c4e85202e2620?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Nikolaos Ballas",
@@ -1488,13 +1672,13 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-jaxrs-endpoint/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1517,20 +1701,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-jsonp/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 17:03:54 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JAXRS",
-      "JSON",
-      "Servlet"
+      "JSON"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1540,19 +1727,22 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-link/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-10-23 10:26:23 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
-      "JAXRS",
-      "Servlet"
+      "JAXRS"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Jeff Zhang",
         "avatar": "http://gravatar.com/avatar/4cfdd003569598eb05daf51da2cb2d28?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1562,18 +1752,22 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-mapping-exceptions/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 17:03:54 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1600,18 +1794,22 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-readerwriter/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 14:47:02 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1621,7 +1819,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-readerwriter-json/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-10-27 12:54:36 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JAXRS",
       "JSON",
@@ -1629,8 +1827,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1640,15 +1842,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-request-binding/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JAXRS",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1658,7 +1864,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-resource-validation/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 02:01:52 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "validation",
       "JAXRS",
@@ -1667,8 +1873,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Dagguh",
@@ -1682,18 +1892,22 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-server-negotiation/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 14:59:08 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1703,19 +1917,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-singleton/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 17:03:54 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1725,19 +1943,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-readerwriter-injection/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-03 14:38:21 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JAXRS",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1747,7 +1969,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jaxrs-jaxrs-security-declarative/index.html",
     "category": "JAXRS",
-    "last_updated": "2013-12-12 20:49:02 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JAXRS",
       "EJB",
@@ -1755,7 +1977,11 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
+      {
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -1774,7 +2000,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -1819,7 +2045,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jca-connector-simple-connector/index.html",
     "category": "JCA",
-    "last_updated": "2013-10-23 10:26:23 +0200",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JCA",
       "JTA",
@@ -1827,12 +2053,16 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Jeff Zhang",
         "avatar": "http://gravatar.com/avatar/4cfdd003569598eb05daf51da2cb2d28?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -1842,7 +2072,7 @@
     "description": "Arquillian test for JMS XA",
     "html_url": "http://javaee-samples.github.io/sample/jms-jms-xa/index.html",
     "category": "JMS",
-    "last_updated": "2013-12-04 21:19:12 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "EJB",
       "CDI",
@@ -1851,6 +2081,10 @@
       "JMS"
     ],
     "authors": [
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
       {
         "name": "Bernard Labno",
         "avatar": "http://gravatar.com/avatar/4da9d21f8432bc5a2aebda9af268d34c?s=25"
@@ -1863,7 +2097,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jms-send-receive/index.html",
     "category": "JMS",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "EJB",
       "JMS",
@@ -1871,12 +2105,16 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Patrik Duditš",
@@ -1898,7 +2136,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -1917,7 +2155,7 @@
     "description": "ItemReader reading from durable subscription",
     "html_url": "http://javaee-samples.github.io/sample/jms-jms-batch/index.html",
     "category": "JMS",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JMS",
       "Batch",
@@ -1928,6 +2166,10 @@
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Patrik Duditš",
@@ -1941,7 +2183,7 @@
     "description": "Using the Criteria API to create queries",
     "html_url": "http://javaee-samples.github.io/sample/jpa-criteria/index.html",
     "category": "JPA",
-    "last_updated": "2014-01-13 18:52:42 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "validation",
@@ -1950,7 +2192,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2066,7 +2308,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-entitygraph/index.html",
     "category": "JPA",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "validation",
@@ -2075,8 +2317,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2086,7 +2332,7 @@
     "description": "Invocation examples of all the available Entity Listeners",
     "html_url": "http://javaee-samples.github.io/sample/jpa-listeners/index.html",
     "category": "JPA",
-    "last_updated": "2014-01-21 21:33:06 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "validation",
@@ -2095,7 +2341,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2129,7 +2375,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-multiple-pu/index.html",
     "category": "JPA",
-    "last_updated": "2013-10-24 23:06:25 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "validation",
@@ -2139,8 +2385,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2150,7 +2400,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-storedprocedure/index.html",
     "category": "JPA",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "validation",
@@ -2159,8 +2409,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2170,7 +2424,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-jndi-context/index.html",
     "category": "JPA",
-    "last_updated": "2013-10-30 13:23:46 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "EJB",
@@ -2178,8 +2432,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2189,7 +2447,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-locking-optimistic/index.html",
     "category": "JPA",
-    "last_updated": "2013-10-30 14:06:43 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "validation",
@@ -2198,8 +2456,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2209,7 +2471,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-locking-pessimistic/index.html",
     "category": "JPA",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "validation",
@@ -2218,8 +2480,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2229,7 +2495,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-pu-typesafe/index.html",
     "category": "JPA",
-    "last_updated": "2013-10-30 14:31:59 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "validation",
@@ -2239,8 +2505,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2250,7 +2520,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-schema-gen-metadata/index.html",
     "category": "JPA",
-    "last_updated": "2013-12-07 15:47:10 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "EJB",
@@ -2258,7 +2528,11 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
+      {
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2269,7 +2543,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-schema-gen-scripts/index.html",
     "category": "JPA",
-    "last_updated": "2013-12-05 05:13:59 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "EJB",
@@ -2278,8 +2552,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2289,7 +2567,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-schema-gen-scripts-external/index.html",
     "category": "JPA",
-    "last_updated": "2013-10-30 14:57:08 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "EJB",
@@ -2298,8 +2576,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2309,14 +2591,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-schema-gen-scripts-generate/index.html",
     "category": "JPA",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2326,15 +2612,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-schema-gen-index/index.html",
     "category": "JPA",
-    "last_updated": "2013-11-09 14:12:30 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "EJB"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2344,7 +2634,7 @@
     "description": "Using the EntityManager API to perform native SQL queries",
     "html_url": "http://javaee-samples.github.io/sample/jpa-native-sql/index.html",
     "category": "JPA",
-    "last_updated": "2014-02-02 04:30:06 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "EJB",
@@ -2352,7 +2642,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2371,7 +2661,7 @@
     "description": "Using the EntityManager API to perform native SQL queries and map the result with @SqlResultSetMapping\n        annotation\n    ",
     "html_url": "http://javaee-samples.github.io/sample/jpa-native-sql-resultset-mapping/index.html",
     "category": "JPA",
-    "last_updated": "2014-02-02 04:30:06 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "EJB",
@@ -2379,7 +2669,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2402,7 +2692,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-unsynchronized-pc/index.html",
     "category": "JPA",
-    "last_updated": "2013-11-09 13:42:25 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "EJB",
@@ -2411,8 +2701,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2429,7 +2723,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2444,7 +2738,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jpa-jpa-converter/index.html",
     "category": "JPA",
-    "last_updated": "2014-05-03 22:09:45 +0200",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "EJB",
       "JPA",
@@ -2452,12 +2746,35 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Bartosz Majsak",
         "avatar": "http://gravatar.com/avatar/de13898b827f3227a9f9f31eb90a2367?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      }
+    ]
+  },
+  {
+    "id": "jpa/default-datasource/",
+    "name": "Default datasource",
+    "description": "",
+    "html_url": "http://javaee-samples.github.io/sample/jpa-default-datasource/index.html",
+    "category": "JPA",
+    "last_updated": "2014-07-10 03:05:03 +0200",
+    "usage": [
+      "JPA",
+      "EJB",
+      "CDI"
+    ],
+    "authors": [
+      {
+        "name": "Arun-gupta",
+        "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
   },
@@ -2467,7 +2784,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jta-transactional/index.html",
     "category": "JTA",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "JTA"
@@ -2478,7 +2795,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2497,7 +2814,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jta-tx-exception/index.html",
     "category": "JTA",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "JTA",
@@ -2509,7 +2826,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2528,7 +2845,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jta-user-transaction/index.html",
     "category": "JTA",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "JTA"
@@ -2539,7 +2856,7 @@
         "avatar": "http://gravatar.com/avatar/fe38721931b2933e6b3749015c1d4b55?s=25"
       },
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2558,15 +2875,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-ajax/index.html",
     "category": "JSF",
-    "last_updated": "2013-10-27 13:34:11 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "JSF"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2576,15 +2897,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-bean-validation/index.html",
     "category": "JSF",
-    "last_updated": "2013-12-20 22:53:42 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "validation"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2600,7 +2925,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2611,14 +2936,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-composite-component/index.html",
     "category": "JSF",
-    "last_updated": "2014-01-31 11:24:29 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Tomas Remes",
@@ -2636,14 +2965,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-contracts/index.html",
     "category": "JSF",
-    "last_updated": "2013-11-19 15:05:45 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Andrey Cheptsov",
@@ -2657,11 +2990,15 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-contracts-library/index.html",
     "category": "JSF",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2674,7 +3011,7 @@
     "last_updated": "2013-08-27 21:05:47 +0200",
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -2685,15 +3022,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-file-upload/index.html",
     "category": "JSF",
-    "last_updated": "2013-10-27 13:52:33 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2703,15 +3044,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-flows-simple/index.html",
     "category": "JSF",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JSF",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2721,15 +3066,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-flows-mixed/index.html",
     "category": "JSF",
-    "last_updated": "2013-11-19 15:05:45 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JSF",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Andrey Cheptsov",
@@ -2743,15 +3092,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-flows-programmatic/index.html",
     "category": "JSF",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JSF",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2761,15 +3114,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-flows-declarative/index.html",
     "category": "JSF",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JSF",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2779,15 +3136,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-http-get/index.html",
     "category": "JSF",
-    "last_updated": "2013-12-20 22:08:36 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "JSF"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2797,14 +3158,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-passthrough/index.html",
     "category": "JSF",
-    "last_updated": "2013-11-08 01:00:58 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2814,7 +3179,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-radio-buttons/index.html",
     "category": "JSF",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JPA",
       "validation",
@@ -2822,8 +3187,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2833,15 +3202,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-resource-handling/index.html",
     "category": "JSF",
-    "last_updated": "2013-11-19 15:05:45 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "EJB"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Andrey Cheptsov",
@@ -2855,19 +3228,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-simple-facelet/index.html",
     "category": "JSF",
-    "last_updated": "2014-03-31 12:31:22 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "EJB"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Juraj Huska",
         "avatar": "http://gravatar.com/avatar/937262449f9882b576aa893299a46d41?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2877,15 +3254,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-server-extension/index.html",
     "category": "JSF",
-    "last_updated": "2013-10-27 14:53:44 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "JSF"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2895,14 +3276,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/jsf-viewscoped/index.html",
     "category": "JSF",
-    "last_updated": "2014-01-31 11:24:29 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JSF"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Tomas Remes",
@@ -2916,13 +3301,13 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/json-object-builder/index.html",
     "category": "JSON",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JSON"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -2941,14 +3326,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/json-object-reader/index.html",
     "category": "JSON",
-    "last_updated": "2013-11-12 17:09:33 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JSON"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2958,14 +3347,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/json-streaming-generate/index.html",
     "category": "JSON",
-    "last_updated": "2013-11-12 18:22:48 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JSON"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2975,14 +3368,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/json-streaming-parser/index.html",
     "category": "JSON",
-    "last_updated": "2013-11-12 22:35:58 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JSON"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -2992,14 +3389,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-cookies/index.html",
     "category": "Servlet",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3009,7 +3410,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-async-servlet/index.html",
     "category": "Servlet",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Concurrency",
       "CDI",
@@ -3017,8 +3418,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3028,14 +3433,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-error-mapping/index.html",
     "category": "Servlet",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3045,14 +3454,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-event-listeners/index.html",
     "category": "Servlet",
-    "last_updated": "2013-11-01 21:44:12 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3062,14 +3475,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-metadata-complete/index.html",
     "category": "Servlet",
-    "last_updated": "2013-12-14 01:11:45 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3079,14 +3496,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-nonblocking/index.html",
     "category": "Servlet",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3096,14 +3517,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-protocol-handler/index.html",
     "category": "Servlet",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3119,7 +3544,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
@@ -3138,15 +3563,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-servlet-filters/index.html",
     "category": "Servlet",
-    "last_updated": "2013-12-29 21:01:36 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet",
       "JAXRS"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Kuba Marchwicki",
@@ -3160,14 +3589,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-file-upload/index.html",
     "category": "Servlet",
-    "last_updated": "2013-12-11 22:29:19 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Kuba Marchwicki",
@@ -3181,14 +3614,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-web-fragment/index.html",
     "category": "Servlet",
-    "last_updated": "2013-10-31 06:29:50 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3198,13 +3635,17 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-security-basicauth/index.html",
     "category": "Servlet",
-    "last_updated": "2013-12-14 01:41:54 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
+      {
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3215,13 +3656,17 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-security-form-based/index.html",
     "category": "Servlet",
-    "last_updated": "2013-12-14 02:03:02 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
 
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
+      {
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3232,13 +3677,13 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-security-programmatic/index.html",
     "category": "Servlet",
-    "last_updated": "2013-12-11 22:29:19 +0100",
+    "last_updated": "2014-07-12 22:57:53 +0200",
     "usage": [
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3249,13 +3694,14 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-security-deny-uncovered/index.html",
     "category": "Servlet",
-    "last_updated": "2013-12-12 02:06:00 +0100",
+    "last_updated": "2014-07-12 22:57:53 +0200",
     "usage": [
-      "Servlet"
+      "Servlet",
+      "JAXRS"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3266,13 +3712,35 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/servlet-security-basicauth-omission/index.html",
     "category": "Servlet",
-    "last_updated": "2013-12-12 21:09:51 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
+    "usage": [
+      "Servlet",
+      "JAXRS"
+    ],
+    "authors": [
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
+      },
+      {
+        "name": "Arun-gupta",
+        "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      }
+    ]
+  },
+  {
+    "id": "servlet/programmatic-registration/",
+    "name": "Programmatic registration",
+    "description": "",
+    "html_url": "http://javaee-samples.github.io/sample/servlet-programmatic-registration/index.html",
+    "category": "Servlet",
+    "last_updated": "2014-07-12 23:00:01 +0200",
     "usage": [
       "Servlet"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
@@ -3283,15 +3751,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/validation-methods/index.html",
     "category": "validation",
-    "last_updated": "2013-11-26 22:03:38 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "validation",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Kuba Marchwicki",
@@ -3305,19 +3777,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/validation-custom-constraint/index.html",
     "category": "validation",
-    "last_updated": "2013-11-26 14:18:50 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "validation",
       "CDI"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Kuba Marchwicki",
@@ -3331,14 +3807,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-chat/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-12-11 20:10:33 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3348,19 +3828,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-encoder/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-12-03 10:49:22 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JSON",
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3370,19 +3854,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-encoder-client/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-12-03 10:49:22 +0100",
+    "last_updated": "2014-07-15 02:29:38 +0200",
     "usage": [
       "JSON",
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3392,19 +3880,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-encoder-programmatic/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-12-03 10:49:22 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket",
       "JSON"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3414,18 +3906,22 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-12-03 10:49:22 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3435,18 +3931,22 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-async/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-12-04 23:18:25 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Jacek Jackowiak",
         "avatar": "http://gravatar.com/avatar/c93288fc81c8445bfa92736b52a554f1?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3456,14 +3956,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-javatypes/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3473,14 +3977,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-config/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3490,18 +3998,22 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-12-03 10:49:22 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Aslak Knutsen",
         "avatar": "http://gravatar.com/avatar/3f27861ec08730fd02c91fe4129d2668?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3511,14 +4023,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic-async/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-11-05 02:47:45 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3528,14 +4044,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic-config/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3545,7 +4065,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-programmatic-injection/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket",
       "EJB",
@@ -3553,8 +4073,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3564,15 +4088,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-security/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-11-05 02:54:26 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet",
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3582,15 +4110,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-httpsession/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet",
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3600,7 +4132,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-injection/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-11-05 02:59:29 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "CDI",
       "WebSocket",
@@ -3608,8 +4140,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3619,14 +4155,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-javase-client/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-11-06 01:33:24 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       },
       {
         "name": "Nikolaos Ballas",
@@ -3640,14 +4180,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-messagesize/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3657,14 +4201,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-parameters/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3674,14 +4222,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-properties/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3691,19 +4243,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-vs-rest/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-11-10 21:20:21 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JAXRS",
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Maxime Gréau",
         "avatar": "http://gravatar.com/avatar/a81c764f137343d59a5e6264c2e3c1c2?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3713,14 +4269,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-subprotocol/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3730,15 +4290,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-client/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-12-20 01:20:03 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet",
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3748,15 +4312,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-client-config/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet",
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3766,15 +4334,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-client-programmatic/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet",
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3784,15 +4356,19 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-client-programmatic-config/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "Servlet",
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3802,7 +4378,7 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-websocket-client-programmatic-encoders/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JSON",
       "Servlet",
@@ -3810,8 +4386,12 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3821,19 +4401,23 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-whiteboard/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-03-27 22:07:12 +0100",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "JSON",
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       },
       {
         "name": "Philippe Marschall",
         "avatar": "http://gravatar.com/avatar/568c8fb2e5cbfe951af7cd65b7a997f8?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3843,14 +4427,18 @@
     "description": "",
     "html_url": "http://javaee-samples.github.io/sample/websocket-endpoint-singleton/index.html",
     "category": "WebSocket",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2014-07-15 01:36:28 +0200",
     "usage": [
       "WebSocket"
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
+      },
+      {
+        "name": "Roberto Cortez",
+        "avatar": "http://gravatar.com/avatar/d9a06fda174419c0dffb982f226518c2?s=25"
       }
     ]
   },
@@ -3867,7 +4455,7 @@
     ],
     "authors": [
       {
-        "name": "Arun Gupta",
+        "name": "Arun-gupta",
         "avatar": "http://gravatar.com/avatar/268f57c236bb50c0f6e12ac38adc9d81?s=25"
       }
     ]
