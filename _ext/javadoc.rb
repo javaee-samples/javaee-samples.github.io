@@ -27,7 +27,7 @@ module Java
 
       com.sun.tools.javadoc.DocEnv.instance(context).silent = quiet
       
-      root = tool.getRootDocImpl('en', 'ascii', filter, empty, options_list, false, sub_packages, empty, false, false, quiet)
+      root = tool.getRootDocImpl('en', 'ascii', filter, empty, empty, options_list, false, sub_packages, empty, false, false, quiet)
 
       block.call(root) if block
       return root

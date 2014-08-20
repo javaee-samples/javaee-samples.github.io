@@ -24,6 +24,7 @@ NOTE: If the install aborts with messages regarding permission errors, try re ex
 
 NOTE: If the rvm command can't be found, try to restart the terminal.
 
+NOTE: The site requires JRUBY to use JDK 1.8.0. You can set this by using JAVA_HOME.
 
 That should be it on the ruby environment side for now. Next we need to get the website repository by cloning the Git repository:
 
