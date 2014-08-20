@@ -92,6 +92,7 @@ module SampleComponent
             showcase_mods[module_name] = OpenStruct.new if showcase_mods[module_name].nil?
             mod = showcase_mods[module_name]
             mod.repository = repository
+            #next unless module_name.eql? "websocket-whiteboard"
             puts "#{module_name} => #{module_path}"
             mod.module_name = module_name
             mod.module_path = module_path if mod.module_path.nil?
@@ -227,7 +228,6 @@ module SampleComponent
         method = OpenStruct.new
         method.name = m.name
         method.description = m.commentText.split("\n").collect{|x|x.lstrip}.join("\n")
-
         if with_content
             method.start_pos = m.tree.start_position
             method.end_pos = calculate_block_end_pos(method.start_pos, method.name, file_content)
@@ -246,15 +246,22 @@ module SampleComponent
         scanner.scan_until Regexp.new(Regexp.escape(method_name))
 
         block_pos = scanner.pos
+        inside_comment = 0
         inside = false
         level = 0
         curr = 0
         while true
             curr += 1
             curr_char = file_content[block_pos + curr, 1]
-            inside = true if curr_char.eql? "{"
-            level += 1 if curr_char.eql? "{"
-            level -= 1 if curr_char.eql? "}"
+            inside_comment += 1 if curr_char.eql? "/"
+            if(curr_char.eql? "\n")
+                inside_comment = 0
+            end
+            unless inside_comment >= 2
+                inside = true if curr_char.eql? "{"
+                level += 1 if curr_char.eql? "{"
+                level -= 1 if curr_char.eql? "}"
+            end
             #puts "#{level} #{curr} #{curr_char}"
             break if level == 0 and inside
             #raise "Out of level, level #{level} - curr #{curr} - char #{curr_char}\n #{file_content[start, block_pos+curr]}" if level < 0
