@@ -4,7 +4,7 @@ require 'asciidoctor/extensions'
 module AsciiDoc
 
   def asciidocify(content, sample = {})
-    Asciidoctor.render(content, {:attributes => {"sample" => sample}})
+    Asciidoctor.render(content, {:attributes => {"sample" => sample, "compat-mode" => true}})
   end
 
   def sourcify(source, lang = "java", render = true)
