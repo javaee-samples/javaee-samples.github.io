@@ -5,7 +5,7 @@
     "description": "Batchlet Simple - Execute a task oriented step",
     "html_url": "http://javaee.support/sample/batch-batchlet-simple/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -31,7 +31,7 @@
     "description": "Chunk Checkpoint - Custom Checkpoint Policy",
     "html_url": "http://javaee.support/sample/batch-chunk-checkpoint/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -53,7 +53,7 @@
     "description": "Chunk Processing - Read, Process, Write to a Database",
     "html_url": "http://javaee.support/sample/batch-chunk-csv-database/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI",
@@ -77,7 +77,7 @@
     "description": "Chunk Exception Handling - Retrying and Skipping",
     "html_url": "http://javaee.support/sample/batch-chunk-exception/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -99,7 +99,7 @@
     "description": "Chunk Processing - Read, Process, Write in multiple Threads",
     "html_url": "http://javaee.support/sample/batch-chunk-mapper/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -121,7 +121,7 @@
     "description": "Chunk Processing - Read and Write",
     "html_url": "http://javaee.support/sample/batch-chunk-optional-processor/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -143,7 +143,7 @@
     "description": "Chunk Processing - Read, Process, Write in multiple Threads",
     "html_url": "http://javaee.support/sample/batch-chunk-partition/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -165,7 +165,7 @@
     "description": "Chunk Processing - Read, Process, Write",
     "html_url": "http://javaee.support/sample/batch-chunk-simple/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -187,7 +187,7 @@
     "description": "Batch DSL - Decision",
     "html_url": "http://javaee.support/sample/batch-decision/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -213,7 +213,7 @@
     "description": "Batch DSL - Flow",
     "html_url": "http://javaee.support/sample/batch-flow/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -235,7 +235,7 @@
     "description": "Batch Listeners - Applying Listeners to Job, Chunk, Step, Reader, Processor and Writer",
     "html_url": "http://javaee.support/sample/batch-batch-listeners/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -257,7 +257,7 @@
     "description": "Batch JSL - Executing Multiple Steps",
     "html_url": "http://javaee.support/sample/batch-multiple-steps/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -279,7 +279,7 @@
     "description": "Batch JSL - Splitting Steps",
     "html_url": "http://javaee.support/sample/batch-split/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -301,7 +301,7 @@
     "description": "Chunk Processing - Read, Process, Write",
     "html_url": "http://javaee.support/sample/batch-chunk-simple-nobeans/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-05 05:51:06 +0200",
+    "last_updated": "2014-07-04 20:51:06 -0700",
     "usage": [
       "Batch",
       "CDI"
@@ -323,7 +323,7 @@
     "description": "Scheduling a Batch Job",
     "html_url": "http://javaee.support/sample/batch-scheduling/index.html",
     "category": "Batch",
-    "last_updated": "2014-07-09 03:14:13 +0200",
+    "last_updated": "2014-07-08 18:14:13 -0700",
     "usage": [
       "EJB",
       "Batch",
@@ -347,7 +347,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-vetoed/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "Servlet"
@@ -369,7 +369,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-pkg-level/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "Servlet"
@@ -391,7 +391,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-decorators/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -416,7 +416,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-bean-discovery-all/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -445,7 +445,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-bean-discovery-annotated/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -474,7 +474,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-bean-discovery-none/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -503,7 +503,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-exclude-filter/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "Servlet"
@@ -525,7 +525,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-built-in/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "Servlet",
@@ -549,7 +549,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-interceptors/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -578,7 +578,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-interceptors-priority/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -603,7 +603,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-nobeans-xml/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -632,7 +632,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-beansxml-noversion/index.html",
     "category": "CDI",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-03-20 02:46:04 -0700",
     "usage": [
       "CDI"
     ],
@@ -661,7 +661,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-beanmanager/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "Servlet"
@@ -683,7 +683,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-extension/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "Servlet"
@@ -705,7 +705,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-scopes/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "Servlet"
@@ -735,7 +735,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-alternatives/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -764,7 +764,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-alternatives-priority/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -789,7 +789,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-nobeans-el-injection/index.html",
     "category": "CDI",
-    "last_updated": "2013-12-11 23:50:53 +0100",
+    "last_updated": "2013-12-11 14:50:53 -0800",
     "usage": [
       "CDI"
     ],
@@ -806,7 +806,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-nobeans-el-injection-flowscoped/index.html",
     "category": "CDI",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -827,7 +827,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/cdi-events/index.html",
     "category": "CDI",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-03-20 02:46:04 -0700",
     "usage": [
       "CDI"
     ],
@@ -848,7 +848,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/concurrency-managedexecutor/index.html",
     "category": "Concurrency",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Concurrency",
       "CDI",
@@ -876,7 +876,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/concurrency-managedscheduledexecutor/index.html",
     "category": "Concurrency",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Concurrency",
       "CDI",
@@ -903,7 +903,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/concurrency-managedthreadfactory/index.html",
     "category": "Concurrency",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "Concurrency",
       "CDI",
@@ -926,7 +926,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/concurrency-dynamicproxy/index.html",
     "category": "Concurrency",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Concurrency",
       "CDI",
@@ -949,7 +949,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/ejb-embeddable/index.html",
     "category": "EJB",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "EJB"
     ],
@@ -970,7 +970,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/ejb-lifecycle/index.html",
     "category": "EJB",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "EJB",
       "CDI",
@@ -993,7 +993,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/ejb-singleton/index.html",
     "category": "EJB",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "Servlet",
@@ -1020,7 +1020,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/ejb-stateful/index.html",
     "category": "EJB",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "EJB",
       "Servlet",
@@ -1051,7 +1051,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/ejb-stateless/index.html",
     "category": "EJB",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "EJB",
       "Servlet",
@@ -1086,7 +1086,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/ejb-timer/index.html",
     "category": "EJB",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "EJB",
       "CDI"
@@ -1112,7 +1112,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/ejb-async-ejb/index.html",
     "category": "EJB",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "EJB",
       "CDI"
@@ -1138,7 +1138,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/el-standalone/index.html",
     "category": "EL",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-03-20 02:46:04 -0700",
     "usage": [
       "EL"
     ],
@@ -1167,7 +1167,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/javamail-definition/index.html",
     "category": "JavaMail",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "JavaMail",
@@ -1190,7 +1190,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaspic-common/index.html",
     "category": "JASPIC",
-    "last_updated": "2014-01-11 01:34:10 +0100",
+    "last_updated": "2014-01-10 16:34:10 -0800",
     "usage": [
       "JASPIC",
       "Servlet"
@@ -1212,7 +1212,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaspic-basic-authentication/index.html",
     "category": "JASPIC",
-    "last_updated": "2014-01-11 01:34:10 +0100",
+    "last_updated": "2014-01-10 16:34:10 -0800",
     "usage": [
       "JASPIC",
       "Servlet"
@@ -1234,7 +1234,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaspic-ejb-propagation/index.html",
     "category": "JASPIC",
-    "last_updated": "2014-01-11 01:34:10 +0100",
+    "last_updated": "2014-01-10 16:34:10 -0800",
     "usage": [
       "EJB",
       "JASPIC",
@@ -1257,7 +1257,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaspic-lifecycle/index.html",
     "category": "JASPIC",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JASPIC",
       "Servlet"
@@ -1283,7 +1283,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaspic-register-session/index.html",
     "category": "JASPIC",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JASPIC",
       "Servlet"
@@ -1309,7 +1309,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaspic-wrapping/index.html",
     "category": "JASPIC",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JASPIC",
       "Servlet"
@@ -1335,7 +1335,7 @@
     "description": "Angular JS consuming REST services",
     "html_url": "http://javaee.support/sample/jaxrs-angularjs/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-08-12 14:41:47 +0200",
+    "last_updated": "2014-08-12 05:41:47 -0700",
     "usage": [
       "JPA",
       "JAXRS",
@@ -1362,7 +1362,7 @@
     "description": "Invoke a JAX-RS service via an asynchronous client",
     "html_url": "http://javaee.support/sample/jaxrs-async-client/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1387,7 +1387,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-async-server/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS",
       "Concurrency",
@@ -1414,7 +1414,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-beanvalidation/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS",
       "validation"
@@ -1440,7 +1440,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-beanparam/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-05-26 14:46:12 +0200",
+    "last_updated": "2014-05-26 05:46:12 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1457,7 +1457,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-client-negotiation/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1482,7 +1482,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-dynamicfilter/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1507,7 +1507,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-fileupload/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-05-28 21:24:18 +0200",
+    "last_updated": "2014-05-28 12:24:18 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1524,7 +1524,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-filter/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1549,7 +1549,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-filter-interceptor/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JAXRS",
       "Servlet"
@@ -1571,7 +1571,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-interceptor/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JAXRS",
       "Servlet"
@@ -1593,7 +1593,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-invocation/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JAXRS",
       "Servlet"
@@ -1615,7 +1615,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-invocation-async/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JAXRS",
       "Servlet"
@@ -1637,7 +1637,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-jaxrs-client/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "EJB",
       "JAXRS",
@@ -1672,7 +1672,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-jaxrs-endpoint/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1701,7 +1701,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-jsonp/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JAXRS",
       "JSON"
@@ -1727,7 +1727,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-link/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1752,7 +1752,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-mapping-exceptions/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1777,7 +1777,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-paramconverter/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-05-28 12:00:03 +0200",
+    "last_updated": "2014-05-28 03:00:03 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1794,7 +1794,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-readerwriter/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1819,7 +1819,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-readerwriter-json/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JAXRS",
       "JSON",
@@ -1842,7 +1842,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-request-binding/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JAXRS",
       "Servlet"
@@ -1864,7 +1864,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-resource-validation/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "validation",
       "JAXRS",
@@ -1892,7 +1892,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-server-negotiation/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS"
     ],
@@ -1917,7 +1917,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-singleton/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS",
       "CDI"
@@ -1943,7 +1943,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-readerwriter-injection/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JAXRS",
       "CDI"
@@ -1969,7 +1969,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-jaxrs-security-declarative/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JAXRS",
       "EJB",
@@ -1992,7 +1992,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxrs-db-access/index.html",
     "category": "JAXRS",
-    "last_updated": "2014-04-04 02:35:38 +0200",
+    "last_updated": "2014-04-03 17:35:38 -0700",
     "usage": [
       "JAXRS",
       "JPA",
@@ -2011,7 +2011,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxws-jaxws-endpoint/index.html",
     "category": "jaxws",
-    "last_updated": "2014-02-10 22:42:33 +0100",
+    "last_updated": "2014-02-10 13:42:33 -0800",
     "usage": [
       "jaxws"
     ],
@@ -2028,7 +2028,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jaxws-jaxws-client/index.html",
     "category": "jaxws",
-    "last_updated": "2014-02-10 22:42:33 +0100",
+    "last_updated": "2014-02-10 13:42:33 -0800",
     "usage": [
 
     ],
@@ -2045,7 +2045,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jca-connector-simple-connector/index.html",
     "category": "JCA",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JCA",
       "JTA",
@@ -2072,7 +2072,7 @@
     "description": "Arquillian test for JMS XA",
     "html_url": "http://javaee.support/sample/jms-jms-xa/index.html",
     "category": "JMS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "EJB",
       "CDI",
@@ -2097,7 +2097,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jms-send-receive/index.html",
     "category": "JMS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "EJB",
       "JMS",
@@ -2128,7 +2128,7 @@
     "description": "Request/Response over JMS",
     "html_url": "http://javaee.support/sample/jms-temp-destination/index.html",
     "category": "JMS",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-03-20 02:46:04 -0700",
     "usage": [
       "JMS",
       "EJB",
@@ -2155,7 +2155,7 @@
     "description": "ItemReader reading from durable subscription",
     "html_url": "http://javaee.support/sample/jms-jms-batch/index.html",
     "category": "JMS",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JMS",
       "Batch",
@@ -2183,7 +2183,7 @@
     "description": "Using the Criteria API to create queries",
     "html_url": "http://javaee.support/sample/jpa-criteria/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "validation",
@@ -2207,7 +2207,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-datasourcedefinition/index.html",
     "category": "JPA",
-    "last_updated": "2014-03-20 10:46:04 +0100",
+    "last_updated": "2014-03-20 02:46:04 -0700",
     "usage": [
       "EJB"
     ],
@@ -2232,7 +2232,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-datasourcedefinition-webxml-pu/index.html",
     "category": "JPA",
-    "last_updated": "2014-01-28 20:26:35 +0100",
+    "last_updated": "2014-01-28 11:26:35 -0800",
     "usage": [
       "JPA",
       "EJB",
@@ -2251,7 +2251,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-datasourcedefinition-annotation-pu/index.html",
     "category": "JPA",
-    "last_updated": "2014-01-28 20:26:35 +0100",
+    "last_updated": "2014-01-28 11:26:35 -0800",
     "usage": [
       "EJB",
       "JPA",
@@ -2270,7 +2270,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-datasourcedefinition-applicationxml-pu/index.html",
     "category": "JPA",
-    "last_updated": "2014-06-10 16:54:14 +0200",
+    "last_updated": "2014-06-10 07:54:14 -0700",
     "usage": [
       "JPA",
       "EJB",
@@ -2289,7 +2289,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-dynamic-named-query/index.html",
     "category": "JPA",
-    "last_updated": "2013-12-22 17:18:02 +0100",
+    "last_updated": "2013-12-22 08:18:02 -0800",
     "usage": [
       "JPA",
       "EJB",
@@ -2308,7 +2308,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-entitygraph/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "validation",
@@ -2332,7 +2332,7 @@
     "description": "Invocation examples of all the available Entity Listeners",
     "html_url": "http://javaee.support/sample/jpa-listeners/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "validation",
@@ -2356,7 +2356,7 @@
     "description": "JPA 2.1 Entity Listeners injection",
     "html_url": "http://javaee.support/sample/jpa-listeners-injection/index.html",
     "category": "JPA",
-    "last_updated": "2014-02-03 21:45:45 +0100",
+    "last_updated": "2014-02-03 12:45:45 -0800",
     "usage": [
       "JPA",
       "validation",
@@ -2375,7 +2375,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-multiple-pu/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "validation",
@@ -2400,7 +2400,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-storedprocedure/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "validation",
@@ -2424,7 +2424,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-jndi-context/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "EJB",
@@ -2447,7 +2447,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-locking-optimistic/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "validation",
@@ -2471,7 +2471,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-locking-pessimistic/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "validation",
@@ -2495,7 +2495,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-pu-typesafe/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "validation",
@@ -2520,7 +2520,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-schema-gen-metadata/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "EJB",
@@ -2543,7 +2543,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-schema-gen-scripts/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "EJB",
@@ -2567,7 +2567,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-schema-gen-scripts-external/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "EJB",
@@ -2591,7 +2591,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-schema-gen-scripts-generate/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA"
     ],
@@ -2612,7 +2612,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-schema-gen-index/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "EJB"
@@ -2634,7 +2634,7 @@
     "description": "Using the EntityManager API to perform native SQL queries",
     "html_url": "http://javaee.support/sample/jpa-native-sql/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "EJB",
@@ -2661,7 +2661,7 @@
     "description": "Using the EntityManager API to perform native SQL queries and map the result with @SqlResultSetMapping\n        annotation\n    ",
     "html_url": "http://javaee.support/sample/jpa-native-sql-resultset-mapping/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "EJB",
@@ -2692,7 +2692,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-unsynchronized-pc/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "EJB",
@@ -2716,7 +2716,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-extended-pc/index.html",
     "category": "JPA",
-    "last_updated": "2014-02-03 21:47:02 +0100",
+    "last_updated": "2014-02-03 12:47:02 -0800",
     "usage": [
       "EJB",
       "JPA"
@@ -2738,7 +2738,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-jpa-converter/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "EJB",
       "JPA",
@@ -2765,7 +2765,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jpa-default-datasource/index.html",
     "category": "JPA",
-    "last_updated": "2014-07-10 03:05:03 +0200",
+    "last_updated": "2014-07-09 18:05:03 -0700",
     "usage": [
       "JPA",
       "EJB",
@@ -2784,7 +2784,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jta-transactional/index.html",
     "category": "JTA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "JTA"
@@ -2814,7 +2814,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jta-tx-exception/index.html",
     "category": "JTA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "JTA",
@@ -2845,7 +2845,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jta-user-transaction/index.html",
     "category": "JTA",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "JTA"
@@ -2875,7 +2875,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-ajax/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "JSF"
@@ -2897,7 +2897,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-bean-validation/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "validation"
@@ -2919,7 +2919,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-components/index.html",
     "category": "JSF",
-    "last_updated": "2013-09-17 22:05:19 +0200",
+    "last_updated": "2013-09-17 13:05:19 -0700",
     "usage": [
       "CDI"
     ],
@@ -2936,7 +2936,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-composite-component/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -2965,7 +2965,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-contracts/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -2990,7 +2990,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-contracts-library/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "authors": [
       {
         "name": "Arun-gupta",
@@ -3008,7 +3008,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-contracts-library-impl/index.html",
     "category": "JSF",
-    "last_updated": "2013-08-27 21:05:47 +0200",
+    "last_updated": "2013-08-27 12:05:47 -0700",
     "authors": [
       {
         "name": "Arun-gupta",
@@ -3022,7 +3022,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-file-upload/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "Servlet"
@@ -3044,7 +3044,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-flows-simple/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JSF",
       "CDI"
@@ -3066,7 +3066,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-flows-mixed/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JSF",
       "CDI"
@@ -3092,7 +3092,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-flows-programmatic/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JSF",
       "CDI"
@@ -3114,7 +3114,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-flows-declarative/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JSF",
       "CDI"
@@ -3136,7 +3136,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-http-get/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "JSF"
@@ -3158,7 +3158,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-passthrough/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI"
     ],
@@ -3179,7 +3179,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-radio-buttons/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JPA",
       "validation",
@@ -3202,7 +3202,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-resource-handling/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "EJB"
@@ -3228,7 +3228,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-simple-facelet/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "EJB"
@@ -3254,7 +3254,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-server-extension/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "JSF"
@@ -3276,7 +3276,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/jsf-viewscoped/index.html",
     "category": "JSF",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JSF"
     ],
@@ -3301,7 +3301,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/json-object-builder/index.html",
     "category": "JSON",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JSON"
     ],
@@ -3326,7 +3326,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/json-object-reader/index.html",
     "category": "JSON",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JSON"
     ],
@@ -3347,7 +3347,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/json-streaming-generate/index.html",
     "category": "JSON",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JSON"
     ],
@@ -3368,7 +3368,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/json-streaming-parser/index.html",
     "category": "JSON",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JSON"
     ],
@@ -3389,7 +3389,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-cookies/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet"
     ],
@@ -3410,7 +3410,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-async-servlet/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Concurrency",
       "CDI",
@@ -3433,7 +3433,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-error-mapping/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet"
     ],
@@ -3454,7 +3454,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-event-listeners/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet"
     ],
@@ -3475,7 +3475,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-metadata-complete/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet"
     ],
@@ -3496,7 +3496,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-nonblocking/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet"
     ],
@@ -3517,7 +3517,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-protocol-handler/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet"
     ],
@@ -3538,7 +3538,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-resource-packaging/index.html",
     "category": "Servlet",
-    "last_updated": "2013-12-04 09:33:58 +0100",
+    "last_updated": "2013-12-04 00:33:58 -0800",
     "usage": [
       "JAXRS"
     ],
@@ -3563,7 +3563,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-servlet-filters/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet",
       "JAXRS"
@@ -3589,7 +3589,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-file-upload/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet"
     ],
@@ -3614,7 +3614,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-web-fragment/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet"
     ],
@@ -3635,7 +3635,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-security-basicauth/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet"
     ],
@@ -3656,7 +3656,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-security-form-based/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
 
     ],
@@ -3677,7 +3677,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-security-programmatic/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-12 22:57:53 +0200",
+    "last_updated": "2014-07-12 13:57:53 -0700",
     "usage": [
       "Servlet"
     ],
@@ -3694,7 +3694,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-security-deny-uncovered/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-12 22:57:53 +0200",
+    "last_updated": "2014-07-12 13:57:53 -0700",
     "usage": [
       "Servlet",
       "JAXRS"
@@ -3712,7 +3712,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-security-basicauth-omission/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet",
       "JAXRS"
@@ -3734,7 +3734,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/servlet-programmatic-registration/index.html",
     "category": "Servlet",
-    "last_updated": "2014-07-12 23:00:01 +0200",
+    "last_updated": "2014-07-12 14:00:01 -0700",
     "usage": [
       "Servlet"
     ],
@@ -3751,7 +3751,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/validation-methods/index.html",
     "category": "validation",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "validation",
       "CDI"
@@ -3777,7 +3777,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/validation-custom-constraint/index.html",
     "category": "validation",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "validation",
       "CDI"
@@ -3807,7 +3807,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-chat/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -3828,7 +3828,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-encoder/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JSON",
       "WebSocket"
@@ -3854,7 +3854,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-encoder-client/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 02:29:38 +0200",
+    "last_updated": "2014-07-14 17:29:38 -0700",
     "usage": [
       "JSON",
       "WebSocket"
@@ -3880,7 +3880,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-encoder-programmatic/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket",
       "JSON"
@@ -3906,7 +3906,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-endpoint/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -3931,7 +3931,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-endpoint-async/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -3956,7 +3956,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-endpoint-javatypes/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -3977,7 +3977,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-endpoint-config/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -3998,7 +3998,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-endpoint-programmatic/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -4023,7 +4023,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-endpoint-programmatic-async/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -4044,7 +4044,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-endpoint-programmatic-config/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -4065,7 +4065,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-endpoint-programmatic-injection/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket",
       "EJB",
@@ -4088,7 +4088,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-endpoint-security/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet",
       "WebSocket"
@@ -4110,7 +4110,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-httpsession/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet",
       "WebSocket"
@@ -4132,7 +4132,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-injection/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "CDI",
       "WebSocket",
@@ -4155,7 +4155,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-javase-client/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -4180,7 +4180,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-messagesize/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -4201,7 +4201,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-parameters/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -4222,7 +4222,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-properties/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -4243,7 +4243,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-websocket-vs-rest/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JAXRS",
       "WebSocket"
@@ -4269,7 +4269,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-subprotocol/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -4290,7 +4290,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-websocket-client/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet",
       "WebSocket"
@@ -4312,7 +4312,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-websocket-client-config/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet",
       "WebSocket"
@@ -4334,7 +4334,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-websocket-client-programmatic/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet",
       "WebSocket"
@@ -4356,7 +4356,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-websocket-client-programmatic-config/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "Servlet",
       "WebSocket"
@@ -4378,7 +4378,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-websocket-client-programmatic-encoders/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JSON",
       "Servlet",
@@ -4401,7 +4401,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-whiteboard/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "JSON",
       "WebSocket"
@@ -4427,7 +4427,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-endpoint-singleton/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-07-15 01:36:28 +0200",
+    "last_updated": "2014-07-14 16:36:28 -0700",
     "usage": [
       "WebSocket"
     ],
@@ -4448,7 +4448,7 @@
     "description": "",
     "html_url": "http://javaee.support/sample/websocket-websocket-vs-rest-payload/index.html",
     "category": "WebSocket",
-    "last_updated": "2014-02-21 23:06:26 +0100",
+    "last_updated": "2014-02-21 14:06:26 -0800",
     "usage": [
       "JAXRS",
       "WebSocket"
