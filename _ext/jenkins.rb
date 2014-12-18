@@ -19,10 +19,10 @@ module Awestruct::Extensions::Jenkins
 
       jobs_overview_url = API_URL % [@base_url]
       jobs_overview = RestClient.get jobs_overview_url, :accept => 'application/json', :cache_expiry_age => DURATION_1_DAY
-      jobs_overview['jobs'].select{|j|j['name'] =~ /.*Samples.on.*/i}.each do |job|
+      jobs_overview['jobs'].select{|j|j['name'] =~ /javaee7-samples-*/i}.each do |job|
         
         container = nil
-        if job['name'] =~ /.*Samples.on.([A-Za-z0-9 \.]+).*/i
+        if job['name'] =~ /javaee7-samples-([A-Za-z0-9 \.]+).*/i
           name = $1
           container = site.results.containers.find{|c|c.name.eql? name}
           if container.nil?
@@ -44,29 +44,31 @@ module Awestruct::Extensions::Jenkins
         end
         next if result.nil?
 
-        result['suites'].each do |suite|
-          suite['cases'].each do |c|
+        result['childReports'].each do |childReports|
+          childReports['result']['suites'].each do |suites|
+            suites['cases'].each do |c|
 
-            class_name = c['className']
-            test_name = c['name']
+              class_name = c['className']
+              test_name = c['name']
 
-            test = site.results.tests[class_name]
-            if test.nil?
-              test = OpenStruct.new
-              test.class_name = class_name
-              test.children = {}
-              site.results.tests[class_name] = test
+              test = site.results.tests[class_name]
+              if test.nil?
+                test = OpenStruct.new
+                test.class_name = class_name
+                test.children = {}
+                site.results.tests[class_name] = test
+              end
+
+              method = test.children[test_name]
+              if method.nil?
+                method = OpenStruct.new
+                method.name = test_name
+                method.status = {}
+                test.children[test_name] = method
+              end
+
+              method.status[container] = c['status']
             end
-
-            method = test.children[test_name]
-            if method.nil?
-              method = OpenStruct.new
-              method.name = test_name
-              method.status = {}
-              test.children[test_name] = method
-            end
-
-            method.status[container] = c['status']
           end
         end
       end
