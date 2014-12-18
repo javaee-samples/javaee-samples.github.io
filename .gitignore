@@ -1,0 +1,10 @@
+.awestruct/
+.bundle/
+.github-auth
+.ruby-gemset
+.ruby-version
+.sass-cache/
+Gemfile.lock
+_site/
+_tmp/
+
