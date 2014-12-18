@@ -2,1231 +2,1255 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://javaee.support/CNAME</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/LICENSE</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/README/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/contribute/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/contributors/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/humans.txt</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/index.json</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/stylesheets/foundation-icons.eot</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/stylesheets/foundation-icons.svg</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/stylesheets/foundation-icons.ttf</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/stylesheets/foundation-icons.woff</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.1</priority>
     <changefreq>never</changefreq>
   </url>
   <url>
+    <loc>http://javaee.support/sample/test-utils/</loc>
+    <lastmod>2014-12-18</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
     <loc>http://javaee.support/sample/batch-batchlet-simple/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-chunk-checkpoint/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-chunk-csv-database/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-chunk-exception/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-chunk-mapper/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-chunk-optional-processor/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-chunk-partition/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-chunk-simple/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-decision/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-flow/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-batch-listeners/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-multiple-steps/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-split/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-chunk-simple-nobeans/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/batch-scheduling/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-vetoed/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-pkg-level/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-decorators/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-bean-discovery-all/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-bean-discovery-annotated/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-bean-discovery-none/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-exclude-filter/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-built-in/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-interceptors/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-interceptors-priority/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-nobeans-xml/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-beansxml-noversion/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-beanmanager/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-extension/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-scopes/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-alternatives/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-alternatives-priority/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-nobeans-el-injection/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-nobeans-el-injection-flowscoped/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/cdi-events/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/concurrency-managedexecutor/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/concurrency-managedscheduledexecutor/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/concurrency-managedthreadfactory/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/concurrency-dynamicproxy/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/ejb-embeddable/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/ejb-lifecycle/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/ejb-singleton/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/ejb-stateful/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/ejb-stateless/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/ejb-timer/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/ejb-async-ejb/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/el-standalone/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/interceptor-around-construct/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/javamail-definition/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaspic-common/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://javaee.support/sample/jaspic-async-authentication/</loc>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaspic-basic-authentication/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaspic-ejb-propagation/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaspic-lifecycle/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaspic-register-session/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaspic-wrapping/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jacc-contexts/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-angularjs/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-async-client/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-async-server/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-beanvalidation/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-beanparam/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-client-negotiation/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-dynamicfilter/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-fileupload/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-filter/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-filter-interceptor/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-interceptor/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-invocation/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-invocation-async/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-jaxrs-client/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-jaxrs-endpoint/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-jsonp/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-link/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-mapping-exceptions/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-paramconverter/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-readerwriter/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-readerwriter-json/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-request-binding/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-resource-validation/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-server-negotiation/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-singleton/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-readerwriter-injection/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-jaxrs-security-declarative/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxrs-db-access/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxws-jaxws-endpoint/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jaxws-jaxws-client/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jca-connector-simple-connector/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jms-jms-xa/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jms-send-receive/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jms-temp-destination/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jms-jms-batch/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-criteria/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-datasourcedefinition/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-datasourcedefinition-webxml-pu/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-datasourcedefinition-annotation-pu/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-datasourcedefinition-applicationxml-pu/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-dynamic-named-query/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-entitygraph/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-listeners/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-listeners-injection/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-multiple-pu/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-storedprocedure/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-jndi-context/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-locking-optimistic/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-locking-pessimistic/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://javaee.support/sample/jpa-ordercolumn/</loc>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-pu-typesafe/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-schema-gen-metadata/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-schema-gen-scripts/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-schema-gen-scripts-external/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-schema-gen-scripts-generate/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-schema-gen-index/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-native-sql/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-native-sql-resultset-mapping/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-unsynchronized-pc/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-extended-pc/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-jpa-converter/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jpa-default-datasource/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jta-transactional/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jta-tx-exception/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jta-user-transaction/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-ajax/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-bean-validation/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-components/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-composite-component/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-contracts/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-contracts-library/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-contracts-library-impl/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-file-upload/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-flows-simple/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-flows-mixed/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-flows-programmatic/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-flows-declarative/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-http-get/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-passthrough/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-radio-buttons/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-resource-handling/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-simple-facelet/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-server-extension/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/jsf-viewscoped/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/json-object-builder/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/json-object-reader/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/json-streaming-generate/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/json-streaming-parser/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-cookies/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-async-servlet/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-error-mapping/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-event-listeners/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-metadata-complete/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-nonblocking/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-protocol-handler/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-resource-packaging/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-servlet-filters/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-file-upload/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-web-fragment/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-security-basicauth/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-security-form-based/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-security-programmatic/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-security-deny-uncovered/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-security-basicauth-omission/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/servlet-programmatic-registration/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://javaee.support/sample/servlet-simple-servlet/</loc>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/validation-methods/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/validation-custom-constraint/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-chat/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-encoder/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-encoder-client/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-encoder-programmatic/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-endpoint/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-endpoint-async/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-endpoint-javatypes/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-endpoint-config/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-endpoint-programmatic/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-endpoint-programmatic-async/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-endpoint-programmatic-config/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-endpoint-programmatic-injection/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-endpoint-security/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-httpsession/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-injection/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-javase-client/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-messagesize/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-parameters/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-properties/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-websocket-vs-rest/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-subprotocol/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-websocket-client/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-websocket-client-config/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-websocket-client-programmatic/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-websocket-client-programmatic-config/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-websocket-client-programmatic-encoders/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-whiteboard/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-endpoint-singleton/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/websocket-websocket-vs-rest-payload/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>http://javaee.support/sample/util/</loc>
-    <lastmod>2014-09-30</lastmod>
+    <lastmod>2014-12-18</lastmod>
     <priority>0.9</priority>
     <changefreq>monthly</changefreq>
   </url>
