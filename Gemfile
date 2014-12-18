@@ -35,7 +35,7 @@ gem "awestruct", "0.5.5"
 
 gem "slim"
 gem "kramdown"
-gem "asciidoctor", "1.5.0"
+gem "asciidoctor"
 gem "uglifier"
 gem "htmlcompressor"
 gem "coffee-script"
