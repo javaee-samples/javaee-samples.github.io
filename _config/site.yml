@@ -8,7 +8,7 @@ profiles:
     base_url: ''
     deploy: nil # force development as the default
   production:
-    base_url: 'http://javaee.support'
+    base_url: 'https://javaee.github.io'
     fingerprint_assets: true
     minify: true
     google_analytics:
