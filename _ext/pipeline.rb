@@ -36,7 +36,7 @@ Awestruct::Extensions::Pipeline.new do
   extension Awestruct::Extensions::Indexifier.new
   extension Awestruct::Extensions::Sitemap.new
 
-  #extension Awestruct::Extensions::Jenkins::Jobs.new('https://javaee-support.ci.cloudbees.com/')
+  extension Awestruct::Extensions::Jenkins::Jobs.new('https://javaee-support.ci.cloudbees.com/')
 
   # Must be after all other extensions that might populate identities
   extension Awestruct::Extensions::Identities::Cache.new

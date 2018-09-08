@@ -7,9 +7,6 @@ module Java
   module Doc
 
     def self.parse(source_path, quiet = true, &block)
-      print '-----------------------------------------------------------:wq'
-      print ENV['JAVA_HOME']
-
       context = com.sun.tools.javac.util.Context.new
 
       options = com.sun.tools.javac.util.Options.instance context
