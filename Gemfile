@@ -29,12 +29,12 @@
 
 source "https://rubygems.org"
 
-ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.17'
+ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.27'
 
 gem "awestruct", "0.5.5"
 
-gem "slim"
-gem "kramdown"
+gem "slim", "2.1.0"
+gem "kramdown", "1.4.1"
 gem "asciidoctor"
 gem "uglifier"
 gem "htmlcompressor"
@@ -42,7 +42,7 @@ gem "coffee-script"
 
 gem "rest-client"
 gem "hpricot"
-gem "git"
+gem "git", "1.2.8"
 
 gem "bouncy-castle-java", :platforms => :jruby
 gem "therubyrhino", :platforms => :jruby
@@ -50,5 +50,5 @@ gem "therubyracer", "0.10.1", :platforms => :ruby
 gem "jruby-openssl", :platforms => :jruby
 gem "rb-inotify", :platforms => [:ruby, :jruby]
 
-gem "puma"
+gem "puma", "2.10.2"
 gem "rspec", ">= 2.9"

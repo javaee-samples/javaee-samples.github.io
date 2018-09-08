@@ -7,6 +7,9 @@ module Java
   module Doc
 
     def self.parse(source_path, quiet = true, &block)
+      print '-----------------------------------------------------------:wq'
+      print ENV['JAVA_HOME']
+
       context = com.sun.tools.javac.util.Context.new
 
       options = com.sun.tools.javac.util.Options.instance context
@@ -27,7 +30,7 @@ module Java
 
       com.sun.tools.javadoc.DocEnv.instance(context).silent = quiet
       
-      root = tool.getRootDocImpl('en', 'ascii', filter, empty, empty, options_list, false, sub_packages, empty, false, false, quiet)
+      root = tool.getRootDocImpl('en', 'ascii', filter, empty, options_list, false, sub_packages, empty, false, false, quiet)
 
       block.call(root) if block
       return root

@@ -17,7 +17,7 @@ The website rely on running some Java code, e.g. JavaDoc, so we need to use JRub
 
 [source,console]
 ----
-rvm install jruby-1.7.9
+rvm install jruby-1.7.27
 ----
 
 NOTE: If the install aborts with messages regarding permission errors, try re executing with root permissions; "sudo rvm.."
@@ -53,7 +53,7 @@ javaee-samples
 Create file *.ruby-version* in your favorite editor and add this as content:
 [source,ruby]
 ----
-jruby-1.7.9
+jruby-1.7.27
 ----
 
 At this point you can allow RVM to pickup the new environment settings by leaving the folder and re-entering.
@@ -70,7 +70,7 @@ Run the next command to verify that the environment is picked up correctly:
 rvm info
 ----
 
-The first line should tell you something like *jruby-1.7.9@javaee-samples*.
+The first line should tell you something like *jruby-1.7.27@javaee-samples*.
 
 Then on to the Awestruct bits!
 
